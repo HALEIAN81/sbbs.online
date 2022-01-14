@@ -3,28 +3,7 @@
 		<!-- Header desktop -->
 		<div class="container-menu-desktop">
 			<!-- Topbar -->
-			<div class="top-bar">
-				<div class="content-topbar flex-sb-m h-full containerx">
-					<div class="left-top-bar">
-						<h4>We Sell Premium Domains, Hosting and Web Services.</h4>
-					</div>
 
-					<div class="right-top-bar flex-w h-full">
-						<a href="login.blade.php" class="flex-c-m trans-04 p-lr-25">
-							LOGIN
-						</a>
-
-						<a href="registration.blade.php" class="flex-c-m trans-04 p-lr-25">
-							REGISTER
-						</a>
-
-						<a href="admin_master.blade.php" class="flex-c-m trans-04 p-lr-25">
-							ACCOUNT
-						</a>
-        				<!-- <center><i class="fa" style="font-size:20px">&#xf07a;</i></center> -->
-					</div>
-				</div>
-			</div>
 <nav class="topnavbar">
 	<ul class="topnav">
   <li><a href="index.php">HOME</a></li>
