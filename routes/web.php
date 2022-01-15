@@ -21,4 +21,7 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
+Route::get("addmore", "PremiumDomainsController@addmore");
+Route::post("addmore", "PremiumDomainsController@addMorePost")->name('addmorePost');
+
 require __DIR__.'/auth.php';

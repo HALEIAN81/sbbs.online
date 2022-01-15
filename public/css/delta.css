@@ -198,6 +198,7 @@
     justify-content: center;
     margin: auto;
     text-decoration: none;
+    display: flexbox;
 }
 
 .container-contact {
@@ -255,9 +256,11 @@
 
 .container {
     display: flex;
-    width: 920px;
+    width: 100%;
     height: auto;
-    margin: 30px auto;
+    margin: auto;
+    justify-content: center;
+
 }
 
 .containert {
