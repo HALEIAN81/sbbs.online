@@ -537,6 +537,11 @@ p{
     padding-top: 5px;
 }
 
+.table {
+    background-color: dodgerblue;
+    color: purple;
+}
+
 @media (max-width: 600px){
 
    .container{
