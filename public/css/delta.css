@@ -294,6 +294,18 @@
     justify-content: center;
 }
 
+
+.containery a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    margin: auto;
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
 .containery p {
     padding-top:10px;
     padding-bottom:10px;
@@ -309,14 +321,6 @@
     font-size: 24px;
 }
 
-.containery a {
-    padding-top: 30px;
-    margin-top: 20px;
-    padding-bottom:30px;
-    font-size: 18px;
-    font-weight: bolder;
-
-}
 
 .containerz {
     display: flex;
@@ -326,6 +330,13 @@
     padding-bottom: 10px;
     padding-top: 10px;
     justify-content:center;
+}
+
+.container-table {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
 .site-search {
@@ -540,6 +551,18 @@ p{
 .table {
     background-color: dodgerblue;
     color: purple;
+}
+
+.user-login {
+    padding-right: 30px;
+}
+
+.user-register {
+    padding-right: 30px;
+}
+
+.dashboard {
+    padding-right: 30px;
 }
 
 @media (max-width: 600px){

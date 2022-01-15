@@ -56,17 +56,7 @@
 
 					<center><ul>
 						<li class="p-b-10">
-							<a href="login.blade.php" class="stext-107 cl7 hov-cl1 trans-04">
-								Login
-							</a>
-						</li>
-						<li class="p-b-10">
-							<a href="register.blade.php" class="stext-107 cl7 hov-cl1 trans-04">
-								Registration
-							</a>
-						</li>
-						<li class="p-b-10">
-							<a href="admin_master.blade.php" class="stext-107 cl7 hov-cl1 trans-04">
+	    					<a href="admin_master.blade.php" class="stext-107 cl7 hov-cl1 trans-04">
 								Your Admin Panel
 							</a>
 						</li>

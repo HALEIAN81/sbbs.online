@@ -12,6 +12,15 @@
 
 </head>
 
+<?php
+include('frontend/head.php');
+?>
+<body>
+
+<?php
+include('frontend/header.php');
+?>
+
 <body>
 
     <style type="text/css">
@@ -23,9 +32,10 @@
 
 
 
-<div class="container">
-
+<div class="container-table">
+<section class="txt-center p-lr-50 p-tb-18" style="background-color:powderblue;">
     <h2 align="center">Add/Remove Your Premium Domains</h2>
+</section>
 
 
 
@@ -219,6 +229,10 @@
 
 
 </script>
+
+<?php
+include('frontend/footer.php');
+?>
 
 
 
