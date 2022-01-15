@@ -32,7 +32,7 @@ include('frontend/header.php');
 
 	<!-- Content page -->
 
-	<div class="w3-container" style="background-color:powderblue;">
+	<div class="w4-container" style="background-color:powderblue;">
 <center><h1>PREMIUM DOMAINS</h1><center>
 <div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
   	<button>Domain01</button>
@@ -93,9 +93,6 @@ include('frontend/header.php');
 </div>
 <div class="btn-group flex-parent jc-center">
   	<button>Domain20</button>
-</div>
-<div class="btn-group flex-parent jc-center">
-  	<button>Domain21</button>
 </div>
 </div>
 

@@ -23,16 +23,16 @@
                 <h4>We Sell Premium Domains, Hosting and Web Services.</h4>
             </div>
 
-            <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+            <div class="">
                 @if (Route::has('login'))
-                    <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                    <div class="">
                         @auth
-                            <a href="{{ url('/dashboard') }}" style="color: white" class="text-sm text-white-700 dark:text-white-500">Dashboard</a>
+                            <a href="{{ url('/dashboard') }}" style="color: white" class="text-sm text-white-700 dark:text-white-500">DASHBOARD</a>
                         @else
-                            <a href="{{ route('login') }}" style="color: white" class="text-sm text-white-700 dark:text-white-500">Log in</a>
+                            <a href="{{ route('login') }}" style="color: white" class="text-sm text-white-700 dark:text-white-500">LOGIN</a>
 
                             @if (Route::has('register'))
-                                <a href="{{ route('register') }}" style="color: white" class="ml-4 text-sm text-white-700 dark:text-white-500">Register</a>
+                                <a href="{{ route('register') }}" style="color: white" class="ml-4 text-sm text-white-700 dark:text-white-500">REGISTER</a>
                             @endif
                         @endauth
                     </div>
@@ -113,7 +113,7 @@ include('frontend/header.php');
 <div class="containery" style="background-color:purple;">
     <div class="box">
             <img src="./images/slide-04.jpg">
-            <h3>Domains</h3>
+            <h3>DOMAINS</h3>
             <p>
               We offer access to re-sell of premium domains from our users as well as reduced
               pricing on website launch and deployment from our own professional website
@@ -125,7 +125,7 @@ include('frontend/header.php');
           </div>
           <div class="box">
             <img src="./images/slide-07.jpg">
-            <h3>Hosting</h3>
+            <h3>HOSTING</h3>
             <p>
               We focus on providing affordable web hosting services to help support your
               current web projects, so you can focus on promoting your business. We also help
@@ -137,7 +137,7 @@ include('frontend/header.php');
 
           <div class="box">
             <img src="./images/slide-03.jpg">
-            <h3>Web Services</h3>
+            <h3>WEB SERVICES</h3>
             <p>
               We offer custom designs for your website that is created by our own dedicated
               professional website development team. We create SEO-friendly content that

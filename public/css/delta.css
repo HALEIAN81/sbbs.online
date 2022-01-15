@@ -85,17 +85,25 @@
     margin: 10px auto;
 }
 
+/* we sell premium domains... */
+
 .top-bar {
     width: 90%;
     align-items: center;
     text-align: center;
-    margin: 0px auto;
+    margin: 35px auto;
+}
+
+.top-bar h4 {
+    font-size: 22px;
 }
 
 .btn-group button {
-    display: block;
-    font-size: 1rem;
-    width: 150px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    width: 200px;
     background-color: #717fe0; /* Green background */
     border: 2px solid black; /* Green border */
     color: white; /* White text */
@@ -144,16 +152,40 @@
     clear: both;
 }
 
-
 .w3-container {
     background: powderblue;
     width: 90%;
+    height: 200px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 16px;
     margin: auto;
 
+}
+
+.w4-container {
+    background: powderblue;
+    width: 90%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+
+}
+
+.w4-container button {
+    display: inline-block;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.w3-container button {
+    display: inline-block;
+    float: left;
+    justify-content: center;
+    align-items: center;
 }
 
 .w3-container h1{
@@ -247,7 +279,7 @@
     color: purple;
 }
 
-.containery{
+.containery {
     display: flex;
     width: 85%;
     height: auto;
@@ -262,15 +294,28 @@
 .containery p {
     padding-top:10px;
     padding-bottom:10px;
+    color: purple;
+    font-size: 20px;
+    line-height: 1.7em;
 }
 
 .containery h3 {
     padding-top:10px;
     padding-bottom:30px;
     color: purple;
+    font-size: 24px;
 }
 
-.containerz{
+.containery a {
+    padding-top: 30px;
+    margin-top: 20px;
+    padding-bottom:30px;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+.containerz {
     display: flex;
     width: 90%;
     height: auto;
@@ -360,7 +405,8 @@ p{
     align-items: center;
     justify-content: center;
     margin:auto;
-  }
+    padding-top: 10px;
+ }
 
 .topnav li {
       float: center;
