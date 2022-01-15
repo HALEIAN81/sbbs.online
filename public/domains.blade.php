@@ -31,6 +31,7 @@ include('frontend/header.php');
 	</center>
 
 	<!-- Content page -->
+
 	<div class="w3-container" style="background-color:powderblue;">
 <center><h1>PREMIUM DOMAINS</h1><center>
 <div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
@@ -97,6 +98,7 @@ include('frontend/header.php');
   	<button>Domain21</button>
 </div>
 </div>
+
 
 <section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
 	<h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">

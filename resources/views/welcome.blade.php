@@ -6,6 +6,7 @@
 
         <title>GO2DOMAINSALES</title>
 
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -21,16 +22,17 @@
             <div class="left-top-bar">
                 <h4>We Sell Premium Domains, Hosting and Web Services.</h4>
             </div>
+
             <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
                 @if (Route::has('login'))
                     <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                         @auth
-                            <a href="{{ url('/dashboard') }}" class="text-sm text-white-700 dark:text-white-500">Dashboard</a>
+                            <a href="{{ url('/dashboard') }}" style="color: white" class="text-sm text-white-700 dark:text-white-500">Dashboard</a>
                         @else
-                            <a href="{{ route('login') }}" class="text-sm text-white-700 dark:text-white-500">Log in</a>
+                            <a href="{{ route('login') }}" style="color: white" class="text-sm text-white-700 dark:text-white-500">Log in</a>
 
                             @if (Route::has('register'))
-                                <a href="{{ route('register') }}" class="ml-4 text-sm text-white-700 dark:text-white-500">Register</a>
+                                <a href="{{ route('register') }}" style="color: white" class="ml-4 text-sm text-white-700 dark:text-white-500">Register</a>
                             @endif
                         @endauth
                     </div>
@@ -38,17 +40,16 @@
         </div>
     </div>
 
-    <body class="antialiased">
-
-
-
-<?php
+    <?php
 include('frontend/head.php');
 ?>
+<body>
 
 <?php
 include('frontend/header.php');
 ?>
+
+    {{-- <body class="antialiased"> --}}
 
 <section class="head-section txt-center p-lr-50 p-tb-18" style="background-color:powderblue;">
 <h1 class="ltext-106 c10 txt-center">
@@ -60,7 +61,7 @@ include('frontend/header.php');
 		<h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">
 			Your Source For Premium Domains And Access To Web Development Services
 		</h3>
-	</section>
+</section>
 
 <center>
 <form class="site-search" action="">
@@ -103,13 +104,13 @@ include('frontend/header.php');
     </div>
     </div>
 
-    <section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
+<section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
         <h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">
             Get a Free Website Development Consultation today! Call us today!
         </h3>
-    </section>
+</section>
 
-    <div class="containery" style="background-color:purple;">
+<div class="containery" style="background-color:purple;">
     <div class="box">
             <img src="./images/slide-04.jpg">
             <h3>Domains</h3>
@@ -144,16 +145,16 @@ include('frontend/header.php');
               for your portfolio, ecommerce or business services site.
             </p>
             <center><a href="webdev.blade.php"><div>Learn More </div></a></center>
-          </div>
-        </div>
+    </div>
+</div>
 
     </body>
 
-    <section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
+<section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
         <h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">
             Get a Free Website Development Consultation today! Call us today!
         </h3>
-    </section>
+</section>
 
 <?php
 include('frontend/footer.php');
