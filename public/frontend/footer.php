@@ -76,7 +76,7 @@
             <h2 class="mb-2 text-xl font-bold tracking-widest text-white hover:text-red-300">
               HELP
             </h2>
-            <ul class="mb-8 space-y-4 text-sm list-none">
+            <ul class="mb-8 space-y-8 text-sm list-none">
               <li>
                 <a href="admin_master.blade.php" class="text-white font-bold hover:text-red-300">Your Admin Panel</a>
               </li>
@@ -114,7 +114,7 @@
       </div>
 
       <div class="p-t-0">
-			<center><p class="text-white">We accept the following methods of payment:</p></center>
+			<center><p class="text-white font-bold">We accept the following methods of payment :</p></center>
 				<div class="flex-c-m flex-w p-b-18">
 					<a href="#" class="m-all-1">
 						<img src="images/icons/icon-pay-01.png" alt="PAYPAL">
@@ -335,13 +335,9 @@
 		</div>
 	</footer>
 
-
-	<!-- <div class="btn-back-to-top" id="myBtn">
-		<span class="symbol-btn-back-to-top">
-			<i class="zmdi zmdi-chevron-up"></i>
-		</span>
-	</div> -->
-
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
 	<script src="vendor/animsition/js/animsition.min.js"></script>

@@ -1,10 +1,36 @@
 	<!-- Header -->
 	<header>
-		<!-- Header desktop -->
-		<div class="container-menu-desktop">
-			<!-- Topbar -->
 
-<nav class="topnavbar">
+    <div class="header-2">
+
+<nav class="bg-black py-2 md:py-4">
+  <div class="container px-4 mx-auto md:flex md:items-center">
+
+    <div class="flex justify-between items-left">
+      <a href="index.php" class="font-bold text-4xl text-white">GO2DOMAINSALES</a>
+      <button class="border border-solid border-gray-600 px-10 py-10 rounded text-gray-600 opacity-50 hover:opacity-75 md:hidden" id="navbar-toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    <div class="hidden md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0" id="navbar-collapse">
+      <a href="index.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white transition-colors duration-300">HOME</a>
+      <a href="about.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white transition-colors duration-300">ABOUT</a>
+      <a href="domains.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">DOMAINS</a>
+      <a href="apps.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">APPS</a>
+      <a href="contact.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">CONTACT</a>
+      <a href="hosting.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">HOSTING</a>
+      <a href="webdev.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">WEB DEVELOPMENT</a>
+      <a href="support.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">SUPPORT</a>
+      <a href="careers.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">CAREERS</a>
+      <a href="faqs.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">FAQs</a>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- <nav class="topnavbar flex ">
 	<ul class="topnav">
   <li><a href="index.php">HOME</a></li>
   <li><a href="domains.blade.php">DOMAINS</a></li>
@@ -17,7 +43,7 @@
   <li><a href="careers.blade.php">CAREERS</a></li>
  <li><a href="faqs.blade.php">FAQS</a><li>
 	</ul>
-</nav>
+</nav> -->
 
 					<!-- Menu desktop
 					<div class="menu-desktop">
@@ -67,25 +93,25 @@
 		</div> -->
 
 		<!-- Header Mobile -->
-		<div class="wrap-header-mobile">
+		<!-- <div class="wrap-header-mobile">
 			<!-- Logo moblie -->
 			<div class="logo-mobile">
 				<a href="index.html"><img src="images/icons/logo-01.png" alt="IMG-LOGO"></a>
-			</div>
+			</div> -->
 
 			<!-- Icon header -->
 			<div class="wrap-icon-header flex-w flex-r-m m-r-15">
-				<div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 js-show-modal-search">
+				<!-- <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 js-show-modal-search">
 					<i class="zmdi zmdi-search"></i>
 				</div>
 
-				<div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart" data-notify="2">
+				<div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart">
 					<i class="zmdi zmdi-shopping-cart"></i>
 				</div>
 
-				<a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti" data-notify="0">
+				<a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti">
 					<i class="zmdi zmdi-favorite-outline"></i>
-				</a>
+				</a> -->
 			</div>
 
 			<!-- Button show menu -->
