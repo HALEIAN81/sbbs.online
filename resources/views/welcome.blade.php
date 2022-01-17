@@ -131,7 +131,7 @@ include('frontend/header.php');
               We focus on providing affordable web hosting services to help support your
               current web projects, so you can focus on promoting your business. We also help
               with setting up your SSL certificates for optimal security as well as database
-              support for our clients.
+              support for our clients so you can rest easy that your client's data is protected and safe.
             </p>
             <center><a href="hosting.blade.php"><div>Learn More </div></a></center>
           </div>

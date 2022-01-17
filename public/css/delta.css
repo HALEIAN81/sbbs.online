@@ -162,9 +162,10 @@
 
 .w3-container button {
     display: inline-block;
-    float: center;
+    float: left;
     clear: right;
-    clear: left;
+    margin: 20px;
+    justify-content: center;
 }
 
 .w3-container h1{

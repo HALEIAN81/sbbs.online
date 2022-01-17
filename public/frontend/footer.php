@@ -1,4 +1,154 @@
-	<!-- Footer -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <footer class="border-t border-gray-200">
+      <div
+        class="
+          container
+          flex flex-col flex-wrap
+          px-4
+          py-16
+          mx-auto
+          md:items-center
+          lg:items-start
+          md:flex-row md:flex-nowrap
+        "
+      >
+        <div
+          class="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left"
+        >
+          <a
+            class="
+              flex
+              items-center
+              justify-center
+              text-3xl
+              font-bold
+              text-white
+              md:justify-start
+            "
+          >
+            GO2DOMAINSALES
+          </a>
+          <p class="mt-2 text-2xl text-white">
+            Need to sell a domain, app or just need help with upgrades and maintenance. We are here to help.
+          </p>
+        </div>
+        <div class="justify-between w-full mt-4 text-center lg:flex">
+          <div class="w-full px-4 lg:w-1/3 md:w-1/2">
+            <h2 class="mb-2 text-xl font-bold tracking-widest text-white">
+              RESOURCES
+            </h2>
+            <ul class="mb-8 space-y-2 text-sm list-none">
+              <li>
+                <a href="index.php" class="text-white hover:text-red-300">Home</a>
+              </li>
+              <li>
+                <a href="about.blade.php" class="text-white hover:text-red-300">About G2D</a>
+              </li>
+              <li>
+                <a href="domains.blade.php" class="text-white hover:text-red-300">Domains For Sale</a>
+              </li>
+              <li>
+                <a href="apps.blade.php" class="text-white hover:text-red-300">Apps For Sale</a>
+              </li>
+              <li>
+                <a href="hosting.blade.php" class="text-white hover:text-red-300">Hosting</a>
+              </li>
+              <li>
+                <a href="webdev.blade.php" class="text-white hover:text-red-300">Web Development</a>
+              </li>
+              <li>
+                <a href="careers.blade.php" class="text-white hover:text-red-300">Careers</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full px-4 lg:w-1/3 md:w-1/2">
+            <h2 class="mb-2 text-xl font-bold tracking-widest text-white hover:text-red-300">
+              HELP
+            </h2>
+            <ul class="mb-8 space-y-2 text-sm list-none">
+              <li>
+                <a href="admin_master.blade.php" class="text-white hover:text-red-300">Your Admin Panel</a>
+              </li>
+              <li>
+                <a href="rp.blade.php" class="text-white hover:text-red-300">Refund Policy</a>
+              </li>
+              <li>
+                <a href="support.blade.php" class="text-white hover:text-red-300">Support Services</a>
+              </li>
+              <li>
+                <a href="credits.blade.php" class="text-white hover:text-red-300">Credits</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full px-4 lg:w-1/3 md:w-1/2">
+            <h2 class="mb-2 text-xl font-bold tracking-widest text-white hover:text-red-300">
+              INFORMATION
+            </h2>
+            <ul class="mb-8 space-y-2 text-sm list-none">
+              <li>
+                <a href="faqs.blade.php" class="text-white hover:text-red-300">Frequently Asked Questions</a>
+              </li>
+              <li>
+                <a href="tc.blade.php" class="text-white hover:text-red-300">Terms And Conditions</a>
+              </li>
+              <li>
+                <a href="privacy-policy.blade.php" class="text-white hover:text-red-300">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="disclaimer.blade.php" class="text-white hover:text-red-300">Disclaimer</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-t-0">
+			<center><p class="text-white">We accept the following methods of payment:</p></center>
+				<div class="flex-c-m flex-w p-b-18">
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-01.png" alt="PAYPAL">
+					</a>
+
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-02.png" alt="VISA">
+					</a>
+
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-03.png" alt="MASTERCARD">
+					</a>
+
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-04.png" alt="AMEX">
+					</a>
+
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-05.png" alt="DISCOVER">
+					</a>
+
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-06.png" alt="BITCOIN">
+					</a>
+				</div>
+      <div class="flex justify-center">
+        <p class="text-white">
+        @ Copyright All rights reserved by GO2DOMAINSALES 2021
+        </p>
+      </div>
+    </footer>
+
+
+    <!-- Footer
 	<footer class="bg3 p-t-20 p-b-0 footer-container">
 		<div class="container">
 			<div class="row">
@@ -286,4 +436,4 @@
 		});
 	</script>
 <!--===============================================================================================-->
-	<script src="js/main.js"></script>
+	<script src="js/main.js"></script> -->

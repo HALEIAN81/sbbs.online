@@ -17,12 +17,6 @@
   <li><a href="careers.blade.php">CAREERS</a></li>
  <li><a href="faqs.blade.php">FAQS</a><li>
 	</ul>
-	<div class="hamburger">
-		<span class="ham"></span>
-		<span class="ham"></span>
-		<span class="ham"></span>
-		<span class="ham"></span>
-	</div>
 </nav>
 
 					<!-- Menu desktop
