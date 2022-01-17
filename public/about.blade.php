@@ -53,7 +53,7 @@ include('frontend/header.php');
 </section>
 <section class="section-about bg0 p-t-36 p-b-36" style="background-color:powderblue; background-size:cover">
     <div align=center>
-        <h1 style="color:purple">Why Choose Us?</h1>
+        <h3 style="color:purple">Why Choose Us?</h3>
         <h3 style="color:purple">Our focus is to give you the best foot forward with your domain of choice - increase your leads, create your funnel, have the best site
             built for your needs and market your e-commerce site to thousands of customers with our services.
         </h3>
