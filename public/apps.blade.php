@@ -33,7 +33,7 @@ include('frontend/header.php');
 
 	<!-- Content page -->
 	<div class="w3-container" style="background-color:powderblue;">
-<center><h1>PREMIUM APPS</h1><center>
+<center><h1>PREMIUM APPS</h1></center>
 <div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
   	<button>Apps01</button>
 </div>
@@ -93,9 +93,6 @@ include('frontend/header.php');
 </div>
 <div class="btn-group flex-parent jc-center">
   	<button>Apps20</button>
-</div>
-<div class="btn-group flex-parent jc-center">
-  	<button>Apps21</button>
 </div>
 </div>
 

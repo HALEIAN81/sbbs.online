@@ -155,41 +155,34 @@
 .w3-container {
     background: powderblue;
     width: 90%;
-    height: 200px;
-    align-items: center;
+    height: 50%;
     justify-content: center;
     text-align: center;
-    margin: auto;
-
-}
-
-.w4-container {
-    background: powderblue;
-    width: 90%;
-    height: 300px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-
-}
-
-.w4-container button {
-    display: inline-block;
-    float: left;
-    justify-content: center;
-    align-items: center;
 }
 
 .w3-container button {
     display: inline-block;
     float: left;
-    justify-content: center;
-    align-items: center;
+    clear: right;
 }
 
 .w3-container h1{
     padding-top: 10px;
+}
+
+.w4-container {
+    background: powderblue;
+    width: 90%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.w4-container button {
+    display: inline-block;
+    float: right;
 }
 
 .footer-container {

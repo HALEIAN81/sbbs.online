@@ -28,7 +28,7 @@
                         @auth
                             <a href="{{ url('/dashboard') }}" style="color: white; text-decoration:none" class="dashboard text-sm text-white-700 dark:text-white-500">DASHBOARD</a>
                         @else
-                            <a href="{{ route('login') }}" style="color: white; text-decoration:none" class="user-login text-sm text-white-700 dark:text-white-500 text-decoration:none">LOGIN</a>
+                            <a href="{{ route('login') }}" style="color: white; text-decoration:none" class="user-login text-sm text-white-700 dark:text-white-500">LOGIN</a>
 
                             @if (Route::has('register'))
                                 <a href="{{ route('register') }}" style="color: white; text-decoration:none" class="user-register ml-4 text-sm text-white-700 dark:text-white-500">REGISTER</a>
@@ -69,39 +69,41 @@ include('frontend/header.php');
 </form>
 </center>
 
-<div class="w3-container p-tb-20" style="background-color:powderblue;">
-    <center><h2>PREMIUM DOMAIN MARKET</h2><center>
-    <div class="btn-group jc-center">
+<section>
+<div class="w3-container p-tb-0" style="background-color:powderblue;">
+    <center><h2>PREMIUM DOMAINS MARKET</h2><center>
+    <div class="btn-group">
           <button>Domain01</button>
     </div>
-    <div class="btn-group flex-parent jc-center">
+    <div class="btn-group">
           <button>Domain02</button>
     </div>
-    <div class="btn-group flex-parent jc-center">
+    <div class="btn-group">
           <button>Domain03</button>
     </div>
-    <div class="btn-group flex-parent jc-center">
+    <div class="btn-group">
           <button>Domain04</button>
     </div>
-    <div class="btn-group flex-parent jc-center">
+    <div class="btn-group">
           <button>Domain05</button>
     </div>
-    <div class="btn-group flex-parent jc-center">
+    <div class="btn-group">
           <button>Domain06</button>
     </div>
-    <div class="btn-group flex-parent jc-center">
+    <div class="btn-group">
           <button>Domain07</button>
     </div>
-    <div class="btn-group flex-parent jc-center">
+    <div class="btn-group">
           <button>Domain08</button>
     </div>
-    <div class="btn-group flex-parent jc-center">
+    <div class="btn-group">
           <button>Domain09</button>
     </div>
-    <div class="btn-group flex-parent jc-center">
+    <div class="btn-group">
           <button>Domain10</button>
     </div>
     </div>
+</section>
 
 <section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
         <h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">
