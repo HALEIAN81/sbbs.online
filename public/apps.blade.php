@@ -31,70 +31,71 @@ include('frontend/header.php');
 	</center>
 
 
-	<!-- Content page -->
-	<div class="w3-container" style="background-color:powderblue;">
-<center><h1>PREMIUM APPS</h1></center>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
-  	<button>Apps01</button>
-</div>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
-  	<button>Apps02</button>
-</div>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
-  	<button>Apps03</button>
-</div>
-	  <div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
-  	<button>Apps04</button>
-	  </div>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
-  	<button>Apps05</button>
-</div>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
-  	<button>Apps06</button>
-</div>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
-  	<button>Apps07</button>
-</div>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
-  	<button>Apps08</button>
-</div>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
-  	<button>Apps09</button>
-</div>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
-  	<button>Apps10</button>
-</div>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
-  	<button>Apps11</button>
-</div>
-<div class="btn-group flex-parent jc-center">
-  	<button>Apps12</button>
-</div>
-<div class="btn-group flex-parent jc-center">
-  	<button>Apps13</button>
-</div>
-<div class="btn-group flex-parent jc-center">
-  	<button>Apps14</button>
-</div>
-<div class="btn-group flex-parent jc-center">
-  	<button>Apps15</button>
-</div>
-<div class="btn-group flex-parent jc-center">
-  	<button>Apps16</button>
-</div>
-<div class="btn-group flex-parent jc-center">
-  	<button>Apps17</button>
-</div>
-<div class="btn-group flex-parent jc-center">
-  	<button>Apps18</button>
-</div>
-<div class="btn-group flex-parent jc-center">
-  	<button>Apps19</button>
-</div>
-<div class="btn-group flex-parent jc-center">
-  	<button>Apps20</button>
-</div>
-</div>
+    <section>
+        <div class="w3-container" style="background-color:powderblue;">
+    <center><h1>PREMIUM APPS</h1></center>
+    <div class="btn-group" title="Make an Offer, starting at $999">
+          <button>Apps01</button>
+    </div>
+    <div class="btn-group" title="Make an Offer, starting at $999">
+          <button>Apps02</button>
+    </div>
+    <div class="btn-group" title="Make an Offer, starting at $999">
+          <button>Apps03</button>
+    </div>
+          <div class="btn-group" title="Make an Offer, starting at $999">
+          <button>Apps04</button>
+          </div>
+    <div class="btn-group" title="Make an Offer, starting at $999">
+          <button>Apps05</button>
+    </div>
+    <div class="btn-group" title="Make an Offer, starting at $999">
+          <button>Apps06</button>
+    </div>
+    <div class="btn-group" title="Make an Offer, starting at $999">
+          <button>Apps07</button>
+    </div>
+    <div class="btn-group" title="Make an Offer, starting at $999">
+          <button>Apps08</button>
+    </div>
+    <div class="btn-group" title="Make an Offer, starting at $999">
+          <button>Apps09</button>
+    </div>
+    <div class="btn-group" title="Make an Offer, starting at $999">
+          <button>Apps10</button>
+    </div>
+    <div class="btn-group" title="Make an Offer, starting at $999">
+          <button>Apps11</button>
+    </div>
+    <div class="btn-group">
+          <button>Apps12</button>
+    </div>
+    <div class="btn-group">
+          <button>Apps13</button>
+    </div>
+    <div class="btn-group">
+          <button>Apps14</button>
+    </div>
+    <div class="btn-group">
+          <button>Apps15</button>
+    </div>
+    <div class="btn-group">
+          <button>Apps16</button>
+    </div>
+    <div class="btn-group">
+          <button>Apps17</button>
+    </div>
+    <div class="btn-group">
+          <button>Apps18</button>
+    </div>
+    <div class="btn-group">
+          <button>Apps19</button>
+    </div>
+    <div class="btn-group">
+          <button>Apps20</button>
+    </div>
+    </div>
+    </section>
 
 
 <section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">

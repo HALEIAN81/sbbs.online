@@ -32,69 +32,71 @@ include('frontend/header.php');
 
 	<!-- Content page -->
 
-	<div class="w4-container" style="background-color:powderblue;">
-<center><h1>PREMIUM DOMAINS</h1><center>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
+<section>
+	<div class="w3-container" style="background-color:powderblue;">
+<center><h1>PREMIUM DOMAINS</h1></center>
+<div class="btn-group" title="Make an Offer, starting at $999">
   	<button>Domain01</button>
 </div>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
+<div class="btn-group" title="Make an Offer, starting at $999">
   	<button>Domain02</button>
 </div>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
+<div class="btn-group" title="Make an Offer, starting at $999">
   	<button>Domain03</button>
 </div>
-	  <div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
+	  <div class="btn-group" title="Make an Offer, starting at $999">
   	<button>Domain04</button>
 	  </div>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
+<div class="btn-group" title="Make an Offer, starting at $999">
   	<button>Domain05</button>
 </div>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
+<div class="btn-group" title="Make an Offer, starting at $999">
   	<button>Domain06</button>
 </div>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
+<div class="btn-group" title="Make an Offer, starting at $999">
   	<button>Domain07</button>
 </div>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
+<div class="btn-group" title="Make an Offer, starting at $999">
   	<button>Domain08</button>
 </div>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
+<div class="btn-group" title="Make an Offer, starting at $999">
   	<button>Domain09</button>
 </div>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
+<div class="btn-group" title="Make an Offer, starting at $999">
   	<button>Domain10</button>
 </div>
-<div class="btn-group flex-parent jc-center" title="Make an Offer, starting at $999">
+<div class="btn-group" title="Make an Offer, starting at $999">
   	<button>Domain11</button>
 </div>
-<div class="btn-group flex-parent jc-center">
+<div class="btn-group">
   	<button>Domain12</button>
 </div>
-<div class="btn-group flex-parent jc-center">
+<div class="btn-group">
   	<button>Domain13</button>
 </div>
-<div class="btn-group flex-parent jc-center">
+<div class="btn-group">
   	<button>Domain14</button>
 </div>
-<div class="btn-group flex-parent jc-center">
+<div class="btn-group">
   	<button>Domain15</button>
 </div>
-<div class="btn-group flex-parent jc-center">
+<div class="btn-group">
   	<button>Domain16</button>
 </div>
-<div class="btn-group flex-parent jc-center">
+<div class="btn-group">
   	<button>Domain17</button>
 </div>
-<div class="btn-group flex-parent jc-center">
+<div class="btn-group">
   	<button>Domain18</button>
 </div>
-<div class="btn-group flex-parent jc-center">
+<div class="btn-group">
   	<button>Domain19</button>
 </div>
-<div class="btn-group flex-parent jc-center">
+<div class="btn-group">
   	<button>Domain20</button>
 </div>
 </div>
+</section>
 
 
 <section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">

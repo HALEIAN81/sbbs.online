@@ -173,11 +173,9 @@
 .w4-container {
     background: powderblue;
     width: 90%;
-    height: 100vh;
-    align-items: center;
+    height: 50%;
     justify-content: center;
     text-align: center;
-    margin: auto;
 }
 
 .w4-container button {
