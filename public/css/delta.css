@@ -84,9 +84,7 @@
     text-align: center;
     margin: 10px auto;
 }
-
 /* we sell premium domains... */
-
 .top-bar {
     width: 90%;
     align-items: center;
@@ -155,21 +153,28 @@
 .w3-container {
     background: powderblue;
     width: 90%;
-    height: 50%;
     justify-content: center;
     text-align: center;
+    margin-top: 0px 0px 0px 0px;
+
 }
 
 .w3-container button {
     display: inline-block;
     float: left;
     clear: right;
-    margin: 20px;
     justify-content: center;
 }
 
 .w3-container h1{
     padding-top: 10px;
+    font-size:24px;
+    font-weight: bolder;
+}
+
+.w3-container h2 {
+    font-size:24px;
+    font-weight: bolder;
 }
 
 .w4-container {
@@ -287,7 +292,6 @@
     justify-content: center;
 }
 
-
 .containery a {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -313,7 +317,6 @@
     color: purple;
     font-size: 24px;
 }
-
 
 .containerz {
     display: flex;
@@ -416,37 +419,37 @@ p{
  }
 
 .topnav li {
-      float: center;
-      background-color: transparent;
-      display:inline;
-  }
+    float: center;
+    background-color: transparent;
+    display:inline;
+}
 
   /* Style the links inside the navigation bar */
-  .topnav a {
+.topnav a {
     color: purple;
     padding: 0px 40px 0px 40px;
     text-decoration: none;
     font-size: 22px;
     font-weight: bolder;
     display:inline-block;
-  }
+}
 
   /* Change the color of links on hover */
-  .topnav a:hover {
+.topnav a:hover {
     background-color: transparent;
     color: orange;
-  }
+}
 
   /* Add a color to the active/current link */
-  .topnav a.active {
+.topnav a.active {
     background-color: purple;
     color: white;
-  }
+}
 
-  .search-btn {
-      margin-top: 20px;
-      margin-bottom: 30px;
-  }
+.search-btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
 //FAQ collapsible controls
 
@@ -454,16 +457,18 @@ p{
     display : flex !important;
     order : inherit !important;
     flex-direction: column;
-   }
+}
 
-   input[type='checkbox'] {
-       display: none;
-   }
-   .wrap-collabsible {
-       width: 75%;
-       margin: 10px auto;
-       font-size: 22px;
-   }
+input[type='checkbox'] {
+    display: none;
+}
+
+.wrap-collabsible {
+
+    width: 75%;
+    margin: 10px auto;
+    font-size: 22px;
+}
 
 .content-inner h5{
     align-items: center;
@@ -491,24 +496,25 @@ p{
         cursor: pointer;
         border-radius: 7px;
         transition: all 0.25s ease-out;
-   }
-   .lbl-toggle:hover {
+}
+
+.lbl-toggle:hover {
         color: #FFF;
-   }
-   .lbl-toggle::before {
-       content: ' ';
-       display: inline-block;
-       border-top: 5px solid transparent;
-       border-bottom: 5px solid transparent;
-       border-left: 5px solid currentColor;
-       vertical-align: middle;
-       margin-right: .7rem;
-       transform: translateY(-2px);
-       transition: transform .2s ease-out;
-   }
-    .toggle:checked+.lbl-toggle::before {
-       transform: rotate(90deg) translateX(-3px);
-   }
+}
+.lbl-toggle::before {
+        content: ' ';
+        display: inline-block;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 5px solid currentColor;
+        vertical-align: middle;
+        margin-right: .7rem;
+        transform: translateY(-2px);
+        transition: transform .2s ease-out;
+}
+.toggle:checked+.lbl-toggle::before {
+        transform: rotate(90deg) translateX(-3px);
+}
     .collapsible-content {
         max-height: 0px;
         overflow: hidden;
@@ -516,20 +522,22 @@ p{
     }
 
     .toggle:checked + .lbl-toggle + .collapsible-content {
-         max-height: 100vh;
-   }
-   .toggle:checked+.lbl-toggle {
-       border-bottom-right-radius: 0;
-       border-bottom-left-radius: 0;
-   }
-   .collapsible-content .content-inner {
-       color: purple;
-       border-bottom-left-radius: 7px;
-       border-bottom-right-radius: 7px; padding: .5rem 1rem;
-       }
-   .collapsible-content p {
-       margin-bottom: 0;
-   }
+        max-height: 100vh;
+}
+.toggle:checked+.lbl-toggle {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+}
+
+.collapsible-content .content-inner {
+        color: purple;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px; padding: .5rem 1rem;
+}
+
+.collapsible-content p {
+        margin-bottom: 0;
+}
 
 .hamburger {
     display: none;
@@ -560,16 +568,16 @@ p{
 
 @media (max-width: 600px){
 
-   .container{
+.container{
         width: 100%;
-    }
+}
 
-    .containery {
+.containery {
         width: 90%;
         display: block;
         align-items: center;
         justify-content: center;
-    }
+}
 
     .section-a {
         font-size: 1px;
@@ -581,6 +589,7 @@ p{
     }
 
 }
+
 @media (max-width: 600px){
     .container{
         width: 85%;

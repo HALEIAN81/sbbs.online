@@ -10,13 +10,13 @@
   </head>
 
   <body>
-    <footer class="border-t border-gray-200">
+    <footer class="border-t-8 border-red-300 bg-black">
       <div
         class="
           container
           flex flex-col flex-wrap
-          px-4
-          py-16
+          px-1
+          py-8
           mx-auto
           md:items-center
           lg:items-start
@@ -44,31 +44,31 @@
           </p>
         </div>
         <div class="justify-between w-full mt-4 text-center lg:flex">
-          <div class="w-full px-4 lg:w-1/3 md:w-1/2">
+          <div class="w-full px-1 lg:w-1/3 md:w-1/2">
             <h2 class="mb-2 text-xl font-bold tracking-widest text-white">
               RESOURCES
             </h2>
-            <ul class="mb-8 space-y-2 text-sm list-none">
+            <ul class="mb-8 space-y-4 text-sm list-none">
               <li>
-                <a href="index.php" class="text-white hover:text-red-300">Home</a>
+                <a href="index.php" class="text-white font-bold hover:text-red-300">Home</a>
               </li>
               <li>
-                <a href="about.blade.php" class="text-white hover:text-red-300">About G2D</a>
+                <a href="about.blade.php" class="text-white font-bold hover:text-red-300">About G2D</a>
               </li>
               <li>
-                <a href="domains.blade.php" class="text-white hover:text-red-300">Domains For Sale</a>
+                <a href="domains.blade.php" class="text-white font-bold hover:text-red-300">Domains For Sale</a>
               </li>
               <li>
-                <a href="apps.blade.php" class="text-white hover:text-red-300">Apps For Sale</a>
+                <a href="apps.blade.php" class="text-white font-bold hover:text-red-300">Apps For Sale</a>
               </li>
               <li>
-                <a href="hosting.blade.php" class="text-white hover:text-red-300">Hosting</a>
+                <a href="hosting.blade.php" class="text-white font-bold hover:text-red-300">Hosting</a>
               </li>
               <li>
-                <a href="webdev.blade.php" class="text-white hover:text-red-300">Web Development</a>
+                <a href="webdev.blade.php" class="text-white font-bold hover:text-red-300">Web Development</a>
               </li>
               <li>
-                <a href="careers.blade.php" class="text-white hover:text-red-300">Careers</a>
+                <a href="careers.blade.php" class="text-white font-bold hover:text-red-300">Careers</a>
               </li>
             </ul>
           </div>
@@ -76,18 +76,18 @@
             <h2 class="mb-2 text-xl font-bold tracking-widest text-white hover:text-red-300">
               HELP
             </h2>
-            <ul class="mb-8 space-y-2 text-sm list-none">
+            <ul class="mb-8 space-y-4 text-sm list-none">
               <li>
-                <a href="admin_master.blade.php" class="text-white hover:text-red-300">Your Admin Panel</a>
+                <a href="admin_master.blade.php" class="text-white font-bold hover:text-red-300">Your Admin Panel</a>
               </li>
               <li>
-                <a href="rp.blade.php" class="text-white hover:text-red-300">Refund Policy</a>
+                <a href="rp.blade.php" class="text-white font-bold hover:text-red-300">Refund Policy</a>
               </li>
               <li>
-                <a href="support.blade.php" class="text-white hover:text-red-300">Support Services</a>
+                <a href="support.blade.php" class="text-white font-bold hover:text-red-300">Support Services</a>
               </li>
               <li>
-                <a href="credits.blade.php" class="text-white hover:text-red-300">Credits</a>
+                <a href="credits.blade.php" class="text-white font-bold hover:text-red-300">Credits</a>
               </li>
             </ul>
           </div>
@@ -95,18 +95,18 @@
             <h2 class="mb-2 text-xl font-bold tracking-widest text-white hover:text-red-300">
               INFORMATION
             </h2>
-            <ul class="mb-8 space-y-2 text-sm list-none">
+            <ul class="mb-8 space-y-4 text-sm list-none">
               <li>
-                <a href="faqs.blade.php" class="text-white hover:text-red-300">Frequently Asked Questions</a>
+                <a href="faqs.blade.php" class="text-white font-bold hover:text-red-300">Frequently Asked Questions</a>
               </li>
               <li>
-                <a href="tc.blade.php" class="text-white hover:text-red-300">Terms And Conditions</a>
+                <a href="tc.blade.php" class="text-white font-bold hover:text-red-300">Terms And Conditions</a>
               </li>
               <li>
-                <a href="privacy-policy.blade.php" class="text-white hover:text-red-300">Privacy Policy</a>
+                <a href="privacy-policy.blade.php" class="text-white font-bold hover:text-red-300">Privacy Policy</a>
               </li>
               <li>
-                <a href="disclaimer.blade.php" class="text-white hover:text-red-300">Disclaimer</a>
+                <a href="disclaimer.blade.php" class="text-white font-bold hover:text-red-300">Disclaimer</a>
               </li>
             </ul>
           </div>
@@ -140,11 +140,18 @@
 						<img src="images/icons/icon-pay-06.png" alt="BITCOIN">
 					</a>
 				</div>
+
       <div class="flex justify-center">
-        <p class="text-white">
+        <p class="text-white text-sm">
         @ Copyright All rights reserved by GO2DOMAINSALES 2021
         </p>
       </div>
+
+      <div class="btn-back-to-top" id="myBtn">
+        <span class="symbol-btn-back-to-top">
+            <i class="zmdi zmdi-chevron-up"></i>
+        </span>
+    </div>
     </footer>
 
 
@@ -329,14 +336,12 @@
 	</footer>
 
 
-	<!-- Back to top -->
-	<div class="btn-back-to-top" id="myBtn">
+	<!-- <div class="btn-back-to-top" id="myBtn">
 		<span class="symbol-btn-back-to-top">
 			<i class="zmdi zmdi-chevron-up"></i>
 		</span>
-	</div>
+	</div> -->
 
-<!--===============================================================================================-->
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
 	<script src="vendor/animsition/js/animsition.min.js"></script>

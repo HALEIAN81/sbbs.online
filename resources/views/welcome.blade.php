@@ -114,7 +114,7 @@ include('frontend/header.php');
 <div class="containery" style="background-color:purple;">
     <div class="box">
             <img src="./images/slide-04.jpg">
-            <h3>DOMAINS</h3>
+            <h3 class="font-bold">DOMAINS</h3>
             <p>
               We offer access to re-sell of premium domains from our users as well as reduced
               pricing on website launch and deployment from our own professional website
@@ -122,30 +122,30 @@ include('frontend/header.php');
               marketability of the domains they wish to re-sell while also promoting those sites
               here.
             </p>
-            <center><a href="domains.blade.php"><div>Learn More </div></a></center>
+            <center><a href="domains.blade.php"><div class="text-black hover:text-red-300">Learn More </div></a></center>
           </div>
           <div class="box">
             <img src="./images/slide-07.jpg">
-            <h3>HOSTING</h3>
+            <h3 class="font-bold">HOSTING</h3>
             <p>
               We focus on providing affordable web hosting services to help support your
               current web projects, so you can focus on promoting your business. We also help
               with setting up your SSL certificates for optimal security as well as database
               support for our clients so you can rest easy that your client's data is protected and safe.
             </p>
-            <center><a href="hosting.blade.php"><div>Learn More </div></a></center>
+            <center><a href="hosting.blade.php"><div class="text-black hover:text-red-300">Learn More </div></a></center>
           </div>
 
           <div class="box">
             <img src="./images/slide-03.jpg">
-            <h3>WEB SERVICES</h3>
+            <h3 class="font-bold">WEB SERVICES</h3>
             <p>
               We offer custom designs for your website that is created by our own dedicated
               professional website development team. We create SEO-friendly content that
               increases your web traffic while your custom design creates a unique user experience
               for your portfolio, ecommerce or business services site.
             </p>
-            <center><a href="webdev.blade.php"><div>Learn More </div></a></center>
+            <center><a href="webdev.blade.php"><div class="text-black hover:text-red-300">Learn More </div></a></center>
     </div>
 </div>
 
