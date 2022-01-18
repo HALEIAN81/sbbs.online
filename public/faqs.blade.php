@@ -100,7 +100,6 @@
                 <p>ANSWER: From our support page, choose the ideal plan for your business - whether it be SEO marketing, SEO content management, an SEO optimization plan or a combination
                     thereof to get your business running smoothly.
                 </p>
-
 			</div>
 		</div>
 	</div>

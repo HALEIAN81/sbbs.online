@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <title>PREMIUM DOMAINS</title>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 <?php
 include('frontend/head.php');
 ?>
@@ -23,12 +26,12 @@ include('frontend/header.php');
 		</h3>
 	</section>
 
-	<center>
-	<form class="site-search" action="">
-		<input type="text" placeholder="Search Our Premium Domains Here" name="search">
-		<button type="submit"><i class="fa fa-search"></i></button>
-	  </form>
-	</center>
+    <center>
+        <form class="site-search" action="">
+          <input type="text" placeholder="Search Our Premium Domains And Apps Here" name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </center>
 
 	<!-- Content page -->
 

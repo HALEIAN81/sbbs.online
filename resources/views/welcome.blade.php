@@ -33,6 +33,7 @@
         </div>
     </div>
 <div>
+
     <?php
 include('frontend/head.php');
 ?>
@@ -76,8 +77,117 @@ include('frontend/header.php');
     <div class="btn-group">
           <button>Domain10</button>
     </div>
+    <div class="btn-group">
+        <button>Domain11</button>
+  </div>
+  <div class="btn-group">
+        <button>Domain12</button>
+  </div>
+  <div class="btn-group">
+        <button>Domain13</button>
+  </div>
+  <div class="btn-group">
+        <button>Domain14</button>
+  </div>
+  <div class="btn-group">
+        <button>Domain15</button>
+  </div>
+  <div class="btn-group">
+        <button>Domain16</button>
+  </div>
+  <div class="btn-group">
+        <button>Domain17</button>
+  </div>
+  <div class="btn-group">
+        <button>Domain18</button>
+  </div>
+  <div class="btn-group">
+        <button>Domain19</button>
+  </div>
+  <div class="btn-group">
+        <button>Domain20</button>
+  </div>
     </div>
 </section>
+
+<center>
+    <form class="site-search" action="">
+      <input type="text" placeholder="Search Our Premium Domains And Apps Here" name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+</center>
+
+<section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
+    <h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">
+        Get a Free Website Development Consultation today! Call us today!
+    </h3>
+</section>
+
+<section>
+    <div class="w3-container p-tb-0" style="background-color:powderblue;">
+        <center><h2>PREMIUM APPS MARKET</h2><center>
+        <div class="btn-group">
+              <button>App01</button>
+        </div>
+        <div class="btn-group">
+              <button>App02</button>
+        </div>
+        <div class="btn-group">
+              <button>App03</button>
+        </div>
+        <div class="btn-group">
+              <button>App04</button>
+        </div>
+        <div class="btn-group">
+              <button>App05</button>
+        </div>
+        <div class="btn-group">
+              <button>App06</button>
+        </div>
+        <div class="btn-group">
+              <button>App07</button>
+        </div>
+        <div class="btn-group">
+              <button>App08</button>
+        </div>
+        <div class="btn-group">
+              <button>App09</button>
+        </div>
+        <div class="btn-group">
+              <button>App10</button>
+        </div>
+        <div class="btn-group">
+            <button>App11</button>
+      </div>
+      <div class="btn-group">
+            <button>App12</button>
+      </div>
+      <div class="btn-group">
+            <button>App13</button>
+      </div>
+      <div class="btn-group">
+            <button>App14</button>
+      </div>
+      <div class="btn-group">
+            <button>App15</button>
+      </div>
+      <div class="btn-group">
+            <button>App16</button>
+      </div>
+      <div class="btn-group">
+            <button>App17</button>
+      </div>
+      <div class="btn-group">
+            <button>App18</button>
+      </div>
+      <div class="btn-group">
+            <button>App19</button>
+      </div>
+      <div class="btn-group">
+            <button>App20</button>
+      </div>
+        </div>
+    </section>
 
 <section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
         <h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">
@@ -85,12 +195,7 @@ include('frontend/header.php');
         </h3>
 </section>
 
-<center>
-    <form class="site-search" action="">
-      <input type="text" placeholder="Search Our Premium Domains Here" name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-    </center>
+
 
 <div class="containery" style="background-color:purple;">
     <div class="box">

@@ -24,4 +24,15 @@ Route::get('/dashboard', function () {
 Route::get("addmore", "PremiumDomainsController@addmore");
 Route::post("addmore", "PremiumDomainsController@addMorePost")->name('addmorePost');
 
+/*artcse*/
+
+Route::get( 'about', 'HomeController@index');
+Route::get( 'contact', 'ContactController@contact');
+
+Route::get( 'users', 'UserController@index');
+Route::get( 'create-user', 'UserController@create');
+Route::get( 'users/{id}', 'UserController@show');
+Route::get( 'users/{id}/delete', 'UserController@delete');
+Route::get( 'users/{id}/edit', 'UserController@edit');
+
 require __DIR__.'/auth.php';

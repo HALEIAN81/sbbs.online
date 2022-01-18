@@ -23,7 +23,7 @@
       <a href="webdev.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">WEB DEVELOPMENT</a>
       <a href="support.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">SUPPORT</a>
       <a href="careers.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">CAREERS</a>
-      <a href="faqs.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">FAQs</a>
+      <a href="faqs.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">FAQS</a>
     </div>
   </div>
 </nav>
