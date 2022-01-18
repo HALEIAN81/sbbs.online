@@ -44,11 +44,11 @@
           </p>
         </div>
         <div class="justify-between w-full mt-4 text-center lg:flex">
-          <div class="w-full px-1 lg:w-1/3 md:w-1/2">
+          <div class="w-full px-1 space-y-6 lg:w-1/3 md:w-1/2">
             <h2 class="mb-2 text-xl font-bold tracking-widest text-white">
               RESOURCES
             </h2>
-            <ul class="mb-8 space-y-4 text-sm list-none">
+            <ul class="mb-8 space-y-6 text-sm list-none">
               <li>
                 <a href="index.php" class="text-white font-bold hover:text-red-300">Home</a>
               </li>
@@ -72,11 +72,11 @@
               </li>
             </ul>
           </div>
-          <div class="w-full px-4 lg:w-1/3 md:w-1/2">
+          <div class="w-full px-4 space-y-6 lg:w-1/3 md:w-1/2">
             <h2 class="mb-2 text-xl font-bold tracking-widest text-white hover:text-red-300">
               HELP
             </h2>
-            <ul class="mb-8 space-y-8 text-sm list-none">
+            <ul class="mb-8 space-y-6 text-sm list-none">
               <li>
                 <a href="admin_master.blade.php" class="text-white font-bold hover:text-red-300">Your Admin Panel</a>
               </li>
@@ -91,11 +91,11 @@
               </li>
             </ul>
           </div>
-          <div class="w-full px-4 lg:w-1/3 md:w-1/2">
+          <div class="w-full px-4 space-y-6 lg:w-1/3 md:w-1/2">
             <h2 class="mb-2 text-xl font-bold tracking-widest text-white hover:text-red-300">
               INFORMATION
             </h2>
-            <ul class="mb-8 space-y-4 text-sm list-none">
+            <ul class="mb-8 space-y-6 text-sm list-none">
               <li>
                 <a href="faqs.blade.php" class="text-white font-bold hover:text-red-300">Frequently Asked Questions</a>
               </li>
@@ -143,7 +143,7 @@
 
       <div class="flex justify-center">
         <p class="text-white text-sm">
-        @ Copyright All rights reserved by GO2DOMAINSALES 2021
+        @ Copyright. All rights reserved by GO2DOMAINSALES 2021
         </p>
       </div>
 

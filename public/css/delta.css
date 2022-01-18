@@ -319,6 +319,7 @@
     padding-bottom:30px;
     color: purple;
     font-size: 24px;
+    font-weight: bolder;
 }
 
 .containerz {
@@ -340,8 +341,8 @@
 
 .site-search {
     background-color: purple;
-    width: 500px;
-    height: 100px;
+    width: 450px;
+    height: 60px;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
@@ -355,7 +356,7 @@ form.site-search {
 }
 
 form.site-search input[type=text] {
-    height: 50px;
+    height: 40px;
     width: 100%;
     float: center;
     font-size: 12px;
@@ -455,7 +456,7 @@ p{
 
 .search-btn {
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 //FAQ collapsible controls
@@ -565,15 +566,11 @@ input[type='checkbox'] {
 }
 
 .user-login {
-    padding-right: 30px;
-    padding-left: 30px;
-    float: right;
+
 }
 
 .user-register {
-    padding-right: 30px;
-    padding-left: 30px;
-    justify-content: right;
+
 }
 
 .dashboard {

@@ -46,9 +46,9 @@ include('frontend/header.php');
                 <p>
                  Mentorship And Collaboration With Other Team Members
                 </p>
-				        <p>
-				        Come Join Us Today
-				        </p>
+				<p>
+				Come Join Us Today
+				</p>
 
               </div>
               <div class="box">
@@ -89,7 +89,7 @@ include('frontend/header.php');
                 <img src="./images/slide-09.jpg">
                 <h3>Web Design</h3>
                 <p>
-				         Create Custom Website Designs
+				Create Custom Website Designs
                 </p>
                 <p>
                  Create Custom Website Features/Plug-ins/Platforms
@@ -114,7 +114,7 @@ include('frontend/header.php');
             <img src="./images/slide-15.jpg">
             <h3>App Development</h3>
             <p>
-			        Create Custom App Designs
+			    Create Custom App Designs
             </p>
             <p>
               Manage Notifications, Updates and Services Across Platforms
@@ -123,7 +123,7 @@ include('frontend/header.php');
               Repair Code Errors and Resolve App Issues
             </p>
             <p>
-			        Ensure Ecommerce Support for Cart/Payments/Store Features
+			    Ensure Ecommerce Support for Cart/Payments/Store Features
             </p>
           </div>
           <div class="box">
@@ -150,7 +150,7 @@ include('frontend/header.php');
               Create and Setup SSL Certificates for Clients
             </p>
             <p>
-			        Respond to Clients Cyber Security Concerns
+			    Respond to Clients Cyber Security Concerns
             </p>
             <p>
               Prepare Regular Reports on Vulnerability
@@ -163,7 +163,7 @@ include('frontend/header.php');
             <img src="./images/slide-18.jpg">
             <h3> SEO Marketing</h3>
             <p>
-			       Create Engaging SEO Content
+			Create Engaging SEO Content
             </p>
             <p>
             Provide Daily SEO and Social Media Content For Clients
@@ -177,7 +177,11 @@ include('frontend/header.php');
           </div>
 </div>
 
-<section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
+<section class="section-b bg0 p-t-10 p-b-10" style="background-image: url('./images/slide-06.jpg'); opacity:0.6; background-size:cover">
+	<p style="color:orange;" font-weight: bolder; >Questions regarding our services or maybe a question regarding employment opportunities - reach out today! </p>
+</section>
+
+<section class="section-a bg-img1 p-lr-15 p-tb-78" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
 	<h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">
 		Get a Free Website Development Consultation today! Call us today!
 	</h3>
