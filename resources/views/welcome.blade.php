@@ -12,6 +12,9 @@
 
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
+        ...
+        @livewireStyles
+
     </head>
 
     <div class="top-bar">
@@ -252,6 +255,7 @@ include('frontend/header.php');
 <?php
 include('frontend/footer.php');
 ?>
-
+    ...
+    @livewireScripts
 </body>
 </html>
