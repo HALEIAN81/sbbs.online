@@ -4,4 +4,9 @@ Livewire.on("deleteTriggered", (id, name) => {
     if (proceed) {
         Livewire.emit("delete", id);
     }
+
+    window.addEventListener("user-saved", (event) => {
+        $("#user-modal").modal("hide");
+        alert(`User ${event.detail.user_name} was ${event.detail.action}!`);
+
 });

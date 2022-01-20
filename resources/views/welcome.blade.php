@@ -49,7 +49,7 @@ include('frontend/header.php');
 
 <section>
 <div class="w3-container p-tb-0" style="background-color:powderblue;">
-    <center><h2>PREMIUM DOMAINS MARKET</h2><center>
+    <center><h2>PREMIUM DOMAINS AND APPS MARKET</h2></center>
     <div class="btn-group">
           <button>Domain01</button>
     </div>
@@ -80,6 +80,36 @@ include('frontend/header.php');
     <div class="btn-group">
           <button>Domain10</button>
     </div>
+    <div class="btn-group">
+        <button>App01</button>
+  </div>
+  <div class="btn-group">
+        <button>App02</button>
+  </div>
+  <div class="btn-group">
+        <button>App03</button>
+  </div>
+  <div class="btn-group">
+        <button>App04</button>
+  </div>
+  <div class="btn-group">
+        <button>App05</button>
+  </div>
+  <div class="btn-group">
+        <button>App06</button>
+  </div>
+  <div class="btn-group">
+        <button>App07</button>
+  </div>
+  <div class="btn-group">
+        <button>App08</button>
+  </div>
+  <div class="btn-group">
+        <button>App09</button>
+  </div>
+  <div class="btn-group">
+        <button>App10</button>
+  </div>
     <div class="btn-group">
         <button>Domain11</button>
   </div>
@@ -134,67 +164,67 @@ include('frontend/header.php');
 
 <section>
     <div class="w3-container p-tb-0" style="background-color:powderblue;">
-        <center><h2>PREMIUM APPS MARKET</h2><center>
-        <div class="btn-group">
-              <button>App01</button>
-        </div>
-        <div class="btn-group">
-              <button>App02</button>
-        </div>
-        <div class="btn-group">
-              <button>App03</button>
-        </div>
-        <div class="btn-group">
-              <button>App04</button>
-        </div>
-        <div class="btn-group">
-              <button>App05</button>
-        </div>
-        <div class="btn-group">
-              <button>App06</button>
-        </div>
-        <div class="btn-group">
-              <button>App07</button>
-        </div>
-        <div class="btn-group">
-              <button>App08</button>
-        </div>
-        <div class="btn-group">
-              <button>App09</button>
-        </div>
-        <div class="btn-group">
-              <button>App10</button>
-        </div>
-        <div class="btn-group">
+        <center><h2>PREMIUM APPS MARKET</h2></center>
+            <div class="btn-group">
+                  <button>App01</button>
+            </div>
+            <div class="btn-group">
+                  <button>App02</button>
+            </div>
+            <div class="btn-group">
+                  <button>App03</button>
+            </div>
+            <div class="btn-group">
+                  <button>App04</button>
+            </div>
+            <div class="btn-group">
+                  <button>App05</button>
+            </div>
+            <div class="btn-group">
+                  <button>App06</button>
+            </div>
+            <div class="btn-group">
+                  <button>App07</button>
+            </div>
+            <div class="btn-group">
+                  <button>App08</button>
+            </div>
+            <div class="btn-group">
+                  <button>App09</button>
+            </div>
+            <div class="btn-group">
+                  <button>App10</button>
+            </div>
+            <div class="btn-group">
             <button>App11</button>
-      </div>
-      <div class="btn-group">
+            </div>
+            <div class="btn-group">
             <button>App12</button>
-      </div>
-      <div class="btn-group">
+            </div>
+            <div class="btn-group">
             <button>App13</button>
-      </div>
-      <div class="btn-group">
+            </div>
+            <div class="btn-group">
             <button>App14</button>
-      </div>
-      <div class="btn-group">
+            </div>
+            <div class="btn-group">
             <button>App15</button>
-      </div>
-      <div class="btn-group">
+            </div>
+            <div class="btn-group">
             <button>App16</button>
-      </div>
-      <div class="btn-group">
+            </div>
+            <div class="btn-group">
             <button>App17</button>
-      </div>
-      <div class="btn-group">
+            </div>
+            <div class="btn-group">
             <button>App18</button>
-      </div>
-      <div class="btn-group">
+            </div>
+            <div class="btn-group">
             <button>App19</button>
-      </div>
-      <div class="btn-group">
+            </div>
+            <div class="btn-group">
             <button>App20</button>
-      </div>
+            </div>
         </div>
     </section>
 
@@ -203,8 +233,6 @@ include('frontend/header.php');
             Get a Free Website Development Consultation today! Call us today!
         </h3>
 </section>
-
-
 
 <div class="containery" style="background-color:purple;">
     <div class="box">
@@ -217,9 +245,9 @@ include('frontend/header.php');
               marketability of the domains they wish to re-sell while also promoting those sites
               here.
             </p>
-            <center><a href="domains.blade.php"><div class="text-black hover:text-red-300">Learn More </div></a></center>
-          </div>
-          <div class="box">
+            <center><a href="domains.blade.php"><div class="text-black hover:text-red-300">LEARN MORE </div></a></center>
+        </div>
+        <div class="box">
             <img src="./images/slide-07.jpg">
             <h3 class="font-bold">HOSTING</h3>
             <p>
@@ -228,8 +256,8 @@ include('frontend/header.php');
               with setting up your SSL certificates for optimal security as well as database
               support for our clients so you can rest easy that your client's data is protected and safe.
             </p>
-            <center><a href="hosting.blade.php"><div class="text-black hover:text-red-300">Learn More </div></a></center>
-          </div>
+            <center><a href="hosting.blade.php"><div class="text-black hover:text-red-300">LEARN MORE </div></a></center>
+        </div>
 
           <div class="box">
             <img src="./images/slide-03.jpg">
@@ -240,11 +268,9 @@ include('frontend/header.php');
               increases your web traffic while your custom design creates a unique user experience
               for your portfolio, ecommerce or business services site.
             </p>
-            <center><a href="webdev.blade.php"><div class="text-black hover:text-red-300">Learn More </div></a></center>
+            <center><a href="webdev.blade.php"><div class="text-black hover:text-red-300">LEARN MORE </div></a></center>
     </div>
 </div>
-
-    </body>
 
 <section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
         <h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">

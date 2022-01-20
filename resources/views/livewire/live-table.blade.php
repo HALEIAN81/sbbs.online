@@ -42,15 +42,15 @@
                     </th>
                     <th>
                         <a wire:click.prevent="sortBy('created_at')" role="button" href="#">
-                        Created at
+                            Created at
                         @include('includes.sort-icon', ['field' => 'created_at'])
                         </a>
                     </th>
                     <th>
-                        Delete
+                            Delete
                     </th>
                     <th>
-                        Edit
+                            Edit
                     </th>
                 </tr>
             </thead>
@@ -83,6 +83,26 @@
         @endif
     </div>
 
+    <div>
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <div class="float-left mt-5">
+                    <button class="btn btn-success" wire:click="$emit('triggerCreate')">Create New User</button>
+                </div>
+
+                <div class="float-right mt-5">
+                    <input wire:model="search" class="form-control" type="text" placeholder="Search Users...">
+                </div>
+            </div>
+        </div>
+
+        <!-- code for the users table from earlier -->
+        <div class="row">
+            @if ($users->count())
+            @endif
+        </div>
+    </div>
+
     <div class="row">
         <div class="col">
             {{ $users->links() }}
@@ -92,4 +112,4 @@
 
 <button class="btn btn-sm btn-danger" wire:click="$emit('deleteTriggered', {{ $user->id }}, '{{ $user->name }}')">
     Delete
-  </button>
+</button>

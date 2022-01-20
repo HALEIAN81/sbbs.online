@@ -566,8 +566,7 @@ input[type='checkbox'] {
 }
 
 .user-login {
-    padding-left: 2000px;
-
+    padding-left: 1950px;
 }
 
 .user-register {
@@ -575,9 +574,41 @@ input[type='checkbox'] {
 }
 
 .dashboard {
-    padding-right: 30px;
-    padding-left: 30px;
-    justify-content: right;
+    padding-left: 2000px;
+}
+
+.dashboard:hover {
+    color: orange;
+}
+
+.domains-table {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: purple;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    color: white;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.domains-table h3 {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.domains-table input[type=submit] {
+    background-color: orange;
+    padding: 10px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.domains-table input[type=text] {
+    color: black;
 }
 
 @media (max-width: 600px){
@@ -622,6 +653,8 @@ input[type='checkbox'] {
         margin-bottom: 4%;
     }
 }
+
+
 
 @media (max-width: 700px){
     .container{

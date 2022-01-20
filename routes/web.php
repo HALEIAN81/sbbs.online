@@ -21,6 +21,8 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
+// Route::get('user-form', Users::class)->name('user-form');
+
 Route::get("addmore", "PremiumDomainsController@addmore");
 Route::post("addmore", "PremiumDomainsController@addMorePost")->name('addmorePost');
 
