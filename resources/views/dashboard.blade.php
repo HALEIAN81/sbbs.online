@@ -20,12 +20,25 @@
 
     <center><form class="domains-table" action="insert.php" method="post">
         <h3>ADD YOUR PREMIUM DOMAINS OR APPS HERE</h3>
-        ENTRY1: <input type="text" name = "field1" placeholder = "enter domain or app name" /><br/>
-        ENTRY2: <input type="text" name = "field2" placeholder = "enter domain or app name" /><br/>
-        ENTRY3: <input type="text" name = "field3" placeholder = "enter domain or app name" /><br/>
-        ENTRY4: <input type="text" name = "field4" placeholder = "enter domain or app name" /><br/>
-        ENTRY5: <input type="text" name = "field5" placeholder = "enter domain or app name" /><br/>
-        <input type="submit" />
+        <label for="id"> ID: </label><input type="number" name = "field0" placeholder = "UNIT ID" />
+        <label for="name"> NAME: </label> <input type="text" name = "field1" placeholder = "enter your name/company name" />
+        <label for="appdom_name"> APPNAME: </label> <input type="text" name = "field2" placeholder = "enter domain or app name" />
+        <label for="price">PRICE: </label> <input type="number" name = "field3" placeholder = "enter price/starting bid" /></br>
+        <label for="id"> ID: </label><input type="number" name = "field0" placeholder = "UNIT ID" />
+        <label for="name"> NAME: </label> <input type="text" name = "field1" placeholder = "enter your name/company name" />
+        <label for="appdom_name"> APPNAME: </label> <input type="text" name = "field2" placeholder = "enter domain or app name" />
+        <label for="price">PRICE: </label> <input type="number" name = "field3" placeholder = "enter price/starting bid" /></br>
+        <label for="id"> ID: </label><input type="number" name = "field0" placeholder = "UNIT ID" />
+        <label for="name"> NAME: </label> <input type="text" name = "field1" placeholder = "enter your name/company name" />
+        <label for="appdom_name"> APPNAME: </label> <input type="text" name = "field2" placeholder = "enter domain or app name" />
+        <label for="price">PRICE: </label> <input type="number" name = "field3" placeholder = "enter price/starting bid" /></br>
+        <label for="id"> ID: </label><input type="number" name = "field0" placeholder = "UNIT ID" />
+        <label for="name"> NAME: </label> <input type="text" name = "field1" placeholder = "enter your name/company name" />
+        <label for="appdom_name"> APPNAME: </label> <input type="text" name = "field2" placeholder = "enter domain or app name" />
+        <label for="price">PRICE: </label> <input type="number" name = "field3" placeholder = "enter price/starting bid" /></br>
+        <input type="submit" value="SUBMIT" />
+        <h2>WANT TO SPONSOR YOUR APP FOR MORE VIEWS, USE FORM BELOW</h2>
+        </div>
     </form>
     </center>
 

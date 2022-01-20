@@ -585,30 +585,43 @@ input[type='checkbox'] {
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-color: purple;
-    width: 400px;
-    height: 350px;
+    background-color: #717fe0;
+    width: 50%;
+    height: 390px;
     border-radius: 10px;
     color: white;
     padding-top: 10px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bolder;
+}
+
+.domains-table {
+    color: black;
 }
 
 .domains-table h3 {
     color: white;
     padding-bottom: 20px;
+    font-size: 22px;
 }
 
 .domains-table input[type=submit] {
     background-color: orange;
-    padding: 10px;
-    margin: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
     cursor: pointer;
+    border-radius: 10px;
+    font-weight: bolder;
 }
 
-.domains-table input[type=text] {
+.domains-table input[type=submit]:hover {
+    background-color: powderblue;
+}
+
+.domains-table input[type=text], input[type=number] {
     color: black;
+    margin-top: 15px;
 }
 
 @media (max-width: 600px){
