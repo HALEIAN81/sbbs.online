@@ -7,6 +7,8 @@
     <center>
         <?php
 
+        error_reporting(E_ALL); ini_set('display_errors', 1);
+
         $conn = mysqli_connect("localhost", "root", "", "g2dmain");
 
         if($conn === false) {
@@ -16,10 +18,10 @@
 
         $id = $_REQUEST['id'];
         $name = $_REQUEST['name'];
-        $appdom_name = $_REQUEST['appdom-name'];
+        $domain_name = $_REQUEST['domain_name'];
         $price = $_REQUEST['price'];
 
-        $sql = "INSERT INTO add_domains VALUES ('$id', '$name', '$appdom_name', '$price')";
+        $sql = "INSERT INTO add_domains VALUES ('$_POST[field1]', '$_POST[field2]', '$_POST[field3]', '$_POST[field4]')";
 
         if(mysqli_query($conn, $sql)){
             echo "<h3>data stored in a database successfully."
@@ -27,7 +29,7 @@
             . " to view the updated data</h3>";
 
             echo n12br("\n$id\n $name\n "
-            . "$appdom_name\n $price");
+            . "$domain_name\n $price");
         } else {
             echo "ERROR: Hush! Sorry $sql. "
                 . mysqli_error($conn);
