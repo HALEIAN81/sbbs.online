@@ -263,6 +263,120 @@
     justify-content: center;
 
 }
+/* app/domain page details containers 'flippa' */
+
+.container-details {
+    display: flex;
+    width: 2000px;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    cursor: default;
+}
+
+.container-details img {
+    width: 30%;
+    float: left;
+    margin: 15px;
+}
+
+.container-details .box {
+    width: 1500px;
+    margin: 30px;
+    box-shadow: 15px 15px purple;
+    cursor: default;
+}
+
+.container-details .box:hover {
+    box-shadow: 15px 15px purple;
+}
+
+.container-details p {
+    font-size: 18px;
+}
+
+.container-details h3 {
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: bolder;
+    align-items: left;
+    justify-content: left;
+    margin: 10px;
+    float: left;
+}
+
+.container-details .row {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.container-details .column {
+    float: left;
+    justify-content: left;
+    align-items: left;
+    margin: 30px auto;
+}
+
+.container-details h4 {
+    float: left;
+    clear: left;
+    clear: right;
+    justify-content: left;
+    align-items: left;
+    font-size: 14px;
+    color: purple;
+    font-weight: bolder;
+}
+
+.container-details h5 {
+    margin: 10px;
+    color: purple;
+    font-weight: bolder;
+}
+
+.container-details .da-description p {
+    color: purple;
+    justify-content: left;
+    align-items: left;
+    width: 35%;
+    float: left;
+    margin: auto;
+    text-align: left;
+}
+
+.container-details .listing-link {
+    background-color: purple;
+    color: white;
+    font-size: 22px;
+    clear: right;
+    float: right;
+    margin: 30px 20px 20px 20px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px grey;
+}
+
+.container-details .listing-link:hover {
+    background-color: orange;
+}
+
+.container-details .track {
+    background-color: orange;
+    color: white;
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 5px;
+    clear: left;
+    float: right;
+    box-shadow: 5px 5px grey;
+}
+
+.container-details .track:hover {
+    background-color: purple;
+}
+
+/*end flippa cards section */
 
 .containert {
     display: flex;
@@ -274,7 +388,6 @@
     padding-left: 20px;
     padding-right: 20px;
     justify-content: center;
-
 }
 
 .containert h4 {
@@ -587,7 +700,7 @@ input[type='checkbox'] {
     margin: auto;
     background-color: #717fe0;
     width: 50%;
-    height: 390px;
+    height: 300px;
     border-radius: 10px;
     color: white;
     padding-top: 10px;
@@ -595,9 +708,6 @@ input[type='checkbox'] {
     font-weight: bolder;
 }
 
-.domains-table {
-    color: black;
-}
 
 .domains-table h3 {
     color: white;
@@ -620,7 +730,7 @@ input[type='checkbox'] {
 }
 
 .domains-table input[type=text], input[type=number] {
-    color: black;
+    color: purple;
     margin-top: 15px;
 }
 

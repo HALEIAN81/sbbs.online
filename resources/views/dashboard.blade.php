@@ -21,8 +21,8 @@
     <center><form id="appdom-form" class="domains-table" action="insert.php" method="post">
         <h3>ADD YOUR PREMIUM DOMAINS OR APPS HERE</h3>
         <label for="id"> ID :</label><input type="number" name = "field1" placeholder = "UNIT ID" />
-        <label for="name"> NAME :</label> <input type="text" name = "field2" placeholder = "enter your name/company name" />
-        <label for="domain_name"> APPNAME :</label> <input type="text" name = "field3" placeholder = "enter domain or app name" />
+        <label for="name"> NAME :</label> <input type="text" name = "field2" placeholder = "enter your company name" />
+        <label for="domain_name"> APPNAME :</label> <input type="text" name = "field3" placeholder = "enter domain/app name" />
         <label for="price">PRICE :</label> <input type="number" name = "field4" placeholder = "enter price/starting bid" /></br>
         <input type="submit" value="SUBMIT" />
         <h2>WANT TO SPONSOR YOUR APP FOR MORE VIEWS, USE FORM BELOW</h2>
