@@ -165,66 +165,11 @@ include('frontend/header.php');
 <section>
     <div class="w3-container p-tb-0" style="background-color:powderblue;">
         <center><h2>PREMIUM APPS MARKET</h2></center>
+            @foreach($domains as $domain)
             <div class="btn-group">
-                  <button>App01</button>
+                <button>{{ $domain->fullName() }}</button>
             </div>
-            <div class="btn-group">
-                  <button>App02</button>
-            </div>
-            <div class="btn-group">
-                  <button>App03</button>
-            </div>
-            <div class="btn-group">
-                  <button>App04</button>
-            </div>
-            <div class="btn-group">
-                  <button>App05</button>
-            </div>
-            <div class="btn-group">
-                  <button>App06</button>
-            </div>
-            <div class="btn-group">
-                  <button>App07</button>
-            </div>
-            <div class="btn-group">
-                  <button>App08</button>
-            </div>
-            <div class="btn-group">
-                  <button>App09</button>
-            </div>
-            <div class="btn-group">
-                  <button>App10</button>
-            </div>
-            <div class="btn-group">
-            <button>App11</button>
-            </div>
-            <div class="btn-group">
-            <button>App12</button>
-            </div>
-            <div class="btn-group">
-            <button>App13</button>
-            </div>
-            <div class="btn-group">
-            <button>App14</button>
-            </div>
-            <div class="btn-group">
-            <button>App15</button>
-            </div>
-            <div class="btn-group">
-            <button>App16</button>
-            </div>
-            <div class="btn-group">
-            <button>App17</button>
-            </div>
-            <div class="btn-group">
-            <button>App18</button>
-            </div>
-            <div class="btn-group">
-            <button>App19</button>
-            </div>
-            <div class="btn-group">
-            <button>App20</button>
-            </div>
+            @endforeach
         </div>
     </section>
 

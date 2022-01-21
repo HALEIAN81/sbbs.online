@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\Domain;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome')->with(['domains' => Domain::get()]);
 });
 
 Route::get('/dashboard', function () {
@@ -23,8 +24,8 @@ Route::get('/dashboard', function () {
 
 // Route::get('user-form', Users::class)->name('user-form');
 
-Route::get("addmore", "PremiumDomainsController@addmore");
-Route::post("addmore", "PremiumDomainsController@addMorePost")->name('addmorePost');
+//Route::get("addmore", "PremiumDomainsController@addmore");
+Route::post("domain/store", "DomainController@store");
 
 /*artcse example*/
 

@@ -13,7 +13,7 @@ class AddDomainsTable extends Migration
      */
     public function up()
     {
-        Schema::create('add_domains', function (Blueprint $table) {
+        Schema::create('domains', function (Blueprint $table) {
 
             $table->bigIncrements('id');
 
