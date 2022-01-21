@@ -292,12 +292,12 @@
 .container-details .box {
     width: 1500px;
     margin: 30px;
-    box-shadow: 15px 15px purple;
+    box-shadow: 15px 15px powderblue;
     cursor: default;
 }
 
 .container-details .box:hover {
-    box-shadow: 15px 15px purple;
+    box-shadow: 15px 15px powderblue;
 }
 
 .container-details p {
@@ -327,19 +327,14 @@
     margin: 30px auto;
 }
 
-.container-details h1 {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.details-header h1 {
     font-size: 22px;
     color: orange;
     font-weight: bolder;
     margin: auto;
-    float: center;
-    clear: left;
     clear: right;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    clear: left;
+    float: center;
 }
 
 .container-details h4 {
@@ -354,7 +349,8 @@
 }
 
 .container-details .da-description h5 {
-    margin: 5px 0px 0px 15px;
+    margin: 0px 5px 0px 0px;
+    padding-left: 20px 20px 20px 20px;
     color: purple;
     font-weight: bolder;
 }
@@ -365,7 +361,7 @@
     align-items: left;
     width: 35%;
     float: left;
-    margin: auto;
+    margin: 20px;
     text-align: left;
 }
 

@@ -44,11 +44,11 @@
           </p>
         </div>
         <div class="justify-between w-full mt-4 text-center lg:flex">
-          <div class="w-full px-1 space-y-6 lg:w-1/3 md:w-1/2">
+          <div class="w-full px-1 space-y-2 lg:w-1/3 md:w-1/2">
             <h2 class="mb-2 text-xl font-bold tracking-widest text-white">
               RESOURCES
             </h2>
-            <ul class="mb-8 space-y-6 text-sm list-none">
+            <ul class="mb-8 px-5 space-y-2 text-sm list-none">
               <li>
                 <a href="index.php" class="text-white font-bold hover:text-red-300">Home</a>
               </li>
@@ -69,6 +69,9 @@
               </li>
               <li>
                 <a href="careers.blade.php" class="text-white font-bold hover:text-red-300">Careers</a>
+              </li>
+              <li>
+                <a href="ad_details.blade.php" class="text-white font-bold hover:text-red-300">Apps and Domains</a>
               </li>
             </ul>
           </div>
