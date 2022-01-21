@@ -41,15 +41,43 @@
                 <input type="text" placeholder="enter your company name" name="name" class="form-control" id="name" aria-describedby="nameHelp" />
             </div>
             <div class="col-auto">
-                <div id="nameHelp" class="form-text">We'll never share your email with anyone else.</div>
+                <div id="nameHelp" class="form-text">We'll never share your information with anyone else.</div>
             </div>
             @error('name')
                 <div class="alert alert-danger">{{ $message }}</div>
             @enderror
         </div>
 
-        <label for="domain_name"> APPNAME :</label> <input type="text" name = "domain_name" placeholder = "enter domain/app name" />
-        <label for="price">PRICE :</label> <input type="number" name = "price" placeholder = "enter price/starting bid" /></br>
+        <div class="mb-3">
+            <div class="col-auto">
+                <label for="domain_name" class="form-label">APPNAME:</label>
+            </div>
+            <div class="col-auto">
+                <input type="text" placeholder="enter domain/app name" name="domain_name" class="form-control" id="domain_name" aria-describedby="nameHelp" />
+            </div>
+            <div class="col-auto">
+                <div id="nameHelp" class="form-text">Please place the full name of your app or domain - you may exclude https:// and www.</div>
+            </div>
+            @error('name')
+                <div class="alert alert-danger">{{ $message }}</div>
+            @enderror
+        </div>
+
+        <div class="mb-3">
+            <div class="col-auto">
+                <label for="price" class="form-label">PRICE:</label>
+            </div>
+            <div class="col-auto">
+                <input type="number" placeholder="enter price/starting bid" name="price" class="form-control" id="price" aria-describedby="nameHelp" />
+            </div>
+            <div class="col-auto">
+                <div id="nameHelp" class="form-text">Place the entry level price.</div>
+            </div>
+            @error('name')
+                <div class="alert alert-danger">{{ $message }}</div>
+            @enderror
+        </div>
+
         <input type="submit" value="SUBMIT" class="btn btn-primary" />
         <h2>WANT TO SPONSOR YOUR APP FOR MORE VIEWS, USE FORM BELOW</h2>
         </div>
