@@ -14,9 +14,7 @@ use App\Models\Domain;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome')->with(['domains' => Domain::get()]);
-});
+Route::get('/', 'SiteController@sitepost');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -26,6 +24,7 @@ Route::get('/dashboard', function () {
 
 //Route::get("addmore", "PremiumDomainsController@addmore");
 Route::post("domain/store", "DomainController@store");
+
 
 /*artcse example*/
 
