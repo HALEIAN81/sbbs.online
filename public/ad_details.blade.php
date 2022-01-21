@@ -28,6 +28,9 @@ include('frontend/header.php');
 	<!-- Content page -->
 
 	<div class="container-details" style="background-color:black;">
+        <h1>Sponsored Domains and Apps</h1>
+
+
               <div class="box">
                 <img src="./images/slide-16.jpg">
                 <h3>Name of Domain/App</h3>

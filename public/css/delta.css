@@ -139,7 +139,7 @@
     float: center;
     width: 100%;
     padding: 0px 16px; /*100px 1px 10px 200px;*/
-  }
+}
 
 .rowex {
     display:inline-block;
@@ -157,7 +157,6 @@
     width: 90%;
     justify-content: center;
     text-align: center;
-
 }
 
 .w3-container h1{
@@ -194,6 +193,15 @@
 }
 
 .footer-container {
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    display: flexbox;
+}
+
+.footer-body {
     width: 90%;
     align-items: center;
     justify-content: center;
@@ -317,6 +325,21 @@
     justify-content: left;
     align-items: left;
     margin: 30px auto;
+}
+
+.container-details h1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    color: orange;
+    font-weight: bolder;
+    margin: auto;
+    float: center;
+    clear: left;
+    clear: right;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .container-details h4 {
@@ -683,8 +706,12 @@ input[type='checkbox'] {
     padding-left: 1950px;
 }
 
-.user-register {
+.user-login:hover {
+    text-decoration: orange;
+}
 
+.user-register {
+    color: orange;
 }
 
 .dashboard {
@@ -708,7 +735,6 @@ input[type='checkbox'] {
     font-size: 18px;
     font-weight: bolder;
 }
-
 
 .domains-table h3 {
     color: white;
@@ -735,11 +761,11 @@ input[type='checkbox'] {
     margin-top: 15px;
 }
 
-ul {
+#navbar-collapse ul {
     list-style-type: none;
     overflow: hidden;
     background-color: black;
-  }
+}
 
 li {
     float: left;
@@ -757,22 +783,22 @@ li a, .dropbtn {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
+}
 
-  .dropdown-content a {
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-  }
+}
 
-  .dropdown-content a:hover {background-color: cornflowerblue;}
+.dropdown-content a:hover {background-color: #717fe0;;}
 
-  .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
     background-color: white;
-  }
+}
 
 @media (max-width: 600px){
 

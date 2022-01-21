@@ -18,9 +18,9 @@
       <a href="about.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white transition-colors duration-300">ABOUT</a>
       <ul>
     <li class="dropdown">
-      <a href="domains.blade.php" class="dropbtn p-2 m-t-5 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white transition-colors duration-300">DOMAINS</a>
+      <a href="domains.blade.php" class="p-2 dropbtn lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white transition-colors duration-300">DOMAINS</a>
     <div class="dropdown-content">
-      <a href="#">Premium</a>
+      <a href="domains.blade.php">Premium</a>
       <a href="#">Sponsored Listing</a>
       <a href="#">Full Inventory</a>
     </div>

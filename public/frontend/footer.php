@@ -12,7 +12,7 @@
   <body>
     <footer class="border-t-8 border-red-300 bg-black">
       <div
-        class="
+        class="footer-body
           container
           flex flex-col flex-wrap
           px-1
