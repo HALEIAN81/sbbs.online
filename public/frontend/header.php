@@ -22,18 +22,38 @@
     <li class="dropdown">
       <a href="domains.blade.php" class="p-2 dropbtn lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white transition-colors duration-300">DOMAINS</a>
     <div class="dropdown-content">
-      <a href="domains.blade.php">Premium</a>
+      <a href="domains.blade.php">Premium Domains</a>
       <a href="sl.blade.php">Sponsored Listings</a>
-      <a href="domain-inventory.blade.php">Full Inventory</a>
+      <a href="domain-inventory.blade.php">Full Domains Inventory</a>
     </div>
     </li>
     </ul>
     <ul>
+    <li class="dropdown">
       <a href="apps.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">APPS</a>
+      <div class="dropdown-content">
+      <a href="">Premium Apps</a>
+      <a href="">Sponsored Listings</a>
+      <a href="">Full Apps Inventory</a>
+    </div>
+    </li>
+    </ul>
+    <ul>
       <a href="contact.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">CONTACT</a>
       <a href="hosting.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">HOSTING</a>
       <a href="webdev.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">WEB DEVELOPMENT</a>
+    </ul>
+    <ul>
+    <li class="dropdown">
       <a href="support.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">SUPPORT</a>
+      <div class="dropdown-content">
+      <a href="">Hosting Support</a>
+      <a href="">Web Services Support</a>
+      <a href="">Database Support</a>
+      <a href="">Security Support</a>
+    </div>
+    </ul>
+    <ul>
       <a href="careers.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">CAREERS</a>
       <a href="faqs.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">FAQS</a>
     </ul>
