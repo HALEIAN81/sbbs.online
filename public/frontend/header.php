@@ -24,7 +24,7 @@
     <div class="dropdown-content">
       <a href="domains.blade.php">Premium Domains</a>
       <a href="sl.blade.php">Sponsored Listings</a>
-      <a href="domain-inventory.blade.php">Full Domains Inventory</a>
+      <a href="inventory_table.blade.php">Full Domains Inventory</a>
     </div>
     </li>
     </ul>

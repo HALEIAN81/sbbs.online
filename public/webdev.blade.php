@@ -184,6 +184,32 @@ include('frontend/header.php');
 	</h3>
 </section>
 
+<section class="section-quote p-tb-40" style="background-color: powderblue;">
+    <div>
+ 	<h3 class="" style="color:purple;">
+		Get a quote today!
+	</h3>
+    <p>Click the button below to contact us and get a quote on your project right away!</p>
+    <form>
+        <div>
+        <label for="fname"></label>
+        <input type="text" id="fname" name="fname" placeholder="First Name: ">
+        <label for="lname"></label>
+        <input type="text" id="lname" name="lname" placeholder="Last Name: ">
+        <label for="phone"></label>
+        <input type="number" id="phone" name="phone" placeholder="Phone: ">
+        <label for="email"></label>
+        <input type="text" id="email" name="email" placeholder="Email: ">
+        <a href=""><button>GET A QUOTE</button></a>
+        <h2>Or <a href="">Schedule A Call</h2></a>
+        </div>
+      </form>
+    </div>
+</section>
+
+
+
+
 <?php
 include('frontend/footer.php');
 ?>

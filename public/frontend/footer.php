@@ -233,8 +233,36 @@
     </div>
   </div>
 
+  <div class="p-t-0">
+			<center><p class="text-white">We accept the following methods of payment:</p></center>
+				<div class="flex-c-m flex-w p-b-18">
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-01.png" alt="PAYPAL">
+					</a>
+
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-02.png" alt="VISA">
+					</a>
+
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-03.png" alt="MASTERCARD">
+					</a>
+
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-04.png" alt="AMEX">
+					</a>
+
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-05.png" alt="DISCOVER">
+					</a>
+
+					<a href="#" class="m-all-1">
+						<img src="images/icons/icon-pay-06.png" alt="BITCOIN">
+					</a>
+				</div>
+
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2021 Copyright:
-    <a class="text-white" href="http://go2domainsales.com/">GO2DOMAINSALES</a>
+    © 2021-2022. Copyright:
+    <a class="text-white" href="http://go2domainsales.com/">GO2DOMAINSALES.</a>
   </div>
 </footer>

@@ -14,7 +14,7 @@ include('frontend/header.php');
 	<!-- Title page -->
 	<section class="section-a bg-img1 txt-center p-lr-15 p-tb-92" style="background-color:powderblue;">
 		<h2 class="ltext-105 cl0 txt-center">
-			OUR HOSTING SERVICES 
+			OUR HOSTING SERVICES
 		</h2>
 	</section>
 
@@ -26,8 +26,8 @@ include('frontend/header.php');
 
 
 	<div class="containert" style="background-color:powderblue">
-		<center><h4>We offer dependable, affordable hosting services for your business with a guarantee of 99.9% runtime as well as unlimited storage space for businesses of various sizes. What makes us different is we 
-			also offer custom support for your business needs as well as setup and management of your database and rapid advancement from launch to running time. 
+		<center><h4>We offer dependable, affordable hosting services for your business with a guarantee of 99.9% runtime as well as unlimited storage space for businesses of various sizes. What makes us different is we
+			also offer custom support for your business needs as well as setup and management of your database and rapid advancement from launch to running time.
 				</h4>
 		</center>
 	</div>
@@ -170,7 +170,7 @@ include('frontend/header.php');
             Chat Regarding E-commerce Services Related to Hosting
             </p>
             <p>
-            Request An Updated Quote/Proposal For Hosting Services     
+            Request An Updated Quote/Proposal For Hosting Services
             </p>
           </div>
 </div>
@@ -179,6 +179,28 @@ include('frontend/header.php');
 	<h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">
 		Get a free hosting consultation today! Call us today!
 	</h3>
+</section>
+
+<section class="section-quote p-tb-40" style="background-color: powderblue;">
+    <div>
+ 	<h3 class="" style="color:purple;">
+		Get a quote today!
+	</h3>
+    <p>Click the button below to contact us and get a quote on your project right away!</p>
+    <form>
+        <div>
+        <label for="fname"></label>
+        <input type="text" id="fname" name="fname" placeholder="First Name: ">
+        <label for="lname"></label>
+        <input type="text" id="lname" name="lname" placeholder="Last Name: ">
+        <label for="phone"></label>
+        <input type="number" id="phone" name="phone" placeholder="Phone: ">
+        <label for="email"></label>
+        <input type="text" id="email" name="email" placeholder="Email: ">
+        <a href=""><button>GET A QUOTE</button></a>
+        </div>
+      </form>
+    </div>
 </section>
 
 

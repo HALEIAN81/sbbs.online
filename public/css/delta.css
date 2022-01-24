@@ -116,14 +116,14 @@
 }
 
 
-  .btn-group button:not(:last-child) {
+.btn-group button:not(:last-child) {
     border-bottom: none; /* Prevent double borders */
-  }
+}
 
   /* Add a background color on hover */
-  .btn-group button:hover {
+.btn-group button:hover {
     background-color: orange;
-  }
+}
 
 .card-bodyex {
     background-color: white;
@@ -212,6 +212,10 @@
     font-size: 1.5rem;
 }
 
+.footer .rounded-full:hover {
+    color: orange;
+}
+
 .list-none a{
     margin: 25px;
     display: block;
@@ -245,7 +249,7 @@
     margin-top: 0px; /* Add a top margin */
     margin-bottom: 10px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
+}
 
 .container-contact label {
     padding: 12px 12px 12px 0;
@@ -784,16 +788,16 @@ li {
 }
 
 li a, .dropbtn {
-    color: white;
+    color: powderblue;
     text-decoration: none;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: powderblue;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px purple;
     z-index: 1;
 }
 
@@ -802,14 +806,14 @@ li a, .dropbtn {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: left;
+    text-align: center;
 }
 
 .dropdown-content a:hover {background-color: #717fe0;;}
 
 .dropdown:hover .dropdown-content {
     display: block;
-    background-color: white;
+    background-color: powrderblue;
 }
 
 /*inventory table main css*/
@@ -825,61 +829,131 @@ table {
     max-width: 60%;
     grid-template-columns:
       minmax(150px, 1fr)
-      minmax(150px, 1.67fr)
-      minmax(150px, 1.67fr)
-      minmax(150px, 1.67fr)
+      minmax(350px, 1.67fr)
+      minmax(250px, 2.00fr)
+      minmax(85px, 1.67fr)
       minmax(150px, 3.33fr)
       minmax(150px, 1.67fr)
       minmax(150px, 3.33fr)
       minmax(150px, 1.67fr);
-  }
+}
 
-  thead,
-  tbody,
-  tr {
+thead,
+tbody,
+tr {
     display: contents;
-  }
+}
 
-  th,
-  td {
+th,
+td {
     padding: 5px 0px 5px 0px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     margin: 5px;
     text-align: center;
-    font-size: 1.5rem;
-  }
+    font-size: 0.9rem;
+}
 
-  th {
+th {
     position: sticky;
     top: 0;
-    background: #6c7ae0;
+    background: #717fe0;
     text-align: center;
     font-weight: normal;
     font-size: 1.5rem;
     color: white;
-  }
+}
 
-  th:last-child {
+th:last-child {
     border: 0;
-  }
+}
 
-  td {
+td {
     padding-top: 10px;
     padding-bottom: 10px;
     color: purple;
-  }
+    font-weight: bold;
+}
 
-  tr:nth-child(even) td {
+tr:nth-child(even) td {
     background: #f8f6ff;
-  }
+}
 
-  .section-inventory {
-      width: 80%;
-      align-items: center;
-      margin: auto;
-  }
+tr:nth-child(odd) td {
+    background: lightgrey;
+}
+
+.section-inventory {
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    font-size: 28px;
+    padding-top: 30px;
+}
+
+.section-inventory h3 {
+    color: purple;
+    font-weight: bolder;
+}
+
+.table-search .fa-search {
+    color: purple;
+}
+
+.section-quote {
+    font-size: 36px;
+    width: 90%;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-quote h3 {
+    font-size: 78px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.section-quote p {
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.section-quote button {
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.section-quote button:hover {
+    background-color: orange;
+}
+
+.section-quote input[type="text"], input[type="number"] {
+    display: inline-block;
+    padding: 10px;
+    width: 200px;
+    font-size: 18px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.section-quote a {
+    text-decoration: underline;
+}
+
+.section-quote ::placeholder {
+    color: purple;
+    font-weight: bolder;
+}
 
 @media (max-width: 600px){
 
@@ -927,8 +1001,6 @@ table {
         margin-bottom: 4%;
     }
 }
-
-
 
 @media (max-width: 700px){
     .container{
