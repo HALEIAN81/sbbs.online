@@ -202,13 +202,12 @@ include('frontend/header.php');
         <input type="text" id="email" name="email" placeholder="Email: ">
         <a href=""><button>GET A QUOTE</button></a>
         <h2>Or <a href="">Schedule A Call</h2></a>
+        <h6>*By providing your information above you also provide written consent to Go2Domainsales.com to contact you.</h6>
+        <h6>Please see Privacy Policy below for more information.</h6>
         </div>
-      </form>
+    </form>
     </div>
 </section>
-
-
-
 
 <?php
 include('frontend/footer.php');

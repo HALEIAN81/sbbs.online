@@ -918,6 +918,11 @@ tr:nth-child(odd) td {
     text-align: center;
 }
 
+.section-quote h6 {
+    font-size: 18px;
+    color: purple;
+}
+
 .section-quote p {
     font-size: 28px;
     font-weight: bolder;
@@ -948,6 +953,11 @@ tr:nth-child(odd) td {
 
 .section-quote a {
     text-decoration: underline;
+    color: purple;
+}
+
+.section-quote a:hover {
+    color: orange;
 }
 
 .section-quote ::placeholder {
