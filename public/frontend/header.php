@@ -14,18 +14,21 @@
     </div>
 
     <div class="hidden md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0" id="navbar-collapse">
+      <ul>
       <a href="index.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white transition-colors duration-300">HOME</a>
       <a href="about.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white transition-colors duration-300">ABOUT</a>
+      </ul>
       <ul>
     <li class="dropdown">
       <a href="domains.blade.php" class="p-2 dropbtn lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white transition-colors duration-300">DOMAINS</a>
     <div class="dropdown-content">
       <a href="domains.blade.php">Premium</a>
-      <a href="#">Sponsored Listing</a>
+      <a href="sl.blade.php">Sponsored Listings</a>
       <a href="domain-inventory.blade.php">Full Inventory</a>
     </div>
     </li>
     </ul>
+    <ul>
       <a href="apps.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">APPS</a>
       <a href="contact.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">CONTACT</a>
       <a href="hosting.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">HOSTING</a>
@@ -33,6 +36,7 @@
       <a href="support.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">SUPPORT</a>
       <a href="careers.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">CAREERS</a>
       <a href="faqs.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">FAQS</a>
+    </ul>
     </div>
   </div>
 </nav>
