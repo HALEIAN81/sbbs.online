@@ -194,20 +194,36 @@
 
 .footer-container {
     width: 90%;
-    align-items: center;
-    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+}
+
+.footer-body {
+    width: 90%;
     margin: auto;
     text-decoration: none;
     display: flexbox;
 }
 
-.footer-body {
-    width: 90%;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    text-decoration: none;
-    display: flexbox;
+.footer-desc p {
+    width: 70%;
+    margin: 15px auto;
+    color: orange;
+    font-size: 1.5rem;
+}
+
+.list-none a{
+    margin: 25px;
+    display: block;
+    text-align: center;
+    float: center;
+    clear: right;
+    clear: left;
+    font-size: 0.8rem;
+}
+
+.list-none a:hover {
+    color: orange;
 }
 
 .container-contact {
@@ -796,6 +812,75 @@ li a, .dropbtn {
     background-color: white;
 }
 
+/*inventory table main css*/
+
+table {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    float: center;
+    border-collapse: collapse;
+    min-width: 50%;
+    max-width: 60%;
+    grid-template-columns:
+      minmax(150px, 1fr)
+      minmax(150px, 1.67fr)
+      minmax(150px, 1.67fr)
+      minmax(150px, 1.67fr)
+      minmax(150px, 3.33fr)
+      minmax(150px, 1.67fr)
+      minmax(150px, 3.33fr)
+      minmax(150px, 1.67fr);
+  }
+
+  thead,
+  tbody,
+  tr {
+    display: contents;
+  }
+
+  th,
+  td {
+    padding: 5px 0px 5px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  th {
+    position: sticky;
+    top: 0;
+    background: #6c7ae0;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  th:last-child {
+    border: 0;
+  }
+
+  td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: purple;
+  }
+
+  tr:nth-child(even) td {
+    background: #f8f6ff;
+  }
+
+  .section-inventory {
+      width: 80%;
+      align-items: center;
+      margin: auto;
+  }
+
 @media (max-width: 600px){
 
 .container{
@@ -817,6 +902,10 @@ li a, .dropbtn {
         display: block;
         cursor: pointer;
     }
+
+table {
+    width: 50%;
+}
 
 }
 

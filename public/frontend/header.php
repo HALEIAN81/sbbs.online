@@ -22,7 +22,7 @@
     <div class="dropdown-content">
       <a href="domains.blade.php">Premium</a>
       <a href="#">Sponsored Listing</a>
-      <a href="#">Full Inventory</a>
+      <a href="domain-inventory.blade.php">Full Inventory</a>
     </div>
     </li>
     </ul>
@@ -104,12 +104,9 @@
 		<!-- Header Mobile -->
 		<!-- <div class="wrap-header-mobile">
 			<!-- Logo moblie -->
-			<div class="logo-mobile">
-				<a href="index.html"><img src="images/icons/logo-01.png" alt="IMG-LOGO"></a>
-			</div> -->
 
-			<!-- Icon header -->
-			<div class="wrap-icon-header flex-w flex-r-m m-r-15">
+            <!-- Icon header -->
+			<!-- <div class="wrap-icon-header flex-w flex-r-m m-r-15"> -->
 				<!-- <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 js-show-modal-search">
 					<i class="zmdi zmdi-search"></i>
 				</div>
@@ -133,7 +130,7 @@
 
 
 		<!-- Menu Mobile -->
-		<div class="menu-mobile">
+		<!-- <div class="menu-mobile">
 			<ul class="topbar-mobile">
 				<li>
 					<div class="left-top-bar">
@@ -186,10 +183,10 @@
 					<a href="contact.php">Contact</a>
 				</li>
 			</ul>
-		</div>
+		</div> -->
 
 		<!-- Modal Search -->
-		<div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
+		<!-- <div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
 			<div class="container-search-header">
 				<button class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
 					<img src="images/icons/icon-close2.png" alt="CLOSE">
@@ -202,7 +199,7 @@
 					<input class="plh3" type="text" name="search" placeholder="Search...">
 				</form>
 			</div>
-		</div>
+		</div> -->
 	</header>
 
 			</div>
