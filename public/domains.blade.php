@@ -98,6 +98,66 @@ include('frontend/header.php');
 <div class="btn-group">
   	<button>Domain20</button>
 </div>
+<div class="btn-group" title="Make an Offer, starting at $999">
+    <button>Domain21</button>
+</div>
+<div class="btn-group" title="Make an Offer, starting at $999">
+    <button>Domain22</button>
+</div>
+<div class="btn-group" title="Make an Offer, starting at $999">
+    <button>Domain23</button>
+</div>
+    <div class="btn-group" title="Make an Offer, starting at $999">
+    <button>Domain24</button>
+    </div>
+<div class="btn-group" title="Make an Offer, starting at $999">
+    <button>Domain25</button>
+</div>
+<div class="btn-group" title="Make an Offer, starting at $999">
+    <button>Domain26</button>
+</div>
+<div class="btn-group" title="Make an Offer, starting at $999">
+    <button>Domain27</button>
+</div>
+<div class="btn-group" title="Make an Offer, starting at $999">
+    <button>Domain28</button>
+</div>
+<div class="btn-group" title="Make an Offer, starting at $999">
+    <button>Domain29</button>
+</div>
+<div class="btn-group" title="Make an Offer, starting at $999">
+    <button>Domain30</button>
+</div>
+<div class="btn-group" title="Make an Offer, starting at $999">
+    <button>Domain31</button>
+</div>
+<div class="btn-group">
+    <button>Domain32</button>
+</div>
+<div class="btn-group">
+    <button>Domain33</button>
+</div>
+<div class="btn-group">
+    <button>Domain34</button>
+</div>
+<div class="btn-group">
+    <button>Domain35</button>
+</div>
+<div class="btn-group">
+    <button>Domain36</button>
+</div>
+<div class="btn-group">
+    <button>Domain37</button>
+</div>
+<div class="btn-group">
+    <button>Domain38</button>
+</div>
+<div class="btn-group">
+    <button>Domain39</button>
+</div>
+<div class="btn-group">
+    <button>Domain40</button>
+</div>
 </div>
 </section>
 

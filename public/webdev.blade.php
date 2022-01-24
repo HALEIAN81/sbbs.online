@@ -187,7 +187,7 @@ include('frontend/header.php');
 <section class="section-quote p-tb-40" style="background-color: powderblue;">
     <div>
  	<h3 class="" style="color:purple;">
-		Get a quote today!
+		Get A Quote Today!
 	</h3>
     <p>Click the button below to contact us and get a quote on your project right away!</p>
     <form>

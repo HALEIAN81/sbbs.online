@@ -168,7 +168,7 @@
 .w3-container h2 {
     padding-top: 30px;
     padding-bottom: 30px;
-    font-size:24px;
+    font-size:18px;
     font-weight: bolder;
 }
 
@@ -177,6 +177,8 @@
     float: left;
     clear: right;
     justify-content: center;
+    font-size: 18px;
+    font-weight: bolder;
 }
 
 .w4-container {
@@ -238,6 +240,7 @@
     border-radius: 5px;
     background-color: powderblue;
     padding: 10px;
+    box-shadow: 15px 15px 10px purple;
 }
 
 .container-contact select, textarea {
@@ -919,7 +922,7 @@ tr:nth-child(odd) td {
 }
 
 .section-quote h6 {
-    font-size: 18px;
+    font-size: 16px;
     color: purple;
 }
 

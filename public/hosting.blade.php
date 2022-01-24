@@ -184,7 +184,7 @@ include('frontend/header.php');
 <section class="section-quote p-tb-40" style="background-color: powderblue;">
     <div>
  	<h3 class="" style="color:purple;">
-		Get a quote today!
+		Get A Quote Today!
 	</h3>
     <p>Click the button below to contact us and get a quote on your project right away!</p>
     <form>
@@ -198,8 +198,11 @@ include('frontend/header.php');
         <label for="email"></label>
         <input type="text" id="email" name="email" placeholder="Email: ">
         <a href=""><button>GET A QUOTE</button></a>
+        <h2>Or <a href="">Schedule A Call</h2></a>
+        <h6>*By providing your information above you also provide written consent to Go2Domainsales.com to contact you.</h6>
+        <h6>Please see Privacy Policy below for more information.</h6>
         </div>
-      </form>
+    </form>
     </div>
 </section>
 
