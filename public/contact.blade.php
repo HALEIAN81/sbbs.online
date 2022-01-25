@@ -16,6 +16,10 @@ include('frontend/header.php');
 		</h2>
 </section>
 
+<section class="section-b bg0 p-t-10 p-b-10" style="background-image: url('./images/slide-06.jpg'); opacity:0.6; background-size:cover">
+	<p style="color:orange;" font-weight: bolder; >Questions regarding our services or maybe a question regarding employment opportunities - reach out today! </p>
+</section>
+
 	<!-- Content page -->
 
 <center>
@@ -32,7 +36,7 @@ if ($action=="")    /* display the contact form */
 	  <label for="email">Email:</label>
 	  <input type="email" id="email" name="email" placeholder="Your email..."/>
 	  <label for="country">Country:</label>
-	  <select id="country" name="country">
+	  <select id="country" class="country" name="country">
 		<option value="usa">USA</option>
 		<option value="australia">Australia</option>
 		<option value="canada">Canada</option>

@@ -12,6 +12,6 @@ class Domain extends Model
     public $fillable = ['id', 'name', 'domain_name', 'price'];
 
     public function fullName(){
-        return $this->id . ' - ' . $this->domain_name . ' $' . $this->price ;
+        return $this->id . ' - ' . $this->domain_name . ' $' . $this->price . ' by ' . $this->name;
     }
 }

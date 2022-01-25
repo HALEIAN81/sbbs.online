@@ -58,13 +58,26 @@ include('frontend/header.php');
         </div>
 </section>
 
+<section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
+    <h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">
+        Get a Free Website Development Consultation today! Call us today!
+    </h3>
+</section>
+
+<center>
+    <form class="site-search" action="">
+      <input type="text" placeholder="Search Our Premium Domains/Apps Here" name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+</center>
+
 <section class="section-a bg-img1 p-lr-15 p-tb-160" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
     <h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">
         Your Source For Premium Domains And Access To Web Development Services
     </h3>
 </section>
 
-<section>
+{{-- <section>
 <div class="w3-container p-tb-0" style="background-color:powderblue;">
     <center><h2>PREMIUM DOMAINS AND APPS MARKET</h2></center>
     <div class="btn-group">
@@ -158,27 +171,7 @@ include('frontend/header.php');
         <button>Domain20</button>
   </div>
     </div>
-</section>
-
-<section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
-    <h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">
-        Get a Free Website Development Consultation today! Call us today!
-    </h3>
-</section>
-
-
-<center>
-    <form class="site-search" action="">
-      <input type="text" placeholder="Search Our Premium Domains/Apps Here" name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-</center>
-
-<section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
-        <h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">
-            Get a Free Website Development Consultation today! Call us today!
-        </h3>
-</section>
+</section> --}}
 
 <div class="containery" style="background-color:purple;">
     <div class="box">
@@ -218,11 +211,125 @@ include('frontend/header.php');
     </div>
 </div>
 
-<section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
-        <h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">
-            Get a Free Website Development Consultation today! Call us today!
-        </h3>
+<section class="section-quote p-tb-40" style="background-color: powderblue;">
+    <div>
+ 	<h3 class="" style="color:purple;">
+		Get A Quote Today!
+	</h3>
+    <p>Fill out the information below and</p>
+    <p>Click the button below to contact us and get a quote on your project right away!</p>
+    <form>
+        <div>
+        <label for="fname"></label>
+        <input type="text" id="fname" name="fname" placeholder="First Name: ">
+        <label for="lname"></label>
+        <input type="text" id="lname" name="lname" placeholder="Last Name: ">
+        <label for="phone"></label>
+        <input type="number" id="phone" name="phone" placeholder="Phone: ">
+        <label for="email"></label>
+        <input type="text" id="email" name="email" placeholder="Email: ">
+        <a href="" action="mailto:roland@adsitepro.com" method="POST" enctype="multipart/form-data"><button>GET A QUOTE</button></a>
+        <input id="myBtn" type="button" name='submit' value='Schedule A Call' title='Schedule A Call' />
+        <h6>*By providing your information above you also provide written consent to Go2Domainsales.com to contact you.</h6>
+        <h6>Please see Privacy Policy below for more information.</h6>
+        </div>
+    </form>
+    </div>
 </section>
+
+<style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .modal-content {
+      background-color: purple;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid white;
+      width: 60%;
+    }
+
+    .modal-content p {
+        color: white;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    /* The Close Button */
+    .close {
+      color: white;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    </style>
+    </head>
+    <body>
+
+    <h2>Modal Example</h2>
+
+    <!-- Trigger/Open The Modal -->
+     <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>To Schedule A Call:</p>
+        <p>Choose a Date and Time from Below:</p>
+        <img src="./images/slide-24.jpg">
+      </div>
+
+    </div>
+
+    <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
 
 <?php
 include('frontend/footer.php');
