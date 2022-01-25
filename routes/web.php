@@ -25,7 +25,6 @@ Route::get('/dashboard', function () {
 //Route::get("addmore", "PremiumDomainsController@addmore");
 Route::post("domain/store", "DomainController@store");
 
-
 /*artcse example*/
 
 // Route::get( 'about', 'HomeController@index');

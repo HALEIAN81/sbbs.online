@@ -48,6 +48,23 @@ include('frontend/header.php');
 </div>
 
 <section>
+    <div class="w3-container p-tb-0" style="background-color:powderblue;">
+        <center><h2>PREMIUM DOMAINS AND APPS MARKET</h2></center>
+            @foreach($domains as $domain)
+            <div class="btn-group">
+                <button>{{ $domain->fullName() }}</button>
+            </div>
+            @endforeach
+        </div>
+</section>
+
+<section class="section-a bg-img1 p-lr-15 p-tb-160" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
+    <h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">
+        Your Source For Premium Domains And Access To Web Development Services
+    </h3>
+</section>
+
+<section>
 <div class="w3-container p-tb-0" style="background-color:powderblue;">
     <center><h2>PREMIUM DOMAINS AND APPS MARKET</h2></center>
     <div class="btn-group">
@@ -143,11 +160,12 @@ include('frontend/header.php');
     </div>
 </section>
 
-<section class="section-a bg-img1 p-lr-15 p-tb-160" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
+<section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
     <h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">
-        Your Source For Premium Domains And Access To Web Development Services
+        Get a Free Website Development Consultation today! Call us today!
     </h3>
 </section>
+
 
 <center>
     <form class="site-search" action="">
@@ -155,23 +173,6 @@ include('frontend/header.php');
       <button type="submit"><i class="fa fa-search"></i></button>
     </form>
 </center>
-
-<section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
-    <h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">
-        Get a Free Website Development Consultation today! Call us today!
-    </h3>
-</section>
-
-<section>
-    <div class="w3-container p-tb-0" style="background-color:powderblue;">
-        <center><h2>PREMIUM APPS MARKET</h2></center>
-            @foreach($domains as $domain)
-            <div class="btn-group">
-                <button>{{ $domain->fullName() }}</button>
-            </div>
-            @endforeach
-        </div>
-    </section>
 
 <section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
         <h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">
