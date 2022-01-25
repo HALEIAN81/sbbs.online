@@ -189,6 +189,7 @@ include('frontend/header.php');
  	<h3 class="" style="color:purple;">
 		Get A Quote Today!
 	</h3>
+    <p>Fill out the information below and</p>
     <p>Click the button below to contact us and get a quote on your project right away!</p>
     <form>
         <div>
@@ -200,14 +201,105 @@ include('frontend/header.php');
         <input type="number" id="phone" name="phone" placeholder="Phone: ">
         <label for="email"></label>
         <input type="text" id="email" name="email" placeholder="Email: ">
-        <a href=""><button>GET A QUOTE</button></a>
-        <h2>Or <a href="">Schedule A Call</h2></a>
+        <a href="" action="mailto:roland@adsitepro.com" method="POST" enctype="multipart/form-data"><button>GET A QUOTE</button></a>
+        <input id="myBtn" type="button" name='submit' value='Schedule A Call' title='Schedule A Call' />
         <h6>*By providing your information above you also provide written consent to Go2Domainsales.com to contact you.</h6>
         <h6>Please see Privacy Policy below for more information.</h6>
         </div>
     </form>
     </div>
 </section>
+
+<style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .modal-content {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+    }
+
+    /* The Close Button */
+    .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    </style>
+    </head>
+    <body>
+
+    <h2>Modal Example</h2>
+
+    <!-- Trigger/Open The Modal -->
+     <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>To Schedule A Call:</p>
+        <p>Choose a Date and Time from Below:</p>
+        <img src="./images/slide-24.jpg">
+      </div>
+
+    </div>
+
+    <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+
+    </body>
+    </html>
 
 <?php
 include('frontend/footer.php');

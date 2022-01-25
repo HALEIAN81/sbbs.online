@@ -161,7 +161,6 @@ include('frontend/header.php');
 </div>
 </section>
 
-
 <section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
 	<h3 class="ltext-102 cl0 txt-center font-weight:bolder" style="color:white; opacity:1.0;">
 	  Your Source For Premium Domains And Access To Web Development Services

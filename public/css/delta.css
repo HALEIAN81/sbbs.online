@@ -240,7 +240,7 @@
     border-radius: 5px;
     background-color: powderblue;
     padding: 10px;
-    box-shadow: 15px 15px 10px purple;
+    box-shadow: 12px 12px 12px purple;
 }
 
 .container-contact select, textarea {
@@ -661,7 +661,7 @@ input[type='checkbox'] {
         cursor: pointer;
         border-radius: 7px;
         transition: all 0.25s ease-out;
-        font-size: 22px;
+        font-size: 26px;
 }
 
 .lbl-toggle:hover {
@@ -810,6 +810,7 @@ li a, .dropbtn {
     text-decoration: none;
     display: block;
     text-align: center;
+    font-size: 16px;
 }
 
 .dropdown-content a:hover {background-color: #717fe0;;}
@@ -911,7 +912,7 @@ tr:nth-child(odd) td {
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -951,6 +952,7 @@ tr:nth-child(odd) td {
     font-size: 18px;
     float: left;
     margin-right: 20px;
+    margin-left: 30px;
     margin-top: 20px;
 }
 
@@ -966,6 +968,21 @@ tr:nth-child(odd) td {
 .section-quote ::placeholder {
     color: purple;
     font-weight: bolder;
+}
+
+#myBtn {
+    cursor: pointer;
+    background-color: transparent;
+    color: purple;
+    float: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 450px;
+    text-decoration: underline;
+}
+
+#myBtn:hover {
+    color: orange;
 }
 
 @media (max-width: 600px){
@@ -992,8 +1009,6 @@ tr:nth-child(odd) td {
 
 table {
     width: 50%;
-}
-
 }
 
 @media (max-width: 600px){

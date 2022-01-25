@@ -169,16 +169,16 @@
 
         <ul class="list-none mb-0">
           <li>
-            <a href="#!" class="text-white">About G2DS</a>
+            <a href="about.blade.php" class="text-white">About G2DS</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Domains for Sale</a>
+            <a href="domains.blade.php" class="text-white">Domains for Sale</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Hosting</a>
+            <a href="hosting.blade.php" class="text-white">Hosting</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Web Development</a>
+            <a href="webdev.blade.php" class="text-white">Web Development</a>
           </li>
         </ul>
       </div>
@@ -188,16 +188,16 @@
 
         <ul class="list-none mb-0">
           <li>
-            <a href="#!" class="text-white">Support</a>
+            <a href="support.blade.php" class="text-white">Support</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Login</a>
+            <a href="login.blade.php" class="text-white">Login</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Registration</a>
+            <a href="registration.blade.php" class="text-white">Registration</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Account</a>
+            <a href="dashboard.blade.php" class="text-white">Account</a>
           </li>
         </ul>
       </div>
@@ -207,16 +207,16 @@
 
         <ul class="list-none mb-0">
           <li>
-            <a href="#!" class="text-white">FAQs</a>
+            <a href="faqs.blade.php" class="text-white">FAQs</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Terms and Conditions</a>
+            <a href="tc.blade.php" class="text-white">Terms and Conditions</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Privacy Policy</a>
+            <a href="privacy-policy.blade.php" class="text-white">Privacy Policy</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Disclaimer</a>
+            <a href="disclaimer.blade.php" class="text-white">Disclaimer</a>
           </li>
         </ul>
       </div>
@@ -226,7 +226,7 @@
 
         <ul class="list-none mb-0">
           <li>
-            <a href="#!" class="text-white">Contact Us</a>
+            <a href="contact.blade.php" class="text-white">Contact Us</a>
           </li>
         </ul>
       </div>
