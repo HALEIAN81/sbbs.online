@@ -18,6 +18,7 @@
     margin: 30px auto;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-radius: 10px;
 }
 
 .section-about p {
@@ -179,6 +180,8 @@
     justify-content: center;
     font-size: 18px;
     font-weight: bolder;
+    height: 100px;
+    width: 250px;
 }
 
 .w4-container {
@@ -212,6 +215,10 @@
     margin: 15px auto;
     color: orange;
     font-size: 1.5rem;
+}
+
+.footer-desc .upperclass {
+    color: orange;
 }
 
 .footer .rounded-full:hover {
@@ -449,6 +456,7 @@
     padding-left: 20px;
     padding-right: 20px;
     justify-content: center;
+    cursor: default;
 }
 
 .containery a {
@@ -476,6 +484,11 @@
     color: purple;
     font-size: 24px;
     font-weight: bolder;
+}
+
+.containery .box:hover {
+    box-shadow: 8px 8px 8px powderblue;
+    cursor: default;
 }
 
 .containerz {
@@ -801,6 +814,7 @@ li a, .dropbtn {
     background-color: powderblue;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px purple;
+    border-radius: 5px;
     z-index: 1;
 }
 
@@ -914,6 +928,7 @@ tr:nth-child(odd) td {
     margin: auto;
     margin-bottom: 10px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .section-quote h3 {

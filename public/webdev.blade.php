@@ -229,16 +229,22 @@ include('frontend/header.php');
 
     /* Modal Content */
     .modal-content {
-      background-color: #fefefe;
+      background-color: purple;
       margin: auto;
       padding: 20px;
-      border: 1px solid #888;
-      width: 80%;
+      border: 1px solid white;
+      width: 60%;
+    }
+
+    .modal-content p {
+        color: white;
+        font-size: 22px;
+        font-weight: bolder;
     }
 
     /* The Close Button */
     .close {
-      color: #aaaaaa;
+      color: white;
       float: right;
       font-size: 28px;
       font-weight: bold;
@@ -246,7 +252,7 @@ include('frontend/header.php');
 
     .close:hover,
     .close:focus {
-      color: #000;
+      color: white;
       text-decoration: none;
       cursor: pointer;
     }
