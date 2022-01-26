@@ -35,6 +35,14 @@
 
         <div class="mb-3">
             <div class="col-auto">
+                <label for="image" class="form-label">Image:</label>
+            </div>
+            <div class="col-auto">
+            <input type="text" placeholder="add an image" name="name" class="form-control" id="image" />
+            </div>
+
+        <div class="mb-3">
+            <div class="col-auto">
                 <label for="name" class="form-label">NAME:</label>
             </div>
             <div class="col-auto">
@@ -78,18 +86,16 @@
             @enderror
         </div>
 
-
         <div class="mb-3">
             <div class="col-auto">
                 <label for="type" class="form-label">TYPE:</label>
             </div>
-            <select name="types" id="type" class="choice-type">
+            <input list="type" name="type" class="form-control" id="type">
+            <select  class="choice-type">
             <option value="DOMAIN">DOMAIN</option>
             <option value="APP">APP</option>
             <option value="both">BOTH</option>
             </select>
-
-
 
             <div class="col-auto">
                 <div id="nameHelp" class="form-text">Choose the category of item - Domain, App or Both.</div>
