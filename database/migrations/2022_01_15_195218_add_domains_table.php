@@ -23,8 +23,9 @@ class AddDomainsTable extends Migration
 
             $table->integer('price');
 
-            $table->timestamps();
+            $table->enum('type', ['DOMAINS', 'APP', 'BOTH'])->default('DOMAINS');
 
+            $table->timestamps();
         });
     }
 

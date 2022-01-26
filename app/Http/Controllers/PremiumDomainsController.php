@@ -60,6 +60,8 @@ class ProductAddMoreController extends Controller
 
             'addmore.*.price' => 'required',
 
+            'addmore.*.type' => 'required',
+
         ]);
 
 

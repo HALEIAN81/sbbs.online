@@ -23,7 +23,6 @@ include('frontend/header.php');
 		</h3>
 	</section>
 
-
 	<!-- Content page -->
 	<section class="section-b bg0 p-t-104 p-b-116" style="background-color:powderblue;">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -47,7 +46,6 @@ include('frontend/header.php');
              varius. Ultrices tincidunt arcu non sodales neque. In eu mi bibendum neque egestas congue quisque egestas diam. Molestie ac feugiat
              sed lectus vestibulum mattis ullamcorper. Varius duis at consectetur lorem donec. At erat pellentesque adipiscing commodo elit at.
         </p>
-
 	</section>
 
 <?php

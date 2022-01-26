@@ -50,7 +50,7 @@
 
         <div class="mb-3">
             <div class="col-auto">
-                <label for="domain_name" class="form-label">APPNAME:</label>
+                <label for="domain_name" class="form-label">APP OR DOMAIN NAME:</label>
             </div>
             <div class="col-auto">
                 <input type="text" placeholder="enter domain/app name" name="domain_name" class="form-control" id="domain_name" aria-describedby="nameHelp" />
@@ -78,8 +78,29 @@
             @enderror
         </div>
 
-        <input type="submit" value="SUBMIT" class="btn btn-primary" />
-        <h2>WANT TO SPONSOR YOUR APP FOR MORE VIEWS, USE FORM BELOW</h2>
+
+        <div class="mb-3">
+            <div class="col-auto">
+                <label for="type" class="form-label">TYPE:</label>
+            </div>
+            <select name="types" id="type" class="choice-type">
+            <option value="DOMAIN">DOMAIN</option>
+            <option value="APP">APP</option>
+            <option value="both">BOTH</option>
+            </select>
+
+
+
+            <div class="col-auto">
+                <div id="nameHelp" class="form-text">Choose the category of item - Domain, App or Both.</div>
+            </div>
+            @error('name')
+                <div class="alert alert-danger">{{ $message }}</div>
+            @enderror
+        </div>
+
+        <input type="submit" value="SUBMIT" class="btn-addad btn-primary" />
+        <h2 class="sponsor-call">WANT TO SPONSOR YOUR APP FOR MORE VIEWS, USE FORM BELOW</h2>
         </div>
     </form>
 

@@ -25,7 +25,7 @@
                         @auth
                             <a href="{{ url('/dashboard') }}" style="color: white;  text-decoration:none" class="dashboard text-sm text-white-700 dark:text-white-500">DASHBOARD</a>
                         @else
-                            <a href="{{ route('login') }}" style="color: white; text-decoration:none" class="user-login font-bold text-sm text-white hover:orange dark:text-white-500">LOGIN</a>
+                            <a href="{{ route('login') }}" style="color: white; text-decoration:none" class="user-login font-bold text-sm text-white dark:text-white-500">LOGIN</a>
 
                             @if (Route::has('register'))
                                 <a href="{{ route('register') }}" style="color: white; text-decoration:none" class="user-register font-bold ml-4 text-sm text-white dark:text-white-500">REGISTER</a>
@@ -37,7 +37,7 @@
     </div>
 <div>
 
-    <?php
+<?php
 include('frontend/head.php');
 ?>
 <body>
@@ -184,7 +184,7 @@ include('frontend/header.php');
               marketability of the domains they wish to re-sell while also promoting those sites
               here.
             </p>
-            <center><a href="domains.blade.php"><div class="text-black hover:text-red-300">LEARN MORE </div></a></center>
+            <center><a href="domains.blade.php"><div class="text-purple-800 hover:text-red-300">LEARN MORE </div></a></center>
         </div>
         <div class="box">
             <img src="./images/slide-07.jpg">
@@ -195,7 +195,7 @@ include('frontend/header.php');
               with setting up your SSL certificates for optimal security as well as database
               support for our clients so you can rest easy that your client's data is protected and safe.
             </p>
-            <center><a href="hosting.blade.php"><div class="text-black hover:text-red-300">LEARN MORE </div></a></center>
+            <center><a href="hosting.blade.php"><div class="text-purple-800 hover:text-red-300">LEARN MORE </div></a></center>
         </div>
 
           <div class="box">
@@ -207,8 +207,8 @@ include('frontend/header.php');
               increases your web traffic while your custom design creates a unique user experience
               for your portfolio, ecommerce or business services site.
             </p>
-            <center><a href="webdev.blade.php"><div class="text-black hover:text-red-300">LEARN MORE </div></a></center>
-    </div>
+            <center><a href="webdev.blade.php"><div class="text-purple-800 hover:text-red-300">LEARN MORE </div></a></center>
+        </div>
 </div>
 
 <section class="section-quote p-tb-40" style="background-color: powderblue;">

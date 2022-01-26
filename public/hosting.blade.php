@@ -32,7 +32,7 @@ include('frontend/header.php');
 		</center>
 	</div>
 
-	<div class="containery" style="background-image: url('./images/slide-12.jpg');">
+	<div class="containery" style="background-color:black;">
               <div class="box">
                 <img src="./images/slide-13.jpg">
                 <h3>Small Business Website Hosting</h3>
@@ -107,7 +107,7 @@ include('frontend/header.php');
     </h1>
 </section>
 
-<div class="containery" style="background-image: url('./images/slide-12.jpg');">
+<div class="containery" style="background-color:black;">
           <div class="box">
             <img src="./images/slide-21.jpg">
             <h3>Free Hosting Consultation</h3>

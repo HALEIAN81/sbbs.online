@@ -215,6 +215,7 @@
     margin: 15px auto;
     color: orange;
     font-size: 1.5rem;
+
 }
 
 .footer-desc .uppercase h5 {
@@ -339,12 +340,11 @@
 .container-details .box {
     width: 1500px;
     margin: 30px;
-    box-shadow: 10px 10px 10px powderblue;
     cursor: default;
 }
 
 .container-details .box:hover {
-    box-shadow: 15px 15px powderblue;
+    box-shadow: 10px 10px 10px powderblue;
 }
 
 .container-details p {
@@ -396,7 +396,7 @@
 }
 
 .container-details .da-description h5 {
-    margin: 0px 5px 0px 0px;
+    margin: 0px 5px 5px 5px;
     padding-left: 20px 20px 20px 20px;
     color: purple;
     font-weight: bolder;
@@ -421,11 +421,12 @@
     margin: 30px 20px 20px 20px;
     border-radius: 10px;
     padding: 5px;
-    box-shadow: 10px 10px grey;
+
 }
 
 .container-details .listing-link:hover {
     background-color: orange;
+    box-shadow: 10px 10px 10px powderblue;
 }
 
 .container-details .track {
@@ -436,11 +437,12 @@
     padding: 5px;
     clear: left;
     float: right;
-    box-shadow: 5px 5px grey;
+
 }
 
 .container-details .track:hover {
     background-color: purple;
+    box-shadow: 5px 5px 5px powderblue;
 }
 
 /*end flippa cards section */
@@ -1019,6 +1021,60 @@ tr:nth-child(odd) td {
 #myBtn:hover {
     color: orange;
 }
+/*dashboard insert apps and domains table */
+
+.mb-3 {
+    background-color: white;
+    color: black;
+}
+
+.col-auto label {
+    color: purple;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.col-auto .form-text {
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
+    margin: auto;
+    font-size: 18px;
+    clear: left;
+}
+
+.choice-type {
+    margin: 10px 20px auto;
+    color: purple;
+    font-weight: bolder;
+}
+
+.btn-addad {
+    width: 25%;
+    float: center;
+    margin: auto;
+    padding: 10px;
+    background-color: purple;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.btn-addad:hover {
+    background-color: orange;
+}
+
+.sponsor-call {
+    float: center;
+    margin: 20px auto;
+
+}
+
+.domains-table1 {
+    background-color: lightblue;
+    color: purple;
+}
+
 
 @media (max-width: 600px){
 
