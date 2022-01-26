@@ -1,3 +1,17 @@
+<div class="sidenav">
+    <a href="about.blade.php">About</a>
+    <a href="webdev.blade.php">Services</a>
+    <a href="support.blade.php">Support</a>
+    <a href="contact.blade.php">Contact</a>
+  </div>
+
+  <!-- Page content -->
+  <div class="main">
+    ...
+  </div>
+
+
+
 <x-app-layout>
 
     <link rel="stylesheet" type="text/css" href="css/delta.css">
@@ -38,8 +52,15 @@
                 <label for="image" class="form-label">Image:</label>
             </div>
             <div class="col-auto">
-            <input type="text" placeholder="add an image" name="name" class="form-control" id="image" />
+                <input type="text" placeholder="UPLOAD YOUR IMAGE HERE" name="image" class="form-control" id="image" aria-describedby="nameHelp" />
             </div>
+            <div class="col-auto">
+                <div id="nameHelp" class="form-text">Please upload appropriate image to represent your app or domain.</div>
+            </div>
+            @error('name')
+                <div class="alert alert-danger">{{ $message }}</div>
+            @enderror
+        </div>
 
         <div class="mb-3">
             <div class="col-auto">
@@ -111,5 +132,7 @@
     </form>
 
 </div>
+
+
 
 </x-app-layout>

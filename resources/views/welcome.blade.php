@@ -49,7 +49,7 @@ include('frontend/header.php');
 
 <section>
     <div class="w3-container p-tb-0" style="background-color:powderblue;">
-        <center><h2>PREMIUM DOMAINS AND APPS MARKET</h2></center>
+        <h2>PREMIUM DOMAINS AND APPS MARKET</h2>
             @foreach($domains as $domain)
             <div class="btn-group">
                 <button>{{ $domain->fullName() }}</button>

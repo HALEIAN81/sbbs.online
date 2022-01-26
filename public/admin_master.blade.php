@@ -84,9 +84,6 @@
 
               <!-- sidebar menu -->
               <ul class="nav sidebar-inner" id="sidebar-menu">
-
-
-
                   <li  class="has-sub active expand" >
                     <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#dashboard"
                       aria-expanded="false" aria-controls="dashboard">
@@ -209,7 +206,6 @@
                               <li >
                                 <a href="tab.html">Tab</a>
                               </li>
-
                             </div>
                           </ul>
                         </li>
@@ -286,9 +282,6 @@
                           </ul>
                         </li>
 
-
-
-
                         <li  class="has-sub" >
                           <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#widgets"
                             aria-expanded="false" aria-controls="widgets">
@@ -309,15 +302,9 @@
                           </ul>
                         </li>
 
-
-
                       </div>
                     </ul>
                   </li>
-
-
-
-
 
                   <li  class="has-sub" >
                     <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#charts"
@@ -328,8 +315,6 @@
                     <ul  class="collapse"  id="charts"
                       data-parent="#sidebar-menu">
                       <div class="sub-menu">
-
-
 
                             <li >
                               <a class="sidenav-item-link" href="chartjs.html">
@@ -351,8 +336,6 @@
                     <ul  class="collapse"  id="pages"
                       data-parent="#sidebar-menu">
                       <div class="sub-menu">
-
-
 
                             <li >
                               <a class="sidenav-item-link" href="user-profile.html">
