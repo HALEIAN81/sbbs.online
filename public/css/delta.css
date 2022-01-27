@@ -1051,6 +1051,11 @@ tr:nth-child(odd) td {
     font-weight: bolder;
 }
 
+form h3 {
+    color: purple;
+    font-weight: bolder;
+}
+
 .btn-addad {
     width: 25%;
     float: center;

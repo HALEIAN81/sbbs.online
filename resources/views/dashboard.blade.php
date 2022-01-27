@@ -10,8 +10,6 @@
     ...
   </div>
 
-
-
 <x-app-layout>
 
     <link rel="stylesheet" type="text/css" href="css/delta.css">
@@ -26,7 +24,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
-                    You're logged in! Welcome to Go2DomainSales!
+                    <p>You're logged in! Welcome to Go2DomainSales!</p>
                 </div>
             </div>
         </div>
@@ -52,7 +50,7 @@
                 <label for="image" class="form-label">Image:</label>
             </div>
             <div class="col-auto">
-                <input type="text" placeholder="UPLOAD YOUR IMAGE HERE" name="image" class="form-control" id="image" aria-describedby="nameHelp" />
+                <input type="file" placeholder="UPLOAD YOUR IMAGE HERE" name="image" class="form-control" id="image" aria-describedby="nameHelp" />
             </div>
             <div class="col-auto">
                 <div id="nameHelp" class="form-text">Please upload appropriate image to represent your app or domain.</div>
