@@ -17,6 +17,7 @@
         }
 
         $id = $_REQUEST['id'];
+        $image = $_REQUEST['image'];
         $name = $_REQUEST['name'];
         $domain_name = $_REQUEST['domain_name'];
         $price = $_REQUEST['price'];

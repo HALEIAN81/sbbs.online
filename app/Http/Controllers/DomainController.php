@@ -12,8 +12,10 @@ class DomainController extends Controller
 
         $validator = Validator::make($request->all(), [
             'name' => 'required|min:3|max:50',
+            'image' => 'required|min:3|max:200',
             'domain_name' => 'required|unique:domains|min:3|max:128',
-            'price' => 'required|numeric|min:0,max:10000'
+            'price' => 'required|numeric|min:0,max:10000',
+            'type' => 'required|enum|min:3,max:10'
         ]);
 
         $domain = new Domain();

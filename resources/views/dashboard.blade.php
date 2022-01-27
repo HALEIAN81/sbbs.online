@@ -3,6 +3,10 @@
     <a href="webdev.blade.php">Services</a>
     <a href="support.blade.php">Support</a>
     <a href="contact.blade.php">Contact</a>
+    <a href="hosting.blade.php">Hosting</a>
+    <a href="careers.blade.php">Careers</a>
+    <a href="faqs.blade.php">FAQS</a>
+    <a href="index.php">Home</a>
   </div>
 
   <!-- Page content -->
@@ -12,10 +16,10 @@
 
 <x-app-layout>
 
-    <link rel="stylesheet" type="text/css" href="css/delta.css">
+    <link rel="stylesheet" type="text/css" href="/css/delta.css">
 
     <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+        <h2 class="header-dashboard font-semibold text-xl text-gray-800 leading-tight">
             {{ __('Go2DomainSales Dashboard') }}
         </h2>
     </x-slot>
@@ -23,7 +27,7 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 bg-white border-b border-gray-200">
+                <div class="welcome-para p-10 border-b border-gray-200">
                     <p>You're logged in! Welcome to Go2DomainSales!</p>
                 </div>
             </div>
@@ -50,7 +54,7 @@
                 <label for="image" class="form-label">Image:</label>
             </div>
             <div class="col-auto">
-                <input type="file" placeholder="UPLOAD YOUR IMAGE HERE" name="image" class="form-control" id="image" aria-describedby="nameHelp" />
+                <input type="file"  name="image" class="form-control" id="image" aria-describedby="nameHelp" />
             </div>
             <div class="col-auto">
                 <div id="nameHelp" class="form-text">Please upload appropriate image to represent your app or domain.</div>

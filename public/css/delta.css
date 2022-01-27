@@ -497,6 +497,7 @@
     color: purple;
     font-size: 20px;
     line-height: 1.7em;
+    font-weight: bold;
 }
 
 .containery h3 {
@@ -601,6 +602,21 @@ h3,p{
 p{
     font-size: 15px;
     padding: 0 5px;
+}
+
+.py-12 {
+    background-color: white;
+}
+
+.welcome-para p {
+    font-size: 24px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+
+.bg-white {
+    background-color: purple;
 }
 
 /* Add a black background color to the top navigation */
@@ -758,6 +774,7 @@ input[type='checkbox'] {
 
 .user-login {
     padding-left: 1950px;
+    color: white;
 }
 
 .user-login:hover {
@@ -765,11 +782,12 @@ input[type='checkbox'] {
 }
 
 .user-register {
-    color: orange;
+    color: white;
 }
 
 .dashboard {
     padding-left: 2000px;
+    color: white;
 }
 
 .dashboard:hover {
@@ -1050,6 +1068,21 @@ tr:nth-child(odd) td {
     color: purple;
     font-weight: bolder;
 }
+
+.main {
+    background-color: black;
+}
+
+.header-dashboard {
+    background-color: cornflowerblue;
+    align-items: center;
+    float: center;
+    margin: auto;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
 
 form h3 {
     color: purple;
