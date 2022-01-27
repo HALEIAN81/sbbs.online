@@ -25,7 +25,7 @@
                         @auth
                             <a href="dashboard" style="{color: white; :visited {color: white :hover color: orange} text-decoration:none" class="dashboard text-sm text-white-700 dark:text-white-500">DASHBOARD</a>
                         @else
-                            <a href="{{ route('login') }}" style="color: white; text-decoration:none" class="user-login font-bold text-sm text-white dark:text-white-500">LOGIN</a>
+                            <a href="{{ route('login') }}" style="color: white; text-decoration:none :visited {color: white :hover color: orange}" class="user-login font-bold text-sm text-white dark:text-white-500">LOGIN</a>
 
                             @if (Route::has('register'))
                                 <a href="{{ route('register') }}" style="color: white; text-decoration:none" class="user-register font-bold ml-4 text-sm text-white dark:text-white-500">REGISTER</a>

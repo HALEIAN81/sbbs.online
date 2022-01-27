@@ -34,7 +34,6 @@ include('frontend/header.php');
 	</center>
 	</div>
 
-
     <div class="containery" style="background-color:black;">
               <div class="box">
                 <img src="./images/slide-16.jpg">
