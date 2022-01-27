@@ -52,7 +52,7 @@ include('frontend/header.php');
         <h2>PREMIUM DOMAINS AND APPS MARKET</h2>
             @foreach($domains as $domain)
             <div class="btn-group">
-                <button>{{ $domain->fullName() }}</button>
+               <a href="inventory_table.blade.php"><button>{{ $domain->fullName() }}</button></a>
             </div>
             @endforeach
         </div>

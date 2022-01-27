@@ -165,6 +165,116 @@ include('frontend/header.php');
             <td>Ads/Video</td>
             <td>ACTIVE</td>
           </tr>
+          <tr>
+            <td>000012</td>
+            <td>Lani Co</td>
+            <td>LaniInc.com</td>
+            <td><button type="submit" class="table-search" title="Click here to search our site for similar domains/apps"><i class="fa fa-search"></button></td>
+            <td>$99</td>
+            <td>Business</td>
+            <td>Ads/Video</td>
+            <td>ACTIVE</td>
+          </tr>
+          <tr>
+            <td>000013</td>
+            <td>Lani Co</td>
+            <td>LaniInc.com</td>
+            <td><button type="submit" class="table-search" title="Click here to search our site for similar domains/apps"><i class="fa fa-search"></button></td>
+            <td>$99</td>
+            <td>Business</td>
+            <td>Ads/Video</td>
+            <td>ACTIVE</td>
+            </tr>
+            <tr>
+            <td>000014</td>
+            <td>Lani Co</td>
+            <td>LaniInc.com</td>
+            <td><button type="submit" class="table-search" title="Click here to search our site for similar domains/apps"><i class="fa fa-search"></button></td>
+            <td>$99</td>
+            <td>Business</td>
+            <td>Ads/Video</td>
+            <td>ACTIVE</td>
+            </tr>
+            <tr>
+            <td>000015</td>
+            <td>Lani Co</td>
+            <td>LaniInc.com</td>
+            <td><button type="submit" class="table-search" title="Click here to search our site for similar domains/apps"><i class="fa fa-search"></button></td>
+            <td>$99</td>
+            <td>Business</td>
+            <td>Ads/Video</td>
+            <td>ACTIVE</td>
+            </tr>
+            <tr>
+            <td>000016</td>
+            <td>Lani Co</td>
+            <td>LaniInc.com</td>
+            <td><button type="submit" class="table-search" title="Click here to search our site for similar domains/apps"><i class="fa fa-search"></button></td>
+            <td>$99</td>
+            <td>Business</td>
+            <td>Ads/Video</td>
+            <td>ACTIVE</td>
+            </tr>
+            <tr>
+            <td>000017</td>
+            <td>Lani Co</td>
+            <td>LaniInc.com</td>
+            <td><button type="submit" class="table-search" title="Click here to search our site for similar domains/apps"><i class="fa fa-search"></button></td>
+            <td>$99</td>
+            <td>Business</td>
+            <td>Ads/Video</td>
+            <td>ACTIVE</td>
+            </tr>
+            <tr>
+            <td>000018</td>
+            <td>Lani Co</td>
+            <td>LaniInc.com</td>
+            <td><button type="submit" class="table-search" title="Click here to search our site for similar domains/apps"><i class="fa fa-search"></button></td>
+            <td>$99</td>
+            <td>Business</td>
+            <td>Ads/Video</td>
+            <td>ACTIVE</td>
+            </tr>
+            <tr>
+            <td>000019</td>
+            <td>Lani Co</td>
+            <td>LaniInc.com</td>
+            <td><button type="submit" class="table-search" title="Click here to search our site for similar domains/apps"><i class="fa fa-search"></button></td>
+            <td>$99</td>
+            <td>Business</td>
+            <td>Ads/Video</td>
+            <td>ACTIVE</td>
+            </tr>
+            <tr>
+              <td>000020</td>
+              <td>Lani Co</td>
+              <td>LaniInc.com</td>
+              <td><button type="submit" class="table-search" title="Click here to search our site for similar domains/apps"><i class="fa fa-search"></button></td>
+              <td>$99</td>
+              <td>Business</td>
+              <td>Ads/Video</td>
+              <td>ACTIVE</td>
+            </tr>
+            <tr>
+              <td>000021</td>
+              <td>Lani Co</td>
+              <td>LaniInc.com</td>
+              <td><button type="submit" class="table-search" title="Click here to search our site for similar domains/apps"><i class="fa fa-search"></button></td>
+              <td>$99</td>
+              <td>Business</td>
+              <td>Ads/Video</td>
+              <td>ACTIVE</td>
+            </tr>
+            <tr>
+              <td>000022</td>
+              <td>Lani Co</td>
+              <td>LaniInc.com</td>
+              <td><button type="submit" class="table-search" title="Click here to search our site for similar domains/apps"><i class="fa fa-search"></button></td>
+              <td>$99</td>
+              <td>Business</td>
+              <td>Ads/Video</td>
+              <td>ACTIVE</td>
+            </tr>
       </tbody>
     </table>
     </div>
