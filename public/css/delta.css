@@ -175,7 +175,7 @@
     color: purple;
 }
 
-.w3-container button {
+.w3-container button, img {
     display: inline-block;
     float: left;
     clear: right;

@@ -50,7 +50,8 @@ include('frontend/header.php');
         <h2>PREMIUM DOMAINS AND APPS MARKET</h2>
             @foreach($domains as $domain)
             <div class="btn-group">
-               <a href="inventory_table.blade.php"><button>{{ $domain->fullName() }}</button></a>
+
+               <a href="inventory_table.blade.php"><button><img src="{{ URL::to('./images/icons/favicon-16x16.png') }}">{{ $domain->fullName() }}</button></a>
             </div>
             @endforeach
         </div>
