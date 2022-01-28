@@ -9,7 +9,7 @@ class Domain extends Model
 {
     use HasFactory;
 
-    public $fillable = ['id', 'name', 'image', 'domain_name', 'price', 'type'];
+    public $fillable = ['id', 'name', 'domain_name', 'price', 'type'];
 
     public function fullName(){
         return $this->domain_name . ' [Image] ' . $this->image . ' $' . $this->price . ' by ' . $this->name . ' ' . $this->type;

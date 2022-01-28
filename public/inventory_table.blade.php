@@ -56,7 +56,7 @@ include('frontend/header.php');
       </thead>
       <tbody>
         <tr>
-          <td>Lani Co</td>
+          <td>{{ $name->fullname }}</td>
           <td>LaniInc.com</td>
           <td><a href="index.php"><button type="submit" class="table-search" title="Click here to search our site for similar domains/apps"><i class="fa fa-search fa-lg"></button></td></a>
           <td>$99</td>

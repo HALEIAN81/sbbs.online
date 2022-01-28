@@ -36,7 +36,7 @@
 
     <div class="container">
 
-    <form id="appdom-form" class="domains-table1 card card-body" action="domain/store" method="post">
+    <form id="appdom-form" class="domains-table1 card card-body" action="domain/store" enctype="multipart/form-data" method="post">
         @csrf
         <h3>ADD YOUR PREMIUM DOMAINS OR APPS HERE</h3>
 
@@ -59,7 +59,7 @@
             <div class="col-auto">
                 <div id="nameHelp" class="form-text">Please upload appropriate image to represent your app or domain.</div>
             </div>
-            @error('name')
+            @error('image')
                 <div class="alert alert-danger">{{ $message }}</div>
             @enderror
         </div>
@@ -89,7 +89,7 @@
             <div class="col-auto">
                 <div id="nameHelp" class="form-text">Please place the full name of your app or domain - you may exclude https:// and www.</div>
             </div>
-            @error('name')
+            @error('domain_name')
                 <div class="alert alert-danger">{{ $message }}</div>
             @enderror
         </div>
@@ -99,12 +99,12 @@
                 <label for="price" class="form-label">PRICE:</label>
             </div>
             <div class="col-auto">
-                <input type="number" placeholder="enter price/starting bid" name="price" class="form-control" id="price" aria-describedby="nameHelp" />
+                <input type="number" placeholder="enter price/starting bid" name="price" class="form-control @error('price') is-invalid @enderror " id="price" aria-describedby="nameHelp" />
             </div>
             <div class="col-auto">
                 <div id="nameHelp" class="form-text">Place the entry level price.</div>
             </div>
-            @error('name')
+            @error('price')
                 <div class="alert alert-danger">{{ $message }}</div>
             @enderror
         </div>
@@ -113,17 +113,16 @@
             <div class="col-auto">
                 <label for="type" class="form-label">TYPE:</label>
             </div>
-            <input list="type" name="type" class="form-control" id="type">
-            <select  class="choice-type">
+            <select  class="choice-type" name="type">
             <option value="DOMAIN">DOMAIN</option>
             <option value="APP">APP</option>
-            <option value="both">BOTH</option>
+            <option value="BOTH">BOTH</option>
             </select>
 
             <div class="col-auto">
                 <div id="nameHelp" class="form-text">Choose the category of item - Domain, App or Both.</div>
             </div>
-            @error('name')
+            @error('type')
                 <div class="alert alert-danger">{{ $message }}</div>
             @enderror
         </div>

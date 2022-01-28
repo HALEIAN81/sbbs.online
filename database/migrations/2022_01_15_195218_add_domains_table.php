@@ -16,15 +16,11 @@ class AddDomainsTable extends Migration
         Schema::create('domains', function (Blueprint $table) {
 
             $table->bigIncrements('id');
-
             $table->string('name');
-
+            $table->string('image');
             $table->char('domain_name');
-
             $table->integer('price');
-
-            $table->enum('type', ['DOMAINS', 'APP', 'BOTH'])->default('DOMAINS');
-
+            $table->string('type', 8)->default('DOMAINS');
             $table->timestamps();
         });
     }
@@ -36,6 +32,6 @@ class AddDomainsTable extends Migration
      */
     public function down()
     {
-        Schema::dropifExists('add_domains');
+        Schema::dropifExists('domains');
     }
 }
