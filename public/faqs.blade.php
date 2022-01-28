@@ -148,7 +148,6 @@
 		<input id="{{collapsible8}}" class="toggle" type="checkbox">
 		<label for="{{collapsible8}}" class="lbl-toggle" style="background-color: powderblue">APPS</label>
 		<div class="collapsible-content">
-
 			<div class="content-inner" style="background-color: powderblue">
 				<h5>QUESTION: What kind of apps services do you offer?</h5>
                 <p>ANSWER: We provide full app development services - including development of React Native or Angular mobile apps for Android, or apps with Swift or Xamarin for IOS. An app combination with your
@@ -176,10 +175,8 @@
 			Your Source For Premium Domains And Access To Web Development Services
 		</h3>
 	</section>
-	<!-- Content page -->
-	<!-- <section class="bg0 p-t-104 p-b-116" style="background-color:powderblue;">
 
-	</section>	 -->
+
 
 <?php
 include('frontend/footer.php');

@@ -9,15 +9,9 @@
     <a href="index.php">Home</a>
   </div>
 
-  <!-- Page content -->
-  <div class="main">
-    ...
-  </div>
+<link rel="stylesheet" type="text/css" href="/css/delta.css">
 
 <x-app-layout>
-
-    <link rel="stylesheet" type="text/css" href="/css/delta.css">
-
     <x-slot name="header">
         <h2 class="header-dashboard font-semibold text-xl text-gray-800 leading-tight">
             {{ __('Go2DomainSales Dashboard') }}
@@ -133,7 +127,4 @@
     </form>
 
 </div>
-
-
-
 </x-app-layout>

@@ -250,7 +250,7 @@
     border-radius: 5px;
     background-color: powderblue;
     padding: 10px;
-    box-shadow: 8px 8px 8px purple;
+    box-shadow: 5px 8px 8px purple;
 }
 
 .container-contact select, textarea {
@@ -341,12 +341,12 @@
 
 .container-details .box {
     width: 1500px;
-    margin: 30px;
+    margin: 10px;
     cursor: default;
 }
 
 .container-details .box:hover {
-    box-shadow: 10px 10px 10px powderblue;
+    box-shadow: 5px 10px 10px powderblue;
 }
 
 .container-details p {
@@ -550,7 +550,7 @@
 }
 
 .containery .box:hover {
-    box-shadow: 8px 8px 8px powderblue;
+    box-shadow: 5px 8px 8px powderblue;
     cursor: default;
 }
 

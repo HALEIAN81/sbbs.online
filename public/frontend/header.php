@@ -25,6 +25,7 @@
       <a href="domains.blade.php">Premium Domains</a>
       <a href="">Sponsored Listings</a>
       <a href="inventory_table.blade.php">Full Domains Inventory</a>
+      <a href="ad_details.blade.php">Apps and Domains Details</a>
     </div>
     </li>
     </ul>
@@ -35,6 +36,7 @@
       <a href="">Premium Apps</a>
       <a href="">Sponsored Listings</a>
       <a href="">Full Apps Inventory</a>
+      <a href="ad_details.blade.php">Apps and Domains Details</a>
     </div>
     </li>
     </ul>
