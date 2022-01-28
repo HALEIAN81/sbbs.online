@@ -54,7 +54,7 @@
                 <label for="image" class="form-label">Image:</label>
             </div>
             <div class="col-auto">
-                <input type="file"  name="image" class="form-control" id="image" aria-describedby="nameHelp" />
+                <input type="file"  name="image" class="form-control" id="image_id" aria-describedby="nameHelp" />
             </div>
             <div class="col-auto">
                 <div id="nameHelp" class="form-text">Please upload appropriate image to represent your app or domain.</div>

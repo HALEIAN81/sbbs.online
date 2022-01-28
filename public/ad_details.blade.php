@@ -63,7 +63,7 @@ include('frontend/header.php');
                   </div>
 
                   <div>
-                    <button class="listing-link" type="button">Listing Detail</button>
+                    <a href="chart_info.blade.php"><button class="listing-link" type="button">Listing Detail</button></a>
                 </div>
                 <div>
                     <button class="track" type="button">Keep Track</button>

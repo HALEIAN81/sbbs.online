@@ -29,7 +29,7 @@ Route::get('/g2d', function() {
 });
 
 Route::get('/g2d', function() {
-    $adDescriptions = ['images/slide-06.jpg', 'images/slide-11.jpg', 'images/slide-12.jpg'];
+    $adDescriptions = ['images/slide-06.jpg', 'images/slide-11.jpg', 'images/slide-08.jpg'];
     return view('g2d', ['adDescriptions' => $adDescriptions]);
 });
 
