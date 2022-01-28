@@ -73,7 +73,7 @@ include('frontend/header.php');
             <td>Business</td>
             <td>Ads/Video</td>
             <td>ACTIVE</td>
-            <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+            <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
         </tr>
           <tr>
             <td>Lani Co</td>
@@ -83,7 +83,7 @@ include('frontend/header.php');
             <td>Business</td>
             <td>Ads/Video</td>
             <td>ACTIVE</td>
-            <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+            <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
 
           </tr>
           <tr>
@@ -94,7 +94,7 @@ include('frontend/header.php');
             <td>Business</td>
             <td>Ads/Video</td>
             <td>ACTIVE</td>
-            <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+            <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
 
           </tr>
           <tr>
@@ -105,7 +105,7 @@ include('frontend/header.php');
             <td>Business</td>
             <td>Ads/Video</td>
             <td>ACTIVE</td>
-            <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+            <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
 
           </tr>
           <tr>
@@ -116,7 +116,7 @@ include('frontend/header.php');
             <td>Business</td>
             <td>Ads/Video</td>
             <td>ACTIVE</td>
-            <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+            <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
 
           </tr>
           <tr>
@@ -127,7 +127,7 @@ include('frontend/header.php');
             <td>Business</td>
             <td>Ads/Video</td>
             <td>ACTIVE</td>
-            <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+            <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
 
           </tr>
           <tr>
@@ -138,7 +138,7 @@ include('frontend/header.php');
             <td>Business</td>
             <td>Ads/Video</td>
             <td>ACTIVE</td>
-            <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+            <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
 
           </tr>
           <tr>
@@ -149,7 +149,7 @@ include('frontend/header.php');
             <td>Business</td>
             <td>Ads/Video</td>
             <td>ACTIVE</td>
-            <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+            <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
 
           </tr>
           <tr>
@@ -160,7 +160,7 @@ include('frontend/header.php');
             <td>Business</td>
             <td>Ads/Video</td>
             <td>ACTIVE</td>
-            <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+            <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
 
           </tr>
           <tr>
@@ -171,7 +171,7 @@ include('frontend/header.php');
             <td>Business</td>
             <td>Ads/Video</td>
             <td>ACTIVE</td>
-            <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+            <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
 
           </tr>
           <tr>
@@ -182,7 +182,7 @@ include('frontend/header.php');
             <td>Business</td>
             <td>Ads/Video</td>
             <td>ACTIVE</td>
-            <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+            <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
 
           </tr>
           <tr>
@@ -193,7 +193,7 @@ include('frontend/header.php');
             <td>Business</td>
             <td>Ads/Video</td>
             <td>ACTIVE</td>
-            <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+            <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
 
             </tr>
             <tr>
@@ -204,7 +204,7 @@ include('frontend/header.php');
             <td>Business</td>
             <td>Ads/Video</td>
             <td>ACTIVE</td>
-            <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+            <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
 
             </tr>
             <tr>
@@ -215,7 +215,7 @@ include('frontend/header.php');
             <td>Business</td>
             <td>Ads/Video</td>
             <td>ACTIVE</td>
-            <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+            <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
 
             </tr>
             <tr>
@@ -226,7 +226,7 @@ include('frontend/header.php');
             <td>Business</td>
             <td>Ads/Video</td>
             <td>ACTIVE</td>
-            <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+            <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
 
             </tr>
             <tr>
@@ -237,7 +237,7 @@ include('frontend/header.php');
             <td>Business</td>
             <td>Ads/Video</td>
             <td>ACTIVE</td>
-            <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+            <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
 
             </tr>
             <tr>
@@ -248,7 +248,8 @@ include('frontend/header.php');
             <td>Business</td>
             <td>Ads/Video</td>
             <td>ACTIVE</td>
-            <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+            <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
+
 
             </tr>
             <tr>
@@ -259,18 +260,7 @@ include('frontend/header.php');
             <td>Business</td>
             <td>Ads/Video</td>
             <td>ACTIVE</td>
-            <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
-
-            </tr>
-            <tr>
-              <td>Lani Co</td>
-              <td>LaniInc.com</td>
-              <td><button type="submit" class="table-search" title="Click here to search our site for similar domains/apps"><i class="fa fa-search fa-lg"></button></td>
-              <td>$99</td>
-              <td>Business</td>
-              <td>Ads/Video</td>
-              <td>ACTIVE</td>
-              <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+            <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
 
             </tr>
             <tr>
@@ -281,7 +271,18 @@ include('frontend/header.php');
               <td>Business</td>
               <td>Ads/Video</td>
               <td>ACTIVE</td>
-              <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+              <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
+
+            </tr>
+            <tr>
+              <td>Lani Co</td>
+              <td>LaniInc.com</td>
+              <td><button type="submit" class="table-search" title="Click here to search our site for similar domains/apps"><i class="fa fa-search fa-lg"></button></td>
+              <td>$99</td>
+              <td>Business</td>
+              <td>Ads/Video</td>
+              <td>ACTIVE</td>
+              <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
 
             <tr>
               <td>Lani Co</td>
@@ -291,7 +292,7 @@ include('frontend/header.php');
               <td>Business</td>
               <td>Ads/Video</td>
               <td>ACTIVE</td>
-              <td><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td>
+              <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
 
             </tr>
       </tbody>
