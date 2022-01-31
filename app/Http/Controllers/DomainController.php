@@ -28,12 +28,15 @@ class DomainController extends Controller
 
         return redirect()->back()->with('success', 'Success!!!');
 
-        public function index ( Request $request) {
-
-            return view('inventory');
         }
-    }
 }
+
+    public function index ( Request $request) {
+
+        return view('inventory');
+    }
+
+
 
 
 
