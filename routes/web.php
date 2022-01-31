@@ -21,9 +21,7 @@ Route::get('dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-Route::get('/inventory', function () {
-
-})
+Route::get('/inventory', 'DomainController@index';
 
 
 Route::post("domain/store", "DomainController@store");

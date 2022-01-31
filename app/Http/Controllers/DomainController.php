@@ -19,13 +19,6 @@ class DomainController extends Controller
             'type' => 'required|string|min:3,max:10',
         ]);
 
-    public function index ( Request $request) {
-
-            return view('inventory');
-
-            }
-        }
-
         $path = Storage::disk('public')->putFile('images', $request->file('image'));
 
         $domain = new Domain();
@@ -35,8 +28,10 @@ class DomainController extends Controller
 
         return redirect()->back()->with('success', 'Success!!!');
     }
-
 }
 
+    public function index ( Request $request) {
 
+    return view('inventory');
+}
 
