@@ -56,8 +56,8 @@ include('frontend/header.php');
       </thead>
       <tbody>
         <tr>
-          <td>{{  $domain->fullName() }}</td>
-          <td>LaniInc.com</td>
+          <td></td>
+          <td></td>
           <td><a href="index.php"><button type="submit" class="table-search" title="Click here to search our site for similar domains/apps"><i class="fa fa-search fa-lg"></button></td></a>
           <td>$99</td>
           <td>Business</td>
@@ -65,7 +65,6 @@ include('frontend/header.php');
           <td>ACTIVE</td>
           <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
         </tr>
-
       </tbody>
     </table>
     </div>

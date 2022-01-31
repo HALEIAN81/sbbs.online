@@ -16,8 +16,15 @@ class DomainController extends Controller
             'image' => 'image',
             'domain_name' => 'required|unique:domains|min:3|max:128',
             'price' => 'required|numeric|min:0,max:10000',
-            'type' => 'required|string|min:3,max:10'
+            'type' => 'required|string|min:3,max:10',
         ]);
+
+    public function index ( Request $request) {
+
+            return view('inventory');
+
+            }
+        }
 
         $path = Storage::disk('public')->putFile('images', $request->file('image'));
 

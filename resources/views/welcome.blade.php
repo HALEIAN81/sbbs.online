@@ -53,7 +53,7 @@ include('frontend/header.php');
                <a href="inventory_table.blade.php"><button><img src="{{ asset('storage/'. $domain->image) }}">{{  $domain->fullName() }}</button></a>
             </div>
             @endforeach
-        </div>
+    </div>
 </section>
 
 <section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
