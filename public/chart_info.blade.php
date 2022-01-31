@@ -15,7 +15,7 @@ include('frontend/header.php');
 	<!-- Title page -->
 	<section class="section-a bg-img1 txt-center p-lr-15 p-tb-92" style="background-color:powderblue;">
 		<h2 class="ltext-105 cl0 txt-center">
-			UNIT DETAIL PAGE
+			UNIT RESEARCH PAGE
 		</h2>
 	</section>
 
@@ -27,7 +27,7 @@ include('frontend/header.php');
 	</section>
 	<!-- Content page -->
 
-	<div class="container-details" style="background-color:black;">
+	<div class="container-listing" style="background-color:black;">
               <div class="box">
                 <img src="./images/slide-16.jpg">
                 <h3>Name of Domain/App</h3>
@@ -71,91 +71,49 @@ include('frontend/header.php');
               </div>
 </div>
 
-<section>
-<div class="container-fluid" style="padding-top: 5px;">
-    <div class="card">
-        <div class="card-header text-center " style="font-family: Sans-Serif; text-transform:uppercase; font-size:1.5rem">
-            Research Dashboard
+<div class="containerz" style="background-color:powderblue;">
+        <div class="box" style="box-shadow: 5px 10px 10px purple;">
+            <img src="./images/slide-01.jpg">
+            <h3 class="font-bold">DESCRIPTION</h3>
+            <p>
+             Reprehenderit nostrud magna duis sunt ut excepteur. Ipsum ea quis id voluptate adipisicing do elit commodo.
+             Et ullamco ad minim occaecat ea magna mollit cupidatat. Excepteur esse sunt sunt elit eu excepteur incididunt ullamco velit adipisicing.
+             Elit Lorem laboris ipsum aliquip et consectetur laboris duis culpa voluptate eu. Nisi anim irure ullamco laboris ut excepteur ipsum. Ea
+             culpa irure veniam magna eu dolor ad commodo. Sint aliquip nisi aliquip aliqua Lorem.
+            </p>
         </div>
-        <div class="card-body">
-            <div class="container-fluid" style="padding-top: 50px;">
-                <div class="row">
-                    <div class="col">
-                        <div class="card  h-100">
-                            <div class="card-header" style="font-family: Sans-Serif; text-transform:uppercase; font-size:1.5rem">
-                                <p>Recently Added Research</p>
-                            </div>
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="card" style="width: 38rem;">
-                                            <img class="card-img-top" src="./images/slide-23.jpg" alt="Card image cap">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Card title</h5>
-                                                <button class="btn btn-info justify-content-start">View </button>
-                                                <button class="btn btn-info align-items-end">View </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-header text-center " style="font-family: Sans-Serif; text-transform:uppercase; font-size:1.5rem">
-                                <p>Recently Added Research</p>
-                            </div>
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="card" style="width: 28rem;">
-                                            <img class="card-img-top" src="./images/slide-09.jpg" alt="Card image cap">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Card title</h5>
-                                                <button class="btn btn-info justify-content-start">View </button>
-                                                <button class="btn btn-info align-items-end">View </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-header" style="font-family: Sans-Serif; text-transform:uppercase; font-size:1.5rem">
-                               <p>Recently Added Research</p>
-                            </div>
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="card" style="width: 38rem;">
-                                            <img class="card-img-top" src="./images/slide-11.jpg" alt="Card image cap">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Card title</h5>
-                                                <button class="btn btn-info justify-content-start">View </button>
-                                                <button class="btn btn-info align-items-end">View </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-header text-center " style="font-family: Sans-Serif; text-transform:uppercase; font-size:1.5rem">
+        <div class="box" style="box-shadow: 5px 10px 10px purple;">
+            <img src="./images/slide-01.jpg">
+            <h3 class="font-bold">INFO1</h3>
+            <p>
+            Amet elit minim sit id duis reprehenderit enim commodo ex minim aliqua incididunt. Minim culpa enim velit aute elit id ipsum aute ipsum.
+            Consectetur tempor cupidatat exercitation dolor amet veniam ea voluptate id enim. Reprehenderit aute do velit fugiat dolore ea laboris
+            ullamco cupidatat commodo est ut cupidatat. Velit nulla id ex est fugiat est do enim ex dolor. Consectetur ut aliquip dolor nisi velit
+            anim pariatur duis ut magna laboris ex nulla voluptate.
+            </p>
+        </div>
 
-                            </div>
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="card" style="width: 38rem;">
-                                            <img class="card-img-top" src="./images/slide-14.jpg" alt="Card image cap">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Card title</h5>
-                                                <button class="btn btn-info justify-content-start">View </button>
-                                                <button class="btn btn-info align-items-end">View </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <div class="box" style="box-shadow: 5px 10px 10px purple;">
+            <img src="./images/slide-01.jpg">
+            <h3 class="font-bold">INFO2</h3>
+            <p>
+            Amet elit minim sit id duis reprehenderit enim commodo ex minim aliqua incididunt. Minim culpa enim velit aute elit id ipsum aute ipsum.
+            Consectetur tempor cupidatat exercitation dolor amet veniam ea voluptate id enim. Reprehenderit aute do velit fugiat dolore ea laboris
+            ullamco cupidatat commodo est ut cupidatat. Velit nulla id ex est fugiat est do enim ex dolor. Officia consequat excepteur consectetur eiusmod exercitation duis cillum voluptate non aliqua irure.
+            </p>
         </div>
-    </section>
+
+        <div class="box" style="box-shadow: 5px 10px 10px purple;">
+            <img src="./images/slide-01.jpg">
+            <h3 class="font-bold">INFO3</h3>
+            <p>
+            Amet elit minim sit id duis reprehenderit enim commodo ex minim aliqua incididunt. Minim culpa enim velit aute elit id ipsum aute ipsum.
+            Consectetur tempor cupidatat exercitation dolor amet veniam ea voluptate id enim. Reprehenderit aute do velit fugiat dolore ea laboris
+            ullamco cupidatat commodo est ut cupidatat. Velit nulla id ex est fugiat est do enim ex dolor. Officia consequat excepteur consectetur eiusmod exercitation duis cillum voluptate non aliqua irure.
+            </p>
+
+        </div>
+</div>
 
 <?php
 include('frontend/footer.php');

@@ -33,9 +33,9 @@
     <li class="dropdown">
       <a href="apps.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">APPS</a>
       <div class="dropdown-content">
-      <a href="">Premium Apps</a>
+      <a href="apps.blade.php">Premium Apps</a>
       <a href="">Sponsored Listings</a>
-      <a href="">Full Apps Inventory</a>
+      <a href="inventory_table.blade.php">Full Apps Inventory</a>
       <a href="ad_details.blade.php">Apps and Domains Details</a>
     </div>
     </li>
@@ -49,8 +49,8 @@
     <li class="dropdown">
       <a href="support.blade.php" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">SUPPORT</a>
       <div class="dropdown-content">
-      <a href="">Hosting Support</a>
-      <a href="">Web Services Support</a>
+      <a href="hosting.blade.php">Hosting Support</a>
+      <a href="webdev.blade.php">Web Services Support</a>
       <a href="">Database Support</a>
       <a href="">Security Support</a>
     </div>

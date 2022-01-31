@@ -319,7 +319,6 @@
     height: auto;
     margin: auto;
     justify-content: center;
-
 }
 /* app/domain page details containers 'flippa' */
 
@@ -446,6 +445,73 @@
     background-color: purple;
     box-shadow: 5px 5px 5px powderblue;
 }
+/* listing details page */
+
+.container-listing {
+    display: flex;
+    width: 2000px;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    cursor: default;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container-listing img {
+    width: 30%;
+    height: 80%;
+    float: left;
+    margin: 15px;
+}
+
+.container-listing .box {
+    width: 1500px;
+    margin: 10px;
+    cursor: default;
+}
+
+.container-listing .box:hover {
+    box-shadow: 5px 10px 10px powderblue;
+}
+
+.container-listing p {
+    font-size: 18px;
+}
+
+.container-listing h3 {
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: bolder;
+    align-items: left;
+    justify-content: left;
+    margin: 10px;
+    float: left;
+}
+
+.container-listing .row {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.container-listing .column {
+    float: left;
+    justify-content: left;
+    align-items: left;
+    margin: 30px auto;
+}
+
+.details-header h1 {
+    font-size: 22px;
+    color: orange;
+    font-weight: bolder;
+    margin: auto;
+    clear: right;
+    clear: left;
+    float: center;
+}
+
 
 .card-custom {
     /* Add shadows to create the "card" effect */
@@ -484,8 +550,11 @@
     margin: auto;
     align-items: center;
     justify-content: center;
+    background-color: white;
+    width: 80%;
+    height: 1800px;
+    clear: left;
 }
-
 
 /*end flippa cards section */
 
@@ -559,7 +628,7 @@
     width: 90%;
     height: auto;
     margin: auto;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-top: 10px;
     justify-content:center;
 }
