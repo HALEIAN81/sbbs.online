@@ -27,11 +27,13 @@ class DomainController extends Controller
         $domain->save();
 
         return redirect()->back()->with('success', 'Success!!!');
+
+        public function index ( Request $request) {
+
+            return view('inventory');
+        }
     }
 }
 
-    public function index ( Request $request) {
 
-    return view('inventory');
-}
 
