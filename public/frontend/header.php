@@ -24,8 +24,8 @@
     <div class="dropdown-content">
       <a href="domains.blade.php">Premium Domains</a>
       <a href="">Sponsored Listings</a>
-      <a href="inventory_table.blade.php">Full Domains Inventory</a>
-      <a href="ad_details.blade.php">Apps and Domains Details</a>
+      <a href="inventory">Full Domains Inventory</a>
+      <a href="details">Apps and Domains Details</a>
     </div>
     </li>
     </ul>
@@ -35,8 +35,8 @@
       <div class="dropdown-content">
       <a href="apps.blade.php">Premium Apps</a>
       <a href="">Sponsored Listings</a>
-      <a href="inventory_table.blade.php">Full Apps Inventory</a>
-      <a href="ad_details.blade.php">Apps and Domains Details</a>
+      <a href="inventory">Full Apps Inventory</a>
+      <a href="details">Apps and Domains Details</a>
     </div>
     </li>
     </ul>

@@ -23,6 +23,8 @@ Route::get('dashboard', function () {
 
 Route::get('/inventory', 'DomainController@index');
 
+Route::get('/details', 'DomainController@details');
+
 Route::post("domain/store", "DomainController@store");
 
 Route::get('/g2d', function() {

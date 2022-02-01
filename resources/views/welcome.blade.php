@@ -50,7 +50,7 @@ include('frontend/header.php');
             @foreach($domains as $domain)
             <div class="btn-group">
 
-               <a href="inventory_table.blade.php"><button><img src="{{ asset('storage/'. $domain->image) }}">{{  $domain->fullName() }}</button></a>
+               <a href="inventory"><button><img src="{{ asset('storage/'. $domain->image) }}">{{  $domain->fullName() }}</button></a>
             </div>
             @endforeach
     </div>

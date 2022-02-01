@@ -332,16 +332,17 @@
 }
 
 .container-details img {
-    width: 30%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     float: left;
-    margin: 15px;
+    margin: auto;
 }
 
 .container-details .box {
     width: 1500px;
-    margin: 10px;
+    margin: 20px;
     cursor: default;
+    height: 200px;
 }
 
 .container-details .box:hover {
@@ -360,6 +361,9 @@
     justify-content: left;
     margin: 10px;
     float: left;
+    color: purple;
+    clear: left;
+    clear: right;
 }
 
 .container-details .row {
@@ -369,10 +373,7 @@
 }
 
 .container-details .column {
-    float: left;
-    justify-content: left;
-    align-items: left;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 
 .details-header h1 {
@@ -380,37 +381,44 @@
     color: orange;
     font-weight: bolder;
     margin: auto;
-    clear: right;
-    clear: left;
     float: center;
 }
 
 .container-details h4 {
     float: left;
-    clear: left;
-    clear: right;
     justify-content: left;
     align-items: left;
-    font-size: 14px;
+    font-size: 18px;
     color: purple;
     font-weight: bolder;
 }
 
+.container-details .column {
+    width: 30%;
+}
+
 .container-details .da-description h5 {
-    margin: 0px 5px 5px 5px;
-    padding-left: 20px 20px 20px 20px;
+    width: 300px;
     color: purple;
     font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    clear: right;
+    clear: left;
 }
 
 .container-details .da-description p {
     color: purple;
     justify-content: left;
     align-items: left;
-    width: 35%;
+    width: 300px;
     float: left;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     text-align: left;
+    clear: right;
+    clear: left;
 }
 
 .container-details .listing-link {
@@ -997,12 +1005,13 @@ table {
     max-width: 60%;
     grid-template-columns:
       minmax(150px, 1fr)
-      minmax(350px, 1.67fr)
+      minmax(250px, 1.67fr)
       minmax(250px, 2.00fr)
       minmax(85px, 1.67fr)
       minmax(150px, 3.33fr)
       minmax(150px, 1.67fr)
       minmax(150px, 3.33fr)
+      minmax(150px, 1.67fr)
       minmax(150px, 1.67fr);
 }
 
