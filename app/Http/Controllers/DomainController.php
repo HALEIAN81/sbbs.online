@@ -32,7 +32,12 @@ class DomainController extends Controller
 
     public function index ( Request $request) {
 
-        return view('inventory');
+        return view('inventory', ['domains' => Domain::get()]);
+    }
+
+    public function details ( Request $request) {
+
+        return view('details', ['domains' => Domain::get()]);
     }
 }
 
