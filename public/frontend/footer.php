@@ -228,6 +228,9 @@
           <li>
             <a href="contact.blade.php" class="text-white">Contact Us</a>
           </li>
+          <li>
+            <a href="credits.blade.php" class="text-white">Credits</a>
+          </li>
         </ul>
       </div>
     </div>

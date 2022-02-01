@@ -39,6 +39,23 @@ class DomainController extends Controller
 
         return view('details', ['domains' => Domain::get()]);
     }
+
+    public function information ( Request $request) {
+
+        return view('information', ['domains' => Domain::get()]);
+    }
+
+    public function premiumDomainList() {
+
+        return view('premiumdomains', ['domains' => Domain::get()]);
+    }
+
+    public function shortData() {
+        $domains = Domain::paginate(3);
+        return view('inventory', compact('domains'));
+    }
+
+
 }
 
 

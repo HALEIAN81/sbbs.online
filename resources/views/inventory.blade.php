@@ -80,7 +80,7 @@ include('frontend/header.php');
             <td>@foreach($domains as $domain)
             <div>{{ $domain->created_at }}</div>
             @endforeach</td>
-          <td><a href="ad_details.blade.php"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
+          <td><a href="details"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
           <td><a href="index.php"><button type="submit" class="table-search" title="Click here to search our site for similar domains/apps"><i class="fa fa-search fa-lg"></button></td></a>
         </tr>
       </tbody>

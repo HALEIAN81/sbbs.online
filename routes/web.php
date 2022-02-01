@@ -21,9 +21,13 @@ Route::get('dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
+Route::get('/premiumdomains', 'DomainController@premiumDomainList');
+
 Route::get('/inventory', 'DomainController@index');
 
 Route::get('/details', 'DomainController@details');
+
+Route::get('/information', 'DomainController@information');
 
 Route::post("domain/store", "DomainController@store");
 

@@ -50,7 +50,7 @@ include('frontend/header.php');
             @foreach($domains as $domain)
             <div class="btn-group">
 
-               <a href="inventory"><button><img src="{{ asset('storage/'. $domain->image) }}">{{  $domain->fullName() }}</button></a>
+               <a href="inventory"><button>{{  $domain->fullName() }}</button></a>
             </div>
             @endforeach
     </div>
@@ -241,3 +241,5 @@ include('frontend/footer.php');
     @livewireScripts
 </body>
 </html>
+{{--
+<img src="{{ asset('storage/'. $domain->image) }}"> --}}
