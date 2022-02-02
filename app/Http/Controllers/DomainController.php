@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use App\Models\Domain;
 use \Illuminate\Support\Facades\Storage;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 
 
 class DomainController extends Controller
@@ -34,12 +36,12 @@ class DomainController extends Controller
 
     public function index ( Request $request) {
 
-        return view('inventory', ['domains' => Domain::get()]);
+        return view('inventory', ['domains' => Domain::paginate(5)]);
     }
 
     public function details ( Request $request) {
 
-        return view('details', ['domains' => Domain::get()]);
+        return view('details', ['domains' => Domain::paginate(4)]);
     }
 
     public function information ( Request $request) {
@@ -49,7 +51,7 @@ class DomainController extends Controller
 
     public function premiumDomainList() {
 
-        return view('premiumdomains', ['domains' => Domain::get()]);
+        return view('premiumdomains', ['domains' => Domain::paginate(5)]);
     }
 
     public function premiumAppList() {
@@ -60,7 +62,7 @@ class DomainController extends Controller
     public function shortData() {
 
         return view('domains.shortData', [
-        'domains' => DB::table('domains')->paginate(3)
+        'domains' => Domain::paginate(3)
     ]);
 }
 

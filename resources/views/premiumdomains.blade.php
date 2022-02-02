@@ -36,16 +36,15 @@ include('frontend/header.php');
 	<!-- Content page -->
 
 <section>
-	<div class="w3-container" style="background-color:powderblue;">
-<center><h1>PREMIUM DOMAINS</h1></center>
+    <div class="w3-container" style="background-color:powderblue;">{{ $domains->links() }}
+<h1>PREMIUM DOMAINS</h1>
 @foreach($domains as $domain)
 <div class="btn-group">
-
-   <a href="inventory"><button>{{  $domain->fullName() }}</button></a>
+<a href="inventory"><button>{{  $domain->fullName() }}</button>
+</a>@endforeach
 </div>
-@endforeach
-
-</div>
+<div></div>
+    </div>
 </section>
 
 <section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">

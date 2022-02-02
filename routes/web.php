@@ -34,14 +34,4 @@ Route::get('/information', 'DomainController@information');
 
 Route::post("domain/store", "DomainController@store");
 
-Route::get('/g2d', function() {
-    return view('g2d', ['adDescriptions' => ['Description 1', 'Description 2', 'Description 3'] ]);
-});
-
-Route::get('/g2d', function() {
-    $adDescriptions = ['images/slide-06.jpg', 'images/slide-11.jpg', 'images/slide-08.jpg'];
-    return view('g2d', ['adDescriptions' => $adDescriptions]);
-});
-
-
 require __DIR__.'/auth.php';

@@ -70,7 +70,10 @@ include('frontend/header.php');
             </div>
            @endforeach
         </card>
+        {{ $domains->links() }}
     </section>
+
+
 
 
 <?php

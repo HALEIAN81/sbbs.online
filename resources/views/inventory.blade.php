@@ -82,13 +82,12 @@ include('frontend/header.php');
           <td>@foreach($domains as $domain)
             <div><a href="details"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i>{{ $domain->updated_at }}</button>
               @endforeach</td></a></div>
-              {{ $domains->links() }}
+
         </tr>
       </tbody>
     </table>
+    {{ $domains->links() }}
     </div>
-
-
     </section>
 
     <section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">
