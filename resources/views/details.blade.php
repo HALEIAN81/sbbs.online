@@ -33,10 +33,10 @@ include('frontend/header.php');
         <card>
         <div class="box">
             <div class="row">
-            <div class="column">
+            <div class="img-column">
                 <img src="{{ asset('storage/'. $domain->image) }}">
             </div>
-            <div>
+            <div class="ad-column">
                 <h3>{{ $domain->domain_name }}</h3>
             </div>
                 <div class="column">

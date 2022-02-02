@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Models\Domain;
+use App\Http\LiveWire\Domains;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,6 +27,8 @@ Route::get('/premiumdomains', 'DomainController@premiumDomainList');
 Route::get('/inventory', 'DomainController@index');
 
 Route::get('/details', 'DomainController@details');
+
+Route::get('/premiumapps', 'DomainController@premiumAppList');
 
 Route::get('/information', 'DomainController@information');
 

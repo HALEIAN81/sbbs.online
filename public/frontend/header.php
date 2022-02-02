@@ -23,7 +23,6 @@
       <a href="" class="p-2 dropbtn lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white transition-colors duration-300">DOMAINS</a>
     <div class="dropdown-content">
       <a href="premiumdomains">Premium Domains</a>
-      <a href="">Sponsored Listings</a>
       <a href="inventory">Full Domains Inventory</a>
       <a href="details">Apps and Domains Details</a>
     </div>
@@ -34,7 +33,6 @@
       <a href="" class="p-2 lg:px-4 md:mx-2 text-white rounded hover:bg-indigo-700 hover:text-white  transition-colors duration-300">APPS</a>
       <div class="dropdown-content">
       <a href="apps.blade.php">Premium Apps</a>
-      <a href="">Sponsored Listings</a>
       <a href="inventory">Full Apps Inventory</a>
       <a href="details">Apps and Domains Details</a>
     </div>

@@ -54,7 +54,6 @@ include('frontend/header.php');
           <th>Status</th>
           <th>Created</th>
           <th>Details</th>
-          <th>Search</th>
          </tr>
       </thead>
       <tbody>
@@ -62,30 +61,34 @@ include('frontend/header.php');
           <td>@foreach($domains as $domain)
             <div>{{ $domain->name }}</div>
             @endforeach</td>
-          <td>@foreach($domains as $domain)
+          <td class="adname-chart">@foreach($domains as $domain)
             <div>{{ $domain->domain_name }}</div>
             @endforeach</td>
           <td>@foreach($domains as $domain)
             <div>${{  $domain->price }}</div>
             @endforeach</td>
-          <td>@foreach($domains as $domain)
+          <td class="type-chart">@foreach($domains as $domain)
             <div>{{  $domain->type }}</div>
             @endforeach</td>
           <td>@foreach($domains as $domain)
             <div>{{  $domain->industry }}</div>
             @endforeach</td>
-          <td>@foreach($domains as $domain)
+          <td class="status-chart">@foreach($domains as $domain)
             <div>{{ $domain->status }}</div>
             @endforeach</td>
             <td>@foreach($domains as $domain)
             <div>{{ $domain->created_at }}</div>
             @endforeach</td>
-          <td><a href="details"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i></button></td></a>
-          <td><a href="index.php"><button type="submit" class="table-search" title="Click here to search our site for similar domains/apps"><i class="fa fa-search fa-lg"></button></td></a>
+          <td>@foreach($domains as $domain)
+            <div><a href="details"><button type="submit" class="table-details" title="Click here for details"><i class="fa fa-bar-chart fa-lg"></i>{{ $domain->updated_at }}</button>
+              @endforeach</td></a></div>
+              {{ $domains->links() }}
         </tr>
       </tbody>
     </table>
     </div>
+
+
     </section>
 
     <section class="section-a bg-img1 p-lr-15 p-tb-92" style="background-image: url('./images/slide-06.jpg'); opacity:0.8;">

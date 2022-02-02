@@ -41,9 +41,7 @@ class LiveTable extends Component
     public function render()
     {
         return view('livewire.live-table', [
-            'users' => User::search($this->search)
-                ->orderBy($this->sortField, $this->sortAsc ? 'asc' : 'desc')
-                ->simplePaginate(10),
+            'domains' => Domain::paginate(3),
         ]);
     }
 }

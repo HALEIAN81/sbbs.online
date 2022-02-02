@@ -394,8 +394,21 @@
     font-weight: bolder;
 }
 
+.img-column {
+    width: 275px;
+}
+
 .container-details .column {
-    width: 30%;
+    width: 15%;
+    display: flex;
+    margin: auto;
+}
+
+.container-details .ad-column {
+    width: 20%;
+    display: flex;
+    margin: auto;
+    padding: 10px;
 }
 
 .container-details .da-description h5 {
@@ -436,11 +449,11 @@
 
 .container-details .listing-link:hover {
     background-color: orange;
-    box-shadow: 10px 10px 10px powderblue;
+    box-shadow: 10px 10px 10px purple;
 }
 
 .container-details .track {
-    background-color: orange;
+    background-color: powderblue;
     color: white;
     font-size: 22px;
     border-radius: 10px;
@@ -451,8 +464,8 @@
 }
 
 .container-details .track:hover {
-    background-color: purple;
-    box-shadow: 5px 5px 5px powderblue;
+    background-color: orange;
+    box-shadow: 10px 10px 10px purple;
 }
 /* listing details page */
 
@@ -1007,13 +1020,12 @@ table {
     grid-template-columns:
       minmax(150px, 1fr)
       minmax(250px, 1.67fr)
-      minmax(250px, 2.00fr)
+      minmax(150px, 2.00fr)
       minmax(85px, 1.67fr)
       minmax(150px, 3.33fr)
       minmax(150px, 1.67fr)
-      minmax(150px, 3.33fr)
-      minmax(150px, 1.67fr)
-      minmax(150px, 1.67fr);
+      minmax(250px, 3.33fr)
+      minmax(250px, 1.67fr)
 }
 
 thead,
@@ -1024,7 +1036,7 @@ tr {
 
 th,
 td {
-    padding: 5px 0px 5px 0px;
+    padding: 5px 10px 5px 5px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -1050,9 +1062,23 @@ th:last-child {
 td {
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: purple;
     font-weight: bold;
     font-size: 18px;
+}
+
+.status-chart {
+    color: orange;
+}
+
+.type-chart {
+    color: black;
+}
+
+.adname-chart {
+    color: black;
 }
 
 tr:nth-child(even) td {
@@ -1077,7 +1103,7 @@ tr:nth-child(odd) td {
 }
 
 .table-search .fa-search, .fa-bar-chart {
-    color: purple;
+    color: orange;
 }
 
 .section-quote {
