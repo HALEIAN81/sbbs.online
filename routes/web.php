@@ -32,6 +32,10 @@ Route::get('/premiumapps', 'DomainController@premiumAppList');
 
 Route::get('/information', 'DomainController@information');
 
+Route::get('/show', 'DomainController@show');
+
+Route::get('/domain/{id}', 'DomainController@show');
+
 Route::post("domain/store", "DomainController@store");
 
 require __DIR__.'/auth.php';

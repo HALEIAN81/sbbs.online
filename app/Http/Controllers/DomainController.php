@@ -59,6 +59,11 @@ class DomainController extends Controller
         return view('premiumapps', ['domains' => Domain::get()]);
     }
 
+    public function show( Request $request, $id) {
+
+        return view('show', ['domain' => Domain::find($id)]);
+    }
+
     public function shortData() {
 
         return view('domains.shortData', [
