@@ -32,7 +32,7 @@
 
     <form id="appdom-form" class="domains-table2 card card-body" action="domain/store" enctype="multipart/form-data" method="post">
         @csrf
-        <h3>FILL OUT ADVANCED DETAILS BELOW</h3>
+        <h2 class="account-action">ADD MORE INFORMATION FOR YOUR DOMAIN|APP DETAILS BELOW</h2>
 
         @if(Session::has('success'))
         <div class="alert alert-success">
@@ -42,17 +42,12 @@
             @endphp
         </div>
         @endif
-
-
-        <input type="submit" value="SUBMIT" class="btn-addad btn-primary" />
-        <h2 class="sponsor-call">WANT TO SPONSOR YOUR APP FOR MORE VIEWS, USE FORM BELOW</h2>
         </div>
     </form>
 
-
     @foreach($domains as $domain)
 
-    <div class="container">
+    <div class="container-account">
 
         <div>
         <a href="advanced/{{ $domain->id }}">{{  $domain->name }}</a>

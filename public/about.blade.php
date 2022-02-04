@@ -25,36 +25,36 @@ include('frontend/header.php');
 
 
 	<!-- Content page -->
-<section class="section-about bg0 p-t-36 p-b-36" style="background-color:powderblue; background-size:cover">
+<section class="section-about bg0 p-t-36 p-b-36" style="background-image: url('./images/slide-06.jpg');">
 <div align=center>
-        <h1 style="color:white">Who We Are</h1>
-		<p style="color:purple"> Our goal is to be a partner in fostering a growing, changing digital world where people can have a chance to grow their businesses. We are
+        <h1 style="color:white;">Who We Are</h1>
+		<p style="color:orange;"> Our goal is to be a partner in fostering a growing, changing digital world where people can have a chance to grow their businesses. We are
             uniquely positioned to ensure all of your online needs are met, from purchasing a premium domain that helps you get a jump on getting started to helping you with setup
             and customization of your site to ensure all of your needs are met. Our professionals have been providing web services for over 15 years and we offer that level of
             dedication and knowledge to you at an affordable price.
         </p>
-        <p style="color:purple"> Here at Go2DomainSales we help you put your best foot forward with winning domains, customized sites as well as SEO and marketing services that
+        <p style="color:orange;"> Here at Go2DomainSales we help you put your best foot forward with winning domains, customized sites as well as SEO and marketing services that
             drive the traffic to your site and helps you grow your business.
         </p>
 
 </div>
 </section>
-<section class="section-about bg0 p-t-36 p-b-36" style="background-color:powderblue; background-size:cover">
+<section class="section-about bg0 p-t-36 p-b-36" style="background-image: url('./images/slide-06.jpg');">
     <div align=center>
         <h1 style="color:white">Our Services</h1>
-            <p style="color:purple">We help all businesses succeed in today's internet dependent world. We offer a range of professional services to ensure that you
+            <p style="color:orange;">We help all businesses succeed in today's internet dependent world. We offer a range of professional services to ensure that you
                 have access to all the things you need to make your business unique and grow your business. We focus on those companies looking for professional help
                 to help them get ahead and we offer affordable solutions for all of your web needs.
             </p>
-            <p style="color:purple">Our professionals provide help with your website needs, ecommerce setup and solutions, SEO optimization and marketing, as well as
+            <p style="color:orange;">Our professionals provide help with your website needs, ecommerce setup and solutions, SEO optimization and marketing, as well as
                 help with social media content and promotion.
             </p>
     </div>
 </section>
-<section class="section-about bg0 p-t-36 p-b-36" style="background-color:powderblue; background-size:cover">
+<section class="section-about bg0 p-t-36 p-b-36" style="background-image: url('./images/slide-06.jpg');">
     <div align=center>
         <h3 style="color:white">Why Choose Us?</h3>
-        <h3 style="color:purple">Our focus is to give you the best foot forward with your domain of choice - increase your leads, create your funnel, have the best site
+        <h3 style="color:orange;">Our focus is to give you the best foot forward with your domain of choice - increase your leads, create your funnel, have the best site
             built for your needs and market your e-commerce site to thousands of customers with our services.
         </h3>
     </div>

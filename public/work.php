@@ -15,3 +15,9 @@ $table->bigIncrements('id');
             $table->string('info2');
             $table->string('info3');
             $table->timestamps();
+
+
+
+Aliqua eu do sunt nostrud culpa amet officia laborum eiusmod nulla.
+Incididunt non labore commodo enim aute.
+Excepteur in cupidatat occaecat ea dolore sint consequat do magna.

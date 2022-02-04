@@ -40,7 +40,13 @@ class DomainController extends Controller
             $user = $request->user();
 
             $request->validate([
-                'description' => 'nullable|min:3|max:300'
+                'description' => 'nullable|min:3|max:300',
+                'info1' => 'nullable|min:3|max:300',
+                'info2' => 'nullable|min:3|max:300',
+                'info3' => 'nullable|min:3|max:300',
+                'unit_age' => 'nullable|min:0|max:3',
+                'status' => 'nullable|min:3|max:20',
+                'industry' => 'nullable|min:3|max:255',
             ]);
 
             $domain->fill($request->all());
@@ -52,7 +58,7 @@ class DomainController extends Controller
 
     public function index ( Request $request) {
 
-        return view('inventory', ['domains' => Domain::paginate(5)]);
+        return view('inventory', ['domains' => Domain::paginate(10)]);
     }
 
     public function details ( Request $request) {

@@ -24,7 +24,7 @@
 .section-about p {
     width: 75%;
     font-weight:bolder;
-    font-size:20px;
+    font-size:26px;
     padding-top:20px;
 
 }
@@ -323,6 +323,17 @@
     margin: auto;
     justify-content: center;
 }
+
+.container-account {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    font-size: 24px;
+    text-decoration: none;
+    color: purple;
+}
 /* app/domain page details containers 'flippa' */
 
 .container-details {
@@ -332,6 +343,7 @@
     margin: auto;
     justify-content: center;
     cursor: default;
+
 }
 
 .container-details img {
@@ -1369,17 +1381,26 @@ form h3 {
     padding: 0px 10px;
   }
 
+.sponsor-call {
+    float: center;
+    margin: 20px auto;
+}
+
+.account-action {
+    float: center;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
 
-.sponsor-call {
-    float: center;
-    margin: 20px auto;
-
-}
 
 .domains-table1 {
     background-color: lightblue;
