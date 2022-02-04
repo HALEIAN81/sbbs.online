@@ -26,9 +26,9 @@ Route::get('advanced', function () {
     return view('advanced');
 })->middleware(['auth'])->name('advanced');
 
-Route::get('account', function() {
-    return view('account');
-})->middleware(['auth'])->name('account');
+Route::get('/advanced/{domain}', 'DomainController@edit')->middleware(['auth']);
+
+Route::get('account', "DomainController@domainList")->middleware(['auth'])->name('account');
 
 Route::get('/premiumdomains', 'DomainController@premiumDomainList');
 
@@ -40,8 +40,10 @@ Route::get('/premiumapps', 'DomainController@premiumAppList');
 
 Route::get('/information', 'DomainController@information');
 
-Route::get('/domain/{id}', 'DomainController@show');
+Route::get('/domain/{domain}', 'DomainController@show');
 
-Route::post("domain/store", "DomainController@store");
+Route::post("domain/store", "DomainController@store")->middleware(['auth']);
+
+Route::post("domain/update/{domain}", "DomainController@update")->middleware(['auth']);
 
 require __DIR__.'/auth.php';

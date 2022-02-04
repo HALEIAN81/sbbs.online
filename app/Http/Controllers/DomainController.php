@@ -14,10 +14,11 @@ class DomainController extends Controller
 {
 
     public function store ( Request $request) {
+        $user = $request->user();
 
         $request->validate([
             'name' => 'required|min:3|max:50',
-            'image' => 'image',
+            'image' => 'required|image',
             'domain_name' => 'required|unique:domains|min:3|max:128',
             'price' => 'required|numeric|min:0,max:10000',
             'type' => 'required|string|min:3,max:10',
@@ -28,11 +29,26 @@ class DomainController extends Controller
         $domain = new Domain();
         $domain->fill($request->all());
         $domain->image = $path;
+        $domain->user_id = $user->id;
         $domain->save();
 
         return redirect()->back()->with('success', 'Success!!!');
 
         }
+
+        public function update ( Request $request, Domain $domain) {
+            $user = $request->user();
+
+            $request->validate([
+                'description' => 'nullable|min:3|max:300'
+            ]);
+
+            $domain->fill($request->all());
+            $domain->save();
+
+            return redirect()->back()->with('success', 'Success!!!');
+
+            }
 
     public function index ( Request $request) {
 
@@ -59,9 +75,18 @@ class DomainController extends Controller
         return view('premiumapps', ['domains' => Domain::get()]);
     }
 
-    public function show( Request $request, $id) {
+    public function edit( Request $request, Domain $domain) {
+        return view('advanced', ['domain' => $domain]);
+    }
 
-        return view('show', ['domain' => Domain::find($id)]);
+    public function show( Request $request, Domain $domain) {
+
+        return view('show', ['domain' => $domain]);
+    }
+
+    public function domainList ( Request $request) {
+        $user = $request->user();
+        return view('account', ['domains' => $user->domains()->paginate(5)]);
     }
 
     public function shortData() {

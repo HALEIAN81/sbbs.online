@@ -44,11 +44,24 @@
         @endif
 
 
-
         <input type="submit" value="SUBMIT" class="btn-addad btn-primary" />
         <h2 class="sponsor-call">WANT TO SPONSOR YOUR APP FOR MORE VIEWS, USE FORM BELOW</h2>
         </div>
     </form>
+
+
+    @foreach($domains as $domain)
+
+    <div class="container">
+
+        <div>
+        <a href="advanced/{{ $domain->id }}">{{  $domain->name }}</a>
+        </div>
+    </div>
+    @endforeach
+
+    {{ $domains->links() }}
+
 
 </div>
 </x-app-layout>

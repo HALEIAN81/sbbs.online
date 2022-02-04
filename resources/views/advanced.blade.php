@@ -30,9 +30,10 @@
 
     <div class="container">
 
-    <form id="appdom-form" class="domains-table2 card card-body" action="domain/store" enctype="multipart/form-data" method="post">
+    <form id="appdom-form" class="domains-table2 card card-body" action="/domain/update/{{ $domain->id }}" enctype="multipart/form-data" method="post">
         @csrf
         <h3>FILL OUT ADVANCED DETAILS BELOW</h3>
+        <h4>{{ $domain->name }}</h4>
 
         @if(Session::has('success'))
         <div class="alert alert-success">
@@ -49,12 +50,12 @@
                 <label for="description" class="form-label">DESCRIPTION</label>
             </div>
             <div class="col-auto">
-                <input type="text" placeholder="enter a brief description of your domain|app" name="description" class="form-control" id="name" aria-describedby="nameHelp" />
+                <input type="text" value="{{ $domain->description }}" placeholder="enter a brief description of your domain|app" name="description" class="form-control" id="name" aria-describedby="nameHelp" />
             </div>
             <div class="col-auto">
                 <div id="nameHelp" class="form-text">We'll never share your information with anyone else. |Limit is 300 char|</div>
             </div>
-            @error('name')
+            @error('description')
                 <div class="alert alert-danger">{{ $message }}</div>
             @enderror
         </div>
@@ -69,7 +70,7 @@
             <div class="col-auto">
                 <div id="nameHelp" class="form-text">Describe the features of your domain|app. |Limit is 300 char|</div>
             </div>
-            @error('name')
+            @error('info1')
                 <div class="alert alert-danger">{{ $message }}</div>
             @enderror
         </div>
@@ -84,7 +85,7 @@
             <div class="col-auto">
                 <div id="nameHelp" class="form-text">Describe the development process of your domain|app. |Limit is 300 char|</div>
             </div>
-            @error('name')
+            @error('info2')
                 <div class="alert alert-danger">{{ $message }}</div>
             @enderror
         </div>
@@ -99,7 +100,7 @@
             <div class="col-auto">
                 <div id="nameHelp" class="form-text">Describe the potential uses for your domain|app. |Limit is 300 char|</div>
             </div>
-            @error('name')
+            @error('info3')
                 <div class="alert alert-danger">{{ $message }}</div>
             @enderror
         </div>
@@ -114,7 +115,7 @@
             <div class="col-auto">
                 <div id="nameHelp" class="form-text">Place the estimated age of domain|app.</div>
             </div>
-            @error('price')
+            @error('unit_age')
                 <div class="alert alert-danger">{{ $message }}</div>
             @enderror
         </div>
@@ -133,7 +134,7 @@
             <div class="col-auto">
                 <div id="nameHelp" class="form-text">Choose the current status of the domain|app.</div>
             </div>
-            @error('type')
+            @error('status')
                 <div class="alert alert-danger">{{ $message }}</div>
             @enderror
         </div>
@@ -157,7 +158,7 @@
             <div class="col-auto">
                 <div id="nameHelp" class="form-text">Choose the current industry for the domain|app.</div>
             </div>
-            @error('type')
+            @error('industry')
                 <div class="alert alert-danger">{{ $message }}</div>
             @enderror
         </div>

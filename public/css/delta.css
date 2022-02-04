@@ -659,7 +659,7 @@
 
 .containerz {
     display: flex;
-    width: 90%;
+    width: 80%;
     height: auto;
     margin: auto;
     padding-bottom: 20px;
@@ -667,7 +667,78 @@
     justify-content:center;
 }
 
+.containerz h3 {
+    color: purple;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.containerz p {
+    font-size:22px;
+}
+
+
 .containerz .box:hover{
+    box-shadow: 5px 10px 10px purple;
+}
+
+.containerz .box-desc {
+    width: 60%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-right: 1%;
+    margin-left: 1%;
+    background: white;
+    border-radius: 10px;
+    transition: 0.9;
+}
+
+.containerz .box-info1 {
+    width: 30%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-right: 1%;
+    margin-left: 1%;
+    background: white;
+    border-radius: 10px;
+    transition: 0.9;
+}
+
+.containerz .box-info1:hover {
+    box-shadow: 5px 10px 10px purple;
+}
+
+.containerz .box-info2 {
+    width: 32%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-right: 1%;
+    margin-left: 1%;
+    background: white;
+    border-radius: 10px;
+    transition: 0.9;
+}
+
+.containerz .box-info2:hover {
+    box-shadow: 5px 10px 10px purple;
+}
+
+.containerz .box-info3 {
+    width: 22%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-right: 1%;
+    margin-left: 1%;
+    background: white;
+    border-radius: 10px;
+    transition: 0.9;s
+}
+
+.containerz .box-info3:hover {
+    box-shadow: 5px 10px 10px purple;
+}
+
+.containerz .box-desc:hover {
     box-shadow: 5px 10px 10px purple;
 }
 
@@ -1246,7 +1317,6 @@ tr:nth-child(odd) td {
     font-size: 20px;
 }
 
-
 form h3 {
     color: purple;
     font-weight: bolder;
@@ -1315,15 +1385,6 @@ form h3 {
     background-color: lightblue;
     color: purple;
 }
-
-.single-info {
-    margin: auto;
-    text-align: center;
-    justify-content: center;
-    color: purple;
-
-}
-
 
 @media (max-width: 600px){
 
