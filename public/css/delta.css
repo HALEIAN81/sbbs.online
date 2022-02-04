@@ -502,6 +502,8 @@
 
 .container-listing p {
     font-size: 18px;
+    font-weight: bolder;
+    color: black;
 }
 
 .container-listing h3 {
@@ -512,6 +514,13 @@
     justify-content: left;
     margin: 10px;
     float: left;
+    color: orange;
+}
+
+.container-listing h4 {
+    color: purple;
+    font-weight: bolder;
+    font-size: 18px;
 }
 
 .container-listing .row {
@@ -656,6 +665,10 @@
     padding-bottom: 20px;
     padding-top: 10px;
     justify-content:center;
+}
+
+.containerz .box:hover{
+    box-shadow: 5px 10px 10px purple;
 }
 
 .container-table {
@@ -1301,6 +1314,14 @@ form h3 {
 .domains-table1 {
     background-color: lightblue;
     color: purple;
+}
+
+.single-info {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    color: purple;
+
 }
 
 

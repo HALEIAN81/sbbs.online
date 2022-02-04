@@ -22,6 +22,14 @@ Route::get('dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
+Route::get('advanced', function () {
+    return view('advanced');
+})->middleware(['auth'])->name('advanced');
+
+Route::get('account', function() {
+    return view('account');
+})->middleware(['auth'])->name('account');
+
 Route::get('/premiumdomains', 'DomainController@premiumDomainList');
 
 Route::get('/inventory', 'DomainController@index');
@@ -31,8 +39,6 @@ Route::get('/details', 'DomainController@details');
 Route::get('/premiumapps', 'DomainController@premiumAppList');
 
 Route::get('/information', 'DomainController@information');
-
-Route::get('/show', 'DomainController@show');
 
 Route::get('/domain/{id}', 'DomainController@show');
 

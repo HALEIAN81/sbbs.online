@@ -57,11 +57,10 @@ include('frontend/header.php');
                 </div>
                 <div class="da-description">
                     <h5>DESCRIPTION:</h5>
-                    <p>{{ $domain->description }}
-                    </p>
+                    <p>{{ $domain->description }}</p>
                 </div>
                 <div>
-                    <a href="information"><button class="listing-link" type="button">Listing Detail</button></a>
+                    <a href="/domain/{{ $domain->id }}" class="listing-link">Listing details</a>
                 </div>
                 <div>
                     <button class="track" type="button">Keep Track</button>
@@ -72,9 +71,6 @@ include('frontend/header.php');
         </card>
         {{ $domains->links() }}
     </section>
-
-
-
 
 <?php
 include('frontend/footer.php');

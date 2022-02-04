@@ -78,7 +78,7 @@
                 <label for="domain_name" class="form-label">APP OR DOMAIN NAME:</label>
             </div>
             <div class="col-auto">
-                <input type="text" placeholder="enter domain/app name" name="domain_name" class="form-control" id="domain_name" aria-describedby="nameHelp" />
+                <input type="text" placeholder="enter domain|app name" name="domain_name" class="form-control" id="domain_name" aria-describedby="nameHelp" />
             </div>
             <div class="col-auto">
                 <div id="nameHelp" class="form-text">Please place the full name of your app or domain - you may exclude https:// and www.</div>

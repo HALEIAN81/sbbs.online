@@ -197,7 +197,7 @@
             <a href="registration.blade.php" class="text-white">Registration</a>
           </li>
           <li>
-            <a href="dashboard" class="text-white">Account</a>
+            <a href="dashboard" class="text-white">Dashboard</a>
           </li>
         </ul>
       </div>
